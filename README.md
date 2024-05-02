@@ -8,15 +8,17 @@ Repositorio destinado a resumo com os principais conceitos e principios orientad
 
 1. TIPOS PRIMITIVOS
    
- 1.1 Tipo Number
+       1.1 Tipo Number
  
- 1.2 Tipo String
+       1.2 Tipo String
  
- 1.3 Tipo Boolean
+       1.3 Tipo Boolean
  
-3.  VARIAVEIS
-4.  FUNÇÕES
-5.  Estrutura do `if`
+2.  VARIAVEIS
+   
+3.  FUNÇÕES
+
+4.  Estrutura do `if`
 
 
 
