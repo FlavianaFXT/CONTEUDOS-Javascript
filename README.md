@@ -74,6 +74,9 @@ Conteúdos de Cursos realizados nas Seguintes Comunidades:
    - [9.5 Comparando Algoritmos](#9.5-Comparando-Algoritmos)
      - [Tabelas de comparação](#Tabelas-de-comparação)
      - [Big O Notation](#Big-O-Notation)
+   .................... FALTA ................................
+   - [9.11 CONCLUSÃO ALGORITMOS](#9.11-CONCLUSÃO-ALGORITMOS)
+ 
    
        
 ## 1 TIPOS PRIMITIVOS
@@ -4465,6 +4468,8 @@ Assim, sempre que trabalharmos com valores O(log n), estamos nos referindo a bas
 Aprendemos a fazer a análise assintótica do algoritmo de busca binária e por que este é considerado um algoritmo de complexidade logarítmica, em comparação com a busca linear que é um algoritmo de complexidade linear;
 Fizemos a análise assintótica dos algoritmos de ordenação quick sort e merge sort e analisamos o código para entendermos por que são considerados algoritmos de complexidade linear-logarítmica;
 E o que significa, em termos de performance, a diferença entre algoritmos de crescimento linear, quadrático e logarítmico.
+
+
 
 
 
