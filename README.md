@@ -10,7 +10,8 @@ Conteúdos de Cursos realizados nas Seguintes Comunidades:
 
 ## INDICE
 
-
+* [Lógica de programação](#lógica-de-programação)
+* [Console](#console)
 - [1 TIPOS PRIMITIVOS](#1-TIPOS-PRIMITIVOS)
    - [ 1.1 Tipo Number](#1.1-Tipo-Number)
      - [Ponto Flutuante no JavaScript](#Ponto-Flutuante-no-JavaScript)
@@ -77,15 +78,160 @@ Conteúdos de Cursos realizados nas Seguintes Comunidades:
    .................... FALTA ................................
    - [9.11 CONCLUSÃO ALGORITMOS](#9.11-CONCLUSÃO-ALGORITMOS)
  
-   
+  ### Lógica de Programação 
+1. [O que é um algoritmo](#definicao-algoritmo)
+2. [Linguagem de programação](#linguagem-de-programação)
+
+### Console 
+1. [Definição](#console)
+2. [Javascript dentro do HTML](#JavaScript-dentro-do-HTML)
+3. [console.log(), alert(), confirm e prompt](#consolelog-alert-confirm-e-prompt) 
+
+ ## Lógica de programação
+<br/>
+Lógica de programação é o método usado para escrever programas que um computador entenda.
+
+A lógica de programação parte do princípio de que praticamente todas as tarefas humanas são uma sequência ordenada de passos, que acontecem durante um tempo finito e que produzem um resultado esperado.
+<br/>
+
+### o que é um algorimto 
+<br/>
+Um algoritmo, ou programa, é um conjunto de instruções que reunimos para se chegar num objetivo. Para isso temos a entrada, o processamento (o modo de executar) e a saída. Uma maneira simples de pensarmos é em uma receita onde temos os ingredientes, o modo de fazer e o alimento pronto. Para o computador informamos algo, por exemplo o clique em um botão, o processamento, um conjunto de comandos e a saída, abertura de uma nova página.
+Para escrever um programa de computador, você tem que dizer ao computador, passo a passo, exatamente o que você quer que ele faça. O computador "executa" o programa, seguindo cada etapa mecanicamente, para atingir o objetivo final.
+
+Alguns exemplos de algoritmos que podemos citar: manual de instrução de aparelhos e funções matemáticas.
+<br/>
+
+### Linguagem de programação 
+<br/>
+A linguagem de programação é um método padronizado para comunicar instruções para um computador. É um conjunto de regras de sintaxes e semânticas usadas para definir um programa de computador. É uma linguagem que pode ser compreendida tanto por um ser humano como por um computador.
+
+A linguagem de programação pode ser comparada às linguas faladas pelos seres humanos. A língua portuguesa, por exemplo, tem um conjunto de regras de sintaxe e de semântica, que uma pessoa precisa aprender para se comunicar com outra. No caso do computador, ele só entende comandos lógicos. Por exemplo ele não sabe o que é um pão, para ele pão é uma palavra que ele trata como texto. 
+
+Existem diversos tipos de linguagem de programação, e elas podem ser classificadas em vários tipos. Um dos tipos de classificação é por nível de abstração, que pode ser baixo ou alto. As linguagens de baixo nível normalmente estão relacionadas a tarefas que acontecem na arquitetura do computador. As de alto nível as vezes precisam de um compilador (um programa intermediário que traduz o que o ser humano escreveu para uma linguagem que a máquina entenda), como Java e C.
+
+Podemos falar “oi” em muitos idiomas. Podemos dizer “oi” em português, inglês, árabe ou japonês. São formas diferentes, mas no fim temos a mesma situação, estamos fazendo uma saudação a alguém.
+<br/>
+
+### O que é Javascript
+<br/>
+JavaScript é uma linguagem de programação interpretada (não precisa de um compilador, ela é lida diretamente pelo navegador) estruturada (ênfase em sequência, decisão e, iteração - subrotinas, laços de repetição, condicionais e, estruturas em bloco), client-side, de script em alto nível .Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da Internet. JavaScript surgiu em 1995 e permite páginas da Web interativas e, portanto, é uma parte essencial dos aplicativos da web. A grande maioria dos sites usa, e todos os principais navegadores têm um mecanismo JavaScript dedicado para executá-lo.
+
+Javascript também é chamado de JS. Javascript e Java são linguagens completamente diferentes.
+
+Os arquivos Javascript possuem a extensão .js.
+
+Para programar e testar em javascript precisamos somente de um editor de código e um navegador.
+
+---
+
+<br/>
+
+## Console
+<br/>
+
+### Definição
+<br/>
+O console acessível através das Ferramentas de Desenvolvedor é uma interface conectada ao interpretador que vem incluso no navegador, e fica rodando “por trás dos panos” para ler e executar todo o JavaScript que o HTML contenha. O objeto Console fornece acesso ao console de depuração do navegador. O seu funcionamento específico varia de navegador para navegador, mas existe um conjunto de ferramentas que na prática são fornecidas normalmente.
+
+Essa é uma ferramenta extremamente útil, pois ela permite que você veja erros, execute códigos em JavaScript e teste suas implementações antes de programá-las de fato em um arquivo. Aprender a ler as mensagens que o console mostra é essencial no dia a dia do desenvolvedor, visto que entender um erro, por exemplo, acelera o processo de entendimento e correção do problema de código.
+
+Com o navegador aberto como abrir o painel dedicado Console:
+
+- Pressione F12 ou fn+F12, se o DevTools não estiver aberto no console pressione o botão do Console.
+- Pressione Ctrl+Shift+J (Windows/Linux) ou Cmd+Opt+J (Mac)
+- Clique com o botão direito do mouse em uma página web qualquer e clique na opção Inspecionar/Inspect, se o DevTools não estiver aberto no console pressione o botão do Console.
+<br/>
+
+
+### console.log(), alert(), confirm e prompt
+<br/>
+O `console.log()` é uma funcão que utilizamos para testar nosso código. O resultado será impresso no console do navegador.
+
+```js
+let mensagem = "Mensagem que vai aparecer no nosso alerta";
+console.log(mensagem);
+```
+
+O `alert()` tem a mesma função do console.log, porém ele mostra uma mensagem na tela do usuário.
+
+```js
+let mensagem = "Mensagem que vai aparecer no nosso alerta";
+alert(mensagem);
+```
+
+O `confirm` é um alerta que nos oferece uma lógica, com dois botões (`Ok` (true) e `Cancel` (false))
+
+```js
+let mensagem = "Aperte o botão ok";
+confirm(mensagem);
+// Se o usuário apertar Ok vai retornar true, se apertar Cancel vai retornar false
+```
+
+O `prompt` é um alerta que nos oferece, além da lógica de botões, um input para coletarmos variáveis.
+
+```js
+let nome = "Digite o seu nome";
+prompt(nome);
+```
+<br/>
+
+### JavaScript dentro do HTML
+<br/>
+Você precisa avisar ao navegador que existe um arquivo Javascipt e que ele precisa carregá-lo.
+
+```javascript
+<script src="./js/index.js" defer></script>`
+```
+
+```javascript
+<script>
+  Seu script 
+  Essa não é uma boa prática, serve apenas para estudos e testes.
+</script>
+```
+
+---
+
+<br/>
+
        
 ## 1 TIPOS PRIMITIVOS
 
+### O que são
+<br/>
 
+Tipos de dados descrevem os diferentes tipos de dados que vamos trabalhar e guardar em variáveis.
+<br/>
+
+### Dados primitivos
+<br/>
+Dados primitivos são aqueles que os dados não são objetos e não possuem métodos ou propriedades. São dados que são representados diretamente no nível mais baixo da linguagem de programação. Alguns dos dados primitivos mais utilizados.
+#### String
+<br/>
+
+é uma sequência de caracteres utilizada para representar texto.
+
+```javascript
+"Este texto é uma informação com o tipo de dado string";
+"Ana Beatriz";
+"1 é um número ímpar";
+```
+<br/>
 
 É fundamental que o JavaScript consiga determinar qual é o tipo de dado para poder manipulá-lo. Por exemplo, para executar cálculos matemáticos, o dado armazenado na variável precisa ser um número.
 
 ### 1.1 Tipo Number
+
+é um tipo de dado utilizado para representar valores numéricos.
+
+```javascript
+1;
+5;
+10.5;
+10000;
+```
+<br/>
 
 
 ```
@@ -106,6 +252,274 @@ Operadores  `+`, `-`, `/`, `*`
 
 Podemos operar com números negativos, positivos e assim por diante. Normalmente, em linguagem de programação, não estamos restritos a números inteiros, mas podemos trabalhar com números que costumamos chamar de decimais em nosso cotidiano, que têm um ponto seguido de outros números.
 
+### Operador de atribuição
+<br/>
+
+O operador de atribuição é o igual (=), que atribui o valor do operando à direita ao operando à esquerda. Isto é, x = y atribui o valor de y a x.
+
+```javascript
+let y = 7; // 7 é atribuído a y
+let x = y; // y é atribuído a x
+
+- += (o valor da esquerda somado ao valor da direita é resultado)
+- -= (o valor da esquerda subtraido ao valor da direita é resultado)
+- \*= (o valor da esquerda multiplicado ao valor da direita é resultado)
+- /= (o valor da esquerda dividido ao valor da direita é resultado)
+
+```
+<br/>
+
+### Operadores aritméticos
+<br/>
+
+#### Adição (+)
+<br/>
+```javascript
+let resultado = 7 + 3;
+console.log(resultado); // 10
+```
+
+#### Subtração (-)
+<br/>
+```javascript
+let resultado = 5 - 2;
+console.log(resultado); // 3
+```
+
+#### Multiplicação(\*)
+<br/>
+```javascript
+let resultado = 5 * 4;
+console.log(resultado); // 20
+```
+
+#### Divisão (/)
+<br/>
+O operador de divisão produz o quociente de seus operandos onde o operando da esquerda é o dividendo e o da direita é o divisor.
+
+```javascript
+let resultado = 10 / 2;
+console.log(resultado); // 5
+```
+
+#### Módulo (%)
+<br/>
+O operador módulo retorna o resto inteiro da divisão de um numero pelo outro.
+
+```javascript
+let resultado = 10 % 2;
+console.log(resultado); // 0
+```
+#### Sintaxe simplificada:
+<br/>
+- Incremento (++) (Soma 1)
+- Decremento (--) (Subtrai 1)
+- Expoente (\*\*)
+<br/>
+
+### Operadores de comparação
+<br/>
+
+Um operador de comparação compara seus operandos e retorna um valor lógico (true ou false) baseado em se a comparação é verdadeira. Os operandos podem ser numéricos, strings, lógicos ou objetos.
+
+<br/>
+
+#### == Igual
+<br/>
+Retorna verdadeiro caso os operandos sejam iguais caso contrário retorna falso. Neste caso é apenas comparado o valor do dado e não é levado em conta o tipo.
+
+```javascript
+3 == 1; // false
+3 == 3; //true
+"3" == undefined; // false
+3 == "3"; // true
+```
+<br/>
+
+#### === Estritamente igual
+<br/>
+Retorna verdadeiro caso os operandos sejam iguais e do mesmo tipo.
+
+```javascript
+3 === 3; // true
+3 === 3; //false
+```
+<br/>
+
+
+#### != Não igual
+<br/>
+Retorna verdadeiro caso os operandos não sejam iguais.
+
+```javascript
+3 != 4; // true
+3 != "3"; // false
+```
+<br/>
+
+#### !== Estritamente não igual
+<br/>
+Retorna verdadeiro caso os operandos não sejam iguais e/ou não sejam do mesmo tipo.
+
+```javascript
+3 !== "4"; // true
+3 !== "3"; // true
+```
+<br/>
+
+#### > maior que
+<br/>
+O operador de Maior retorna true se o operando da esquerda for maior que o operando da direita.
+
+```javascript
+4 > 3; // true
+```
+<br/>
+
+#### >= maior ou igual a
+<br/>
+O operador maior ou igual retorna true se o operando da esquerda for maior ou igual ao operando da direita.
+
+```javascript
+4 >= 3; // true
+3 >= 3; // true
+```
+<br/>
+
+#### < menor que
+<br/>
+O operador menor retorna true (verdadeiro) se o operando da esquerda for menor que o operando da direita.
+
+```javascript
+3 < 4; // verdade
+```
+<br/>
+
+#### <= menor ou igual a
+<br/>
+O operador menor ou igual retorna true (verdadeiro) se o operando da esquerda for menor ou igual ao operando da direita.
+
+```javascript
+3 <= 4; // verdade
+```
+<br/>
+
+### Operadores Lógicos
+<br/>
+Operadores lógicos são utilizados tipicamente com valores booleanos (lógicos - true ou false); neste caso, retornam um valor booleano. 
+Entretanto, os operadores && e || na verdade retornam o valor de um dos operandos especificados, de forma que se esses operadores forem utilizados com valores não-booleanos, eles possam retornar um valor não-booleano.
+<br/>
+
+#### && E lógico
+<br/>
+No caso de operar expressões se o primeiro valor for verdadeiro, ou puder ser convertido pra verdadeiro retorna o segundo valor. Se o primeiro valor for falso, retorna falso.
+No caso de operar apenas valores booleanos o && retorna verdadeiro apenas se ambos valores sejam verdadeiros, caso contrário retorna falso
+
+```javascript
+true && "oi"; // "oi"
+"oi" && true; // true
+true && false; // false
+false && true; //false
+true && true; //true
+```
+<br/>
+
+#### || Ou lógico
+<br/>
+No caso de operar expressões se o primeiro valor for verdadeiro, ou puder ser convertido pra verdadeiro retorna o primeiro valor. Se o primeiro valor for falso, retorna falso.
+No caso de operar apenas valores booleanos o || retorna verdadeiro se um dos valores seja verdadeiro, caso os odois valores sejam falsos retorna falso.
+
+```javascript
+false || true; // true
+false || false; // false
+false || "oi"; // "oi"
+false || 0; // 0
+```
+<br/>
+
+#### ! Não lógico
+<br/>
+Esse operador inverte o valor de uma expressão
+
+Obs: Se um valor pode ser convertido para verdadeiro, este valor é chamado de truthy. Se um valor pode ser convertido para falso, este valor é chamado de falsy.
+
+Exemplos de expressões que podem ser convertidas para falso são:
+
+- null;
+- NaN;
+- 0;
+- string vazia ("");
+- undefined.
+
+Todos os outros são considerados verdadeiros.
+
+```javascript
+!true; // false
+!false; // true
+!"Oi"; // false
+!""; // true
+```
+<br/>
+
+### Operador condicional (ternário)
+<br/>
+
+O operador condicional (ternário) é o único operador JavaScript que possui três operandos. Este operador é frequentemente usado como um atalho para a instrução de if else.
+
+```
+condicao ? valor1 : valor2
+```
+A expressão antes do ? é a condição if, se for verdadeira o primeira ação é executada, caso contrário a segunda ação, a que vem depois dos :, é executada.
+
+```javascript
+let idade = 16;
+
+let acesso = idade > 18 ? true : false;
+```
+
+É muito útil para testes mais básicos em que se tem apenas uma única linha de código dentro do if ou do else.
+
+```javascript
+let salario = 1000;
+let bonus = salario * (salario > 1000 ? 0.1 : 0.15);
+```
+
+---
+<br/>
+
+## Estrutura de decisão
+<br/>
+
+Em muitas situações precisamos tomar decisões de algo. Se o carro já está ligado não precisamos virar a chave. Se o arroz está sequinho não precisa colocar mais água. Quando o celular chega em 100% da bateria podemos tirar da tomada. Pequenas situações da vida são decisões. 
+Em um programa chamamos essa verificação de estrutura de decisão. 
+Seu celular está conectado na tomada e você vai checar se já acabou de carregar. A perguntar na sua mente que muitas vezes não é feita é “já chegou em 100%”?
+
+Pensando num comando:
+
+SE bateria é 100%
+  ENTÃO
+    tire o plug do celular da tomada
+
+Observe esse SE e ENTÃO. A estrutura de decisão na programação sempre terá essa ideia do SE (caso) algo seja verdadeiro uma ação será feita.
+
+Essa estrutura de tomada de decisão também é conhecida como condicional, onde uma condição diz que ação deve ser feita caso ela seja satisfeita ou não.
+<br/>
+
+
+### Expressões condicionais simples
+<br/>
+
+```javascript
+// Variável booleana verdadeira
+let bateria = true;
+
+// Condição
+if (bateria) {
+  // Ação caso a condição seja verdadeira
+  alert("Tirar celular da tomada");
+}
+```
+<br/>
 
 ### Ponto Flutuante no JavaScript
 
@@ -255,9 +669,15 @@ Mais detalhes precisos e documentação sobre o Unicode na página da [Unicode F
 
 ### 1.3 Tipo Boolean
 
+é um tipo de dado lógico utilizado para representar os valores: verdadeiro ou falso, true or false.
+
+```javascript
+false;
+true;
+```
+<br/>
 
 
-`tipo booleano` - também conhecido como verdadeiro e falso, ou true ou false.
 
 É peculiar, pois não é um número nem um texto e possui apenas dois valores: podemos ter somente true ou false.
 
@@ -324,10 +744,107 @@ console.log(texto1 === texto2)
 ```
 
 
+#### Null
+<br/>
+
+é um tipo de dado utilizado para representar um valor nulo ou "vazio".
+
+```javascript
+null;
+```
+
+```javascript
+let y = null;
+console.log(y);
+```
+<br/>
+
+#### undefined
+<br/>
+
+```javascript
+undefined;
+```
+
+```javascript
+let x;
+console.log(x);
+```
+
+O javascript é uma linguagem não tipada, onde não precisamos descrever qual é o tipo de dado de uma determinada variável, ele tenta "entender/adivinhar" qual é o tipo de dado que está na variável.
+
+---
+<br/>
+
+
+
 ## 2 VARIAVEIS
 
 
 *VARIAVEIS* Quando um programa precisa armazenar um valor para usar futuramente, já sabemos que usamos variáveis para isso.
+
+Variáveis são como etiquetas em que conseguimos nomear um pedacinho da memória para quando necessário eu conseguir encontrar determinada informação salva. 
+
+Criamos variáveis para ler um valor de um usuário, guardar um dado de outro sistema ou para realizar cálculos. 
+Exemplo: precisamos criar a variável number e guardar o valor 1. Seguindo a ideia acima, number é o nome de uma etiqueta.
+<br/>
+
+### Declarando variáveis
+<br/>
+
+Criar uma variável também é chamado de declarar uma variável e para isso existem algumas regrinhas:
+
+- não pode começar com número
+- não pode conter espaços
+- não pode conter caracteres especiais (com exceção do underline '\_' e do cifrão '\$')
+
+O javascript é uma linguagem que chamamos de case sensitive, o que significa que ele diferencia caracteres maiúsculas de minúsculas. Por exemplo: nomecompleto é difrente de nomeCompleto
+
+
+Existem algumas palavras que não podemos utilizar para a criação de variáveis, pois estas palavras já tem uma função específica dentro do javascript, estas palavras são conhecidas como reservadas [clique aqui para saber quais são](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Lexical_grammar#palavras-chave)
+
+Para declarar uma variável, podemos utilizar a palavra reservada `var`, seguida do nome da variável e o valor que estamos atribuindo a ela.
+
+```js
+var meuNome = 'Patricia';
+var fruta = 'Pera';
+```
+
+Nas nossas aulas vamos utilizar a palavras reservada `let` para declarar variáveis.
+
+`let` é a versão mais moderna de `var`. A sintaxe é mesma.
+
+```js
+let meuNome = 'Patricia';
+let fruta = 'Pera';
+```
+
+Referência: https://www.w3schools.com/js/js_es6.asp
+<br/>
+
+### Comentários
+Comentar o código serve para deixar mensagens importantes para você e para outro programador que vai ler seu código.
+
+Em JavaScript você pode fazer comentários de duas formas:
+
+- Comentário em uma linha
+
+```js
+// Comentário simples de uma linha
+```
+
+- Comentário de múltiplas linhas
+
+```js
+/* Comentário
+ de múltiplas
+ linhas */
+```
+
+
+---
+<br/>
+
 
 
 ## 2.1 Var, Let e Const
@@ -419,6 +936,59 @@ Se você utilizar qualquer um dos padrões acima para nomear variáveis com Java
 ## 3 FUNÇÕES
 
 
+Funções são blocos de código que são executados quando chamados ou invocados.
+#### Assinatura
+Assinatura de uma função nada mais é do que os elementos que compões uma função
+
+```javascript
+function nomeDaFuncao (parametro1, parametro2) {
+  return retorno
+}
+
+function somar (x, y) {
+  return x + y
+}
+
+somar(2, 4) // 6
+
+```
+
+No exemplo acima, a função de nome somar tem dois parâmetros 'x' e 'y' e um retono de x + y.
+Parâmetros são os valores que são definidos na assinatura da função e funcionam como variáveis durante a execução da mesma.
+
+Os parâmetros são valores que vão ser substituídos por valores que serão passados no momento de invocação. 
+Quando os parâmetros recebem valores no momento da execução passam a ser chamados de argumentos da função.
+
+Os argumentos de uma função não estão limitados a strings e números. Você pode passar objetos para uma função. 
+
+Numa função você pode ou não retornar algo. A instrução return pode ser usada para retornar o valor para uma chamada de função.
+A instrução return indica que a função terminou. Qualquer código após o retorno não é executado.
+
+Além da declaração padrão acima as funções também podem ser expressões. Neste caso as funções são atribuídas a uma variável.
+
+```javascript
+
+const somar = function (x, y) {
+  return x + y
+}
+
+```
+
+As expressões de função são convenientes ao passar uma função como um argumento para outra função. 
+
+
+#### Invocando ou chamando funções
+Para invocar funções basta utilizar o nome da função seguido de parenteses, caso a função possua parâmetros é necessário passar os argumentos também
+
+```javascript
+function somar (x, y) {
+  return x + y
+}
+
+somar(2, 4) // 6
+
+```
+
 
 A maneira mais clássica de escrever uma função em JavaScript e em várias outras linguagens de programação é começar com a palavra function, seguida do nome da função e de parâmetros opcionais. Dentro da função, um bloco de código descreve a ação que a função deve realizar.
 
@@ -446,6 +1016,8 @@ console.log(soma(1, 1))
 **OBS**: antes de executar qualquer coisa no código, o JavaScript lista as funções declaradas e o que foi declarado como var. Antes de iniciar qualquer atividade, o JavaScript já sabe o que é. Por isso, funciona chamar a função declarada antes dela "existir" no código.
 
 
+
+
 `Arrow Function`
 
 A arrow function é uma função de seta, isso porque utiliza uma seta na sua sintaxe. Essa é uma novidade do ES6. é semelhante à expressão de função. 
@@ -470,6 +1042,31 @@ A arrow function também possui vantagens quando estamos trabalhando com objetos
 
 Para saber mais sobre arrow functions leia o artigo - [Conhecendo Arrow Functions](https://www.alura.com.br/artigos/conhecendo-arrow-functions?_gl=1*1gij91k*_ga*MTAyMjIzNjI2OC4xNzAxODc3NTU5*_ga_1EPWSW3PCS*MTcwNTMzODQ1OC4xNi4xLjE3MDUzMzg5MzQuMC4wLjA.*_fplc*dW9uU0VaVkprRURiWDduU043TzUwWE4zNllKUFczMG4lMkJyM2FsMVdJUW1sNzhVbENibDZ0VFRYUGtFdG1ZR29COHdXNG5CYURnQTJKMUtnZVRuaU56TElPbldVakxyMHp5MzE3MW9uY2YxNGZEUEx2cHMlMkJGaWtqZWlJZXRKZyUzRCUzRA..) no site da Alura. 
 
+#### Arrow Function
+Funções de seta são funções com uma sintaxe mais enxuta e elas são sempre anônimas.
+Existe uma diferença técnica entre uma arrow function e uma função comum em relação a uma palavra reservada, o this. Mas nesse momento de início de aprendizado não convém explicá-lo com muitos detalhes.
+
+```javascript
+const somar = (x, y) => {
+  return x + y
+}
+
+somar(2, 4) // 6
+
+```
+
+#### Função anônima
+Funções anônimas são aquelas que não possuem um nome no ato de sua declaração.
+
+```javascript
+  function () {
+
+  }
+  ou
+  () => {
+
+  }
+```
 
 
 ## 4 Estrutura do `if`
@@ -493,6 +1090,91 @@ if (condicao) {
 
 
 A condicao é sempre uma expressão que deverá ser avaliada e retornar true ou false (ou seus equivalentes “truthy” ou “falsy”). O bloco de código dentro do if só será executado caso a expressão retorne true ou um valor “truthy”.
+
+### Estrutura if / else
+<br/>
+
+```javascript
+// Variável booleana verdadeira
+var bateria = false;
+
+// Condição
+if (bateria) {
+  // Ação caso a condição seja verdadeira
+  alert("Tirar celular da tomada");
+} else {
+  // Ação caso a condição seja falsa
+  alert("Deixar celular carregando");
+}
+```
+<br/>
+
+### Estrutura if / else if / else
+<br/>
+
+```javascript
+// Variável booleana verdadeira
+let hora = 8;
+
+// Condição
+if (hora <= 12) {
+  // Ação caso a condição seja verdadeira
+  alert("Bom dia");
+} else if (hora <= 18) {
+  // Ação caso a primeira condição seja falsa e a segunda verdadeira
+  alert("Boa tarde");
+} else {
+  // Ação caso nenhuma condição seja verdadeira
+  alert("Boa noite");
+}
+```
+<br/>
+
+### Switch case
+<br/>
+
+Se a condição for correspondida, o programa executa as instruções asssociadas. Se múltiplos casos corresponderem o valor, o primeiro caso que corresponder é selecionado, mesmo se os casos não forem iguais entre si.
+
+```javascript
+let dia = "Segunda";
+
+switch (dia) {
+  case "Segunda":
+    alert("😴");
+    break;
+  case "Terça":
+    alert("😐");
+    break;
+  case "Quarta":
+    alert("🙂");
+    break;
+  case "Quinta":
+    alert("😬");
+    break;
+  case "Sexta":
+    alert("🤪");
+    break;
+  case "Sábado":
+    alert("😎");
+    break;
+  case "Domingo":
+    alert("😞");
+    break;
+  default:
+    alert("Não foi encontrada essa condição.");
+}
+```
+<br/>
+
+### Importância do break (switch case)
+<br/>
+
+A instrução opcional break associada com cada case garante que o programa saia da condicional switch assim que a instrução correspondente for executada e executa a instrução que segue logo após o switch. Caso break seja omitido, o programa continua a execução para a próxima instrução dentro de switch.
+
+Se você esquecer um break então o script irá rodar a partir do caso onde o critério foi correspondido e irá rodar também o caso seguinte independentemente do critério ter sido correspondido ou não.
+
+---
+<br/>
 
 
 ### 4.1 **Múltiplas condições**
@@ -604,6 +1286,150 @@ if (num >= 0 && num <= 10) {
 
 ** IMPORTANTE: Ao trabalhar com múltiplas condições e else if, lembre-se sempre que cada condição e cada bloco (if, else if e else) deve representar condições excludentes entre si! Ou seja, não pode haver ambiguidade entre as condições - uma mesma condição válida tanto no if quanto no else if, por exemplo. **
 
+## Laços de repetição
+<br/>
+
+### Estrutura de repetição
+<br/>
+Da mesma forma que temos que decidir coisas na nossa vida e em software também temos que repetir ações. Escrever um programa com várias linhas repetidas não é uma boa prática. 
+Laços ou loops são formas de repetir instruções um determinado número de vezes sem que haja a necessidade de repetir essas instruções. Em pseudocódigo nós usamos a palavra ENQUANTO, essa palavra indicava que os passos que estivessem descritos em seguida seriam repetidos até a nossa condição se tornar falsa. Qual condição? Não conseguimos simplesmente mandar o código se repetir sozinho, para esse laço acontecer é necessário existir uma condição para avaliar se o laço vai ser executado ou não, do mesmo jeito que fazemos com o SE/SENÃO. 
+
+
+Imagine que você tem 3 boletos para pagar pelo app do seu banco que estão em uma caixa “Boletos para pagar”. Depois de pago o boleto vai para a caixa “Boletos pagos”.
+
+          ENQUANTO houver boletos na caixa “Boletos para pagar”
+            entrar na tela de pagamento do app do banco
+            escanear o código de barras
+            confirmar os dados do pagamento
+            digitar a senha
+            salvar comprovante
+            colocar na caixa “Boletos pagos”
+
+
+Conseguiu perceber que as instruções são repetidas para cada boleto pago? Se fosse não fosse o laço de repetição teríamos que repetir as instruções as 3 vezes
+
+        . pegar boleto 1 da caixa “Boletos para pagar”
+          entrar na tela de pagamento do app do banco
+          escanear o código de barras
+          confirmar os dados do pagamento
+          digitar a senha
+          salvar comprovante
+          colocar na caixa “Boletos pagos”
+
+        . pegar boleto 2 da caixa “Boletos para pagar”
+          entrar na tela de pagamento do app do banco
+          escanear o código de barras
+          confirmar os dados do pagamento
+          digitar a senha
+          salvar comprovante
+          colocar na caixa “Boletos pagos”
+
+        . pegar boleto 3 da caixa “Boletos para pagar”
+          entrar na tela de pagamento do app do banco
+          escanear o código de barras
+          confirmar os dados do pagamento
+          digitar a senha
+          salvar comprovante
+          colocar na caixa “Boletos pagos”
+
+
+Uma das vantagens de usar laços de repetição é que se for necessário alterar uma parte do programa não será necessário alterar em vários lugares, mas somente dentro do laço.
+Por exemplo, é preciso alterar de “salvar comprovante” para “enviar comprovante por e-mail”. Com o laço é necessário alterar somente em 1 ponto, sem o laço é necessário em 3.
+
+          ENQUANTO houver boletos na caixa “Boletos para pagar”
+            entrar na tela de pagamento do app do banco
+            escanear o código de barras
+            confirmar os dados do pagamento
+            digitar a senha
+            Enviar comprovante por e-mail //nova alteração
+            colocar na caixa “Boletos pagos”
+<br/>
+
+
+### Sintaxe de repetição
+<br/>
+Existem algumas formas diferentes de utilizar laços em javascript
+<br/>
+
+#### while (enquanto)
+<br/>
+
+Em Javascript este 'enquanto' se torna WHILE e funciona exatamente da mesma forma que o enquanto no pseudocódigo. A sintaxe dele no javascript é a seguinte:
+
+          while(CONDICAO){
+            Código a ser repetido se a condição for verdadeira
+          }
+
+
+A leitura do código acima seria:
+
+        ENQUANTO CONDIÇÃO FOR VERDADEIRA FAÇA
+          Instruções a serem repetidas
+        FIM do ENQUANTO
+
+
+```javascript
+let frio = true;
+
+while (frio) {
+  alert("Coloque um casaco");
+}
+```
+
+Outro exemplo usando números:
+
+```javascript
+while (i < 10) {
+  console.log("O número é " + i);
+  i++;
+}
+```
+
+Enquanto o valor da variável i for menor que 10, o console irá imprimir a frase "o número é i".
+
+Ao escrever um while é importante notar que no seu código é necessário criar uma variável fora do laço para essa condição, normalmente chamamos de contador, e em algum momento a sua condição deve ser atualizada, caso contrário o seu loop se torna infinito e no nosso caso trava o navegador. O que eu quero dizer com atualizar a condição? É necessário que o nosso loop tenha um fim e para isso a nossa condição tem que se tornar falsa.
+<br/>
+
+##### for (para)
+<br/>
+O comando FOR é um comando completo porque contém o início, a condição e o passo de um laço de repetição. 
+  - Início - onde que o laço começa
+	- Condição - até onde o laço roda (condição de fim)
+	- Passo - o passo para a próxima rodada
+
+O interessante do for é que na própria estrutura dele nós já fazemos uma atualização do valor que é usado na nossa condição de fim.
+A sintaxe do for no javascript é:
+	
+      for(inicio; fim; passo){
+        Código a ser repetido enquanto o critério de fim estiver válido
+      } 
+
+
+```javascript
+  for (let i = 0; i < 10; i++) {
+    console.log(i)
+  }
+```
+
+#### Callback
+Callback do inglês, chamar de volta, são funções que são passadas como argumento para outras funções e chamadas dentro de outra função para execução. As callbacks podem ser do tipo síncronas ou do tipo assíncronas. Vocês podem se aprofundar nesse tópico mais pra frente, pois já um assunto mais avançado.
+
+```javascript
+function perguntarNome () {
+  return prompt("Qual o seu nome?")
+}
+
+function dizerOla (callback) {
+  const nome = callback();
+  return `Olá ${nome}`
+}
+
+dizerOla(perguntarNome)
+
+```
+
+
+
 
 ## 5 ARRAYS
 
@@ -627,6 +1453,12 @@ Quando trabalhamos com arrays, chamamos de elemento ou item cada um dos valores 
 
 Lembrando que cada elemento corresponde a um dado, separados por vírgula.
 
+### Estrutura de dados 
+Estrutura de dados é o ramo da computação que estuda os diversos mecanismos de organização de dados para atender aos diferentes requisitos de processamento. As estruturas de dados definem a organização, métodos de acesso e opções de processamento para a informação manipulada pelo programa.
+
+A administração e manipulação dos dados passam pelo entendimento das estruturas de dados e dos métodos que podem ser utilizados para trabalhar com esses dados.
+
+Logo, Estrutura de Dados - ou Data Structure - é um meio de coletar e organizar informações de uma certa forma em que seja possível realizar operações com essas informações de um jeito efetivo.
 
 
 ### 5.1 Introdução a Arrays
@@ -634,6 +1466,32 @@ Lembrando que cada elemento corresponde a um dado, separados por vírgula.
 
 ![image](https://github.com/FlavianaFXT/Curso-Javascript-Arrays/assets/113718720/fa089fef-beb9-4afb-8d4d-d222d50764ef)
 
+Arrays ou listas sõ estruturas de dados ordenadas que permitem que seja possível guardar um conjunto de informações numa única variável. Cada item que compõe essa lista normalmente é chamado de elemento. Os elementos de um array no javascript tem sua posição definida por um índice que se inicia em 0.
+![lista-indices](assets/lista-indices.png)
+#### Acessando itens de um array
+Para acessar um item de um array é muito simples, basta utilizarmos o índice da posição do item.
+
+``` javascript
+let personagens = ["Naruto", "Midoriya", "Tanjiro", "Maki"];
+personagens[0] // Naruto
+personagens[2] // Tanjiro
+```
+
+#### Tamanho de uma lista
+É possível saber o tamanho de uma lista acessando a propriedade length
+
+``` javascript
+let personagens = ["Naruto", "Midoriya", "Tanjiro", "Maki"];
+personagens.length // 4
+```
+
+#### Verificando que um array é um array
+No JavaScript nós temos o comando Array.isArray(obj); que permite verificar se um objeto é um array.
+
+```javascript
+  let lista = [];
+  Array.isArray(lista) // true
+```
 
 ### **Como funcionam os arrays**
 
@@ -760,12 +1618,91 @@ podemos consultar rapidamente o que o método faz, seu valor de retorno e se ele
 
 A documentação também fornece informações bastante detalhadas sobre cada recurso da linguagem; você não precisa entender tudo que é mencionado em cada página (e no início de desenvolvimento, você provavelmente irá se deparar com muitos termos novos), mas ela é uma excelente fonte de consultas. Além disso, ela fornece vários exemplos práticos onde um método pode ser útil. A documentação será muito importante na sua jornada de desenvolvimento!
 
+##### push
+O comando "push" pode ser usado para adicionar valores a ele. Este comando adiciona o valor no final da lista.
+
+```javascript
+const numeros = [1, 2, 3];
+
+numeros.push(4);
+
+console.log(numeros); // [1, 2, 3, 4]
+
+numeros.push(5, 6);
+
+console.log(numeros); // [1, 2, 3, 4, 5, 6]
+```
+##### pop
+O oposto do push, ele retira e retorna o último valor do vetor.
+```javascript
+const numeros = [1, 2, 3, 4];
+
+numeros.pop(); // 4
+
+console.log(numeros); // [1, 2, 3]
+
+numeros.pop(); //3
+
+console.log(numeros); // [1, 2]
+```
+##### shift
+O método shift() remove o primeiro elemento de um array e retorna esse elemento. Este método também muda o tamanho do array.
+
+```javascript
+const numeros = [1, 2, 3, 4];
+
+numeros.shift(); // 1
+
+console.log(numeros); // [2, 3, 4]
+
+numeros.shift(); // 2
+
+console.log(numeros); // [3, 4]
+```
+
+##### unshift
+O método unshift() adiciona um ou mais elementos no início de um array e retorna o número de elementos (a propriedade length) atualizado.
+
+```javascript
+const numeros = [1, 2, 3, 4];
+
+numeros.unshift(0); // 5
+
+console.log(numeros); // [0, 1, 2, 3, 4]
+
+numeros.unshift(-1); // 6
+
+console.log(numeros); // [-1, 0, 1, 2, 3, 4]
+```
+
+#### forEach
+O método forEach() tem o objetivo de apenas iterar um array, ou seja, percorrer todos os elementos de um array
+
+Logo, é importante frisar: o método forEach() não retorna nada! Ou seja, ele é útil para percorrer o array original e executar algum procedimento com cada item.
+
+```javascript
+let sum = 0;
+const numbers = [65, 44, 12, 4];
+numbers.forEach(myFunction);
+
+function myFunction(item) {
+    sum += item;
+    console.log(sum)
+} // 125
+```
+
+
 
 
 ## 5.3 Alterando Arrays
 
 
 #### **Dividindo com slice()**
+
+
+Esse método retorna os elementos selecionados de um array em um novo array. Essa seleção é feita a partir do index dos itens.
+
+Obs: esse método não remove do array original os elementos selecionados!
 
 
 ![image](https://github.com/FlavianaFXT/Curso-Javascript-Arrays/assets/113718720/aeb6b29e-b5c7-4882-a06b-5f031d504a47)
@@ -796,6 +1733,41 @@ Para encontrar a metade do nosso array, em lugar de 10, vamos colocar o tamanho 
 
 #### **Alterando com splice()**
 
+Já o splice() é diferente. Ele mexe no conteúdo do array original, adicionando itens novos enquanto remove itens selecionados.
+
+```javascript
+array.splice(indice[, contagemDeDeleção[, elemento1[, ...[, elementoN]]]);
+```
+
+indice: Índice o qual deve iniciar a alterar a lista - ou seja, a partir de qual posição serão acrescentados itens, ou a partir de qual posição serão excluídos itens.
+
+contagemDeDeleção: indicador de quantos itens devem ser removidos de um array. Se está em 0, então nenhum elemento/item deverá ser removido. É opcional.
+
+elemento1, ..., elementoN: Os elementos que serão adicionados no array. É opcional - caso não exista, o splice apenas removerá itens.
+
+``` javascript
+const animes = ["Naruto", "Jujutsu Kaisen", "Spy X Family", "Demon Slayer"];
+let removed = animes.splice(2, 0, "CDZ");
+//animes é ["Naruto", "Jujutsu Kaisen", "CDZ", "Spy X Family", "Demon Slayer"]
+//removed é [], nenhum elemento removido
+
+removed = animes.splice(3, 1);
+//animes é ["Naruto", "Jujutsu Kaisen", "CDZ", "Demon Slayer"]
+//removed é ["mandarim"]
+
+removed = animes.splice(2, 1, "Dragon Ball Z");
+//animes é ["Naruto", "Jujutsu Kaisen", "Dragon Ball Z", "Demon Slayer"]
+//removed é ["CDZ"]
+
+removed = animes.splice(0, 2, "Haikyuu", "Jojo", "Boku no Hero");
+//animes é ["Haikyuu", "Jojo", "Boku no Hero", "Dragon Ball Z", "Demon Slayer"]
+//removed é ["Naruto", "Jujutsu Kaisen"]
+```
+
+**Principal diferença: o slice() não alterará o array original! Ele apenas vai retornar a você um novo array contendo a seleção passada.
+
+Por sua vez, o splice() tem o poder tanto de remover elementos, quanto de adicionar novos elementos ao array original.**
+
 
 ![image](https://github.com/FlavianaFXT/Curso-Javascript-Arrays/assets/113718720/d243d406-2efb-4a45-89fc-f075a1d723f7)
 
@@ -808,6 +1780,61 @@ O método splice() aceita um terceiro parâmetro. Então, vamos colocar a string
 
 
 #### **Alterando Strings com map()**
+
+Esse talvez seja o método de manipulação de array que você mais utilizará na sua carreira como pessoa desenvolvedora.
+
+O método map() invoca um callback passada por argumento para cada elemento do Array e devolve um novo Array como resultado.
+Existe uma infinidade de coisas que podem ser feitas com o array.map(), mas talvez a mais importante e mais usada seja o mapeamento de um array e criar um novo array incluindo as informações mais relevantes do array original. E isso pode ser feito pelo uso do callback. 
+
+Em React um caso muito comum é utilizar o map para renderizar elementos de uma lista utilizando um componente.
+
+```javascript
+const personagens = [
+    {
+        nome: "Eleven",
+        serie: "Stranger Things"
+    },
+    {
+        nome: "Nairóbi",
+        serie: "La casa de Papel"
+    },
+    {
+        nome: "Klaus",
+        serie: "The Umbrella Academy"
+    }
+];
+
+const nomes = personagens.map((item) =>{
+    return item.nome
+})
+
+console.log(nomes) // ['Eleven', 'Nairóbi', 'Klaus']
+```
+
+```javascript
+const personagens = [
+    {
+        nome: "Eleven",
+        serie: "Stranger Things"
+    },
+    {
+        nome: "Nairóbi",
+        serie: "La casa de Papel"
+    },
+    {
+        nome: "Klaus",
+        serie: "The Umbrella Academy"
+    }
+];
+
+const nomes = personagens.map((item, indice) =>{
+    return `${indice + 1}, ${item.nome} de ${item.pais}`
+})
+
+console.log(nomes) // ['1, Eleven de Stranger Things', '2, Nairóbi de La Casa de Papel', '3, Klaus de The Umbrella Academy']
+
+```
+
 
 
 ![image](https://github.com/FlavianaFXT/Curso-Javascript-Arrays/assets/113718720/07aa89a6-f45d-4ba1-ae27-0492b1d3f1be)
@@ -838,6 +1865,109 @@ const nomesPadronizados = nomes.map((nome) => nome.toUpperCase());
 console.log(nomesPadronizados);
 ```
 
+##### filter
+O método filter() cria um novo array com todos os elementos que passaram no teste implementado pela função fornecida. Ou seja, ele literalmente filtra os elementos de um array de acordo com uma função com uma condição passada para ele.
+
+Sintaxe: 
+
+``` Javascript
+const newArray = arr.filter(callback)
+```
+
+**Callback:** função que é chamada e é executada. Retorna true para manter o elemento, false caso contrário, recebendo três argumentos:
+
+- *element*: O elemento que está sendo processado no array.
+- *index*: O índice do elemento atual que está sendo processado no array.
+- *array*: O array para qual filter foi chamada.
+
+```Javascript
+const idades = [32, 33, 16, 40, 2, 69];
+
+const result = idades.filter((idade) => idade > 18);
+
+console.log(result); // [32, 33, 40, 69]
+```
+##### find
+O método find() retorna o valor do primeiro elemento do array que satisfizer a função de teste provida. Caso contrario, undefined é retornado.
+
+```javascript
+const array1 = [5, 12, 8, 130, 44];
+
+const found = array1.find(element => element > 10);
+
+console.log(found);
+// expected output: 12
+```
+
+##### findIndex
+O método findIndex() retorna o índice no array do primeiro elemento que satisfizer a função de teste provida. Caso contrário, retorna -1, indicando que nenhum elemento passou no teste.
+
+```javascript
+
+const array1 = [5, 12, 8, 130, 44];
+
+const found = array1.findIndex(element => element === 12);
+
+console.log(found);
+// expected output: 1
+```
+#### reduce
+O método reduce() executa uma função reducer (callback) para cada elemento do array, resultando num único valor de retorno.
+
+Sintaxe: 
+
+``` Javascript
+array.reduce(callback( acumulador, valorAtual[, index[, array]] )[, valorInicial]))
+```
+
+**Callback:** função que é chamada e é executada em cada valor no array (exceto no primeiro, se nenhum valorInicial for passado); recebe quatro argumentos: 
+
+- *acumulador*: O índice do elemento atual que está sendo processado no array. Começa a partir do index 0 se um valorInicial for fornecido. Do contrário, começa do index 1.
+  
+- *valor inicial*: Opcional. Valor a ser usado como o primeiro argumento da primeira chamada da função callback. Se nenhum valorInicial é fornecido, o primeiro elemento do array será usado como o valor inicial do acumulador e o valorAtual não será lido.
+
+```Javascript
+const array1 = [1, 2, 3, 4];
+const reducer = (accumulator, currentValue) => accumulator + currentValue;
+
+// 1 + 2 + 3 + 4
+console.log(array1.reduce(reducer));
+// expected output: 10
+
+// 5 + 1 + 2 + 3 + 4
+console.log(array1.reduce(reducer, 5));
+// expected output: 15
+```
+
+### For in e for of
+Além do for tradicional que foi vimos até agora, temos outros dois derivados: o for in e o for of. Esses dois tipos de for são usados para listas. Como são derivados do for, a ideia dele muda na hora de escrever a sintaxe. No "for in" nós criamos uma variável responsável por receber o valor do índice da nossa lista. Enquanto no "for of" criamos uma variável responsável por receber o valor do elemento da lista, isso de passar elemento por elemento de uma lista nós chamamos de iterar uma lista.
+Abaixo nós temos a sintaxe dos dois for:
+
+``` javascript
+for(let indice in lista){ 
+  Código
+}
+
+for(let elemento of lista){ 
+  código
+}
+```
+
+#### For in
+Nesse caso, nós estamos criando uma variável responsável por assumir o valor de cada índice da nossa lista. Sendo assim, para mostrar no console cada item da nossa lista é preciso acessar elemento por elemento usando a lista[indice].
+``` javascript
+for(let indice in lista){ 
+  console.log(lista[indice])
+}
+```
+#### For of
+Nesse caso, criamos uma variável responsável por assumir valor de cada elemento da nossa lista. Assim, para poder mostrar cada item da nossa lista no console, precisamos usar somente o próprio elemento. É comum que o nome de listas estejam no plural por serem listas de um conjunto de coisas, nesse caso o nome da variável criada para assumir o valor de cada elemento costuma ter o nome da lista no singular. Exemplo: a lista chama filmes, a variável criada no for of chama-se filme.
+
+``` javascript
+for(let elemento of lista){ 
+  console.log(elemento)
+}
+```
 
 
 ## 5.4 **Concatenando Arrays**
@@ -2163,6 +3293,54 @@ Você pode explorar mais seus conhecimentos sobre o Set na - [documentação](ht
 ## 8 OBJETOS
 
 ### 8.1 O que são objetos?
+
+Um objeto é uma coleção de dados e/ou funcionalidades relacionadas (que geralmente consistem em diversas variáveis e funções — que são chamadas de propriedades e métodos quando estão dentro de objetos). Vamos trabalhar com um exemplo para entender como eles são.
+
+#### Acessando valores de um objeto
+
+Existem duas formas de acessar um objeto: por meio da *notação de ponto (dot notation)* ou da *notação de colchetes (bracket notation)*:
+
+```Javascript
+//notação de ponto
+
+  pessoa.nome // Ana
+  pessoa.animesFavoritos // ['CDZ', 'Naruto']
+
+//notação de colchetes
+
+  pessoa["nome"] // Ana
+  pessoa['idade'] // 26
+
+```
+
+#### Adicionando propriedades a um objeto
+Para adicionar uma nova propriedade a um objeto já existente podemos utilizar a seguinte sintaxe:
+
+```javascript
+let pessoa = {
+  nome: "Ana"
+}
+
+pessoa.sobrenome = "Morita"
+
+```
+
+#### Deletando propriedades de um objeto
+A palavra-chave "delete" remove propriedades específicas. Tentar ler uma propriedade inexistente terá como valor "undefined".
+
+```javascript 
+  let pessoa = {
+    nome: "Ana"
+  }
+
+  delete pessoa.nome
+```
+### Escopo
+É o contexto atual de execução, em que valores e expressões são "visíveis" ou podem ser referenciadas. Se uma variável ou outra expressão não estiver "no escopo atual", então não está disponível para uso. Os escopos também podem ser em camadas em uma hierarquia, de modo que os escopos filhos tenham acesso aos escopos pais, mas não vice-versa.
+
+O escopo de uma função é a função na qual ela é declarada, ou todo o programa se ela é declarada no nível superior.
+
+As variáveis definidas no interior de uma função não podem ser acessadas de nenhum lugar fora da função, porque a variável está definida apenas no escopo da função. No entanto, uma função pode acessar todas variáveis e funções definida fora do escopo onde ela está definida. Em outras palavras, a função definida no escopo global pode acessar todas as variáveis definidas no escopo global. A função definida dentro de outra função também pode acessar todas as variáveis definidas na função hospedeira e outras variáveis ao qual a função hospedeira tem acesso.
 
 
 #### Adicionando e Alterando
@@ -4468,6 +5646,70 @@ Assim, sempre que trabalharmos com valores O(log n), estamos nos referindo a bas
 Aprendemos a fazer a análise assintótica do algoritmo de busca binária e por que este é considerado um algoritmo de complexidade logarítmica, em comparação com a busca linear que é um algoritmo de complexidade linear;
 Fizemos a análise assintótica dos algoritmos de ordenação quick sort e merge sort e analisamos o código para entendermos por que são considerados algoritmos de complexidade linear-logarítmica;
 E o que significa, em termos de performance, a diferença entre algoritmos de crescimento linear, quadrático e logarítmico.
+
+# EXERCICIOS
+
+```
+1 - - Explicação do exercício: Adivinhe o número.
+O usuário tem que adivinhar um número inteiro aleatório entre 0 e 50.
+
+Se ele acertou, então dar os parabéns e encerrar.
+Se for um número baixo, responder é maior
+Se for um número alto, responder que é menor.
+
+Extra: o usuário tem o limite de 5 tentativas para acertar o número
+
+OBS: usar este código para gerar um número aleatório
+Math.floor(Math.random()*(50 - 0 + 1));
+```
+
+
+```
+2 - Explicação do exercício: Escrever um programa que receba um e-mail e uma senha e só permita que o login seja feito quando o e-mail for teste@reprograma.com E a senha seja teste123, caso um deles esteja errado escrever uma mensagem de erro e perguntar e-mail e senha novamente até o usuário acertar.
+EMAIL E SENHA PRECISAM ESTAR CORRETOS email E senha digitados estão iguais a teste@reprograma.com e teste123
+
+DADOS CERTOS -> LOGIN DADOS ERRADOS -> ERRO
+
+ESTRUTURA DE DECISAO -> IF/ELSE (SE/SENAO)
+
+PASSOS PARA RESOLVER O EXERCICIO:
+
+receber e guardar um email e uma senha OK
+guardar email correto e senha correta OK
+comparação de email e senha para verificar se pode fazer login (se email e senha certos, fazer login, senão dar mensagem de erro)
+repetir ações ENQUANTO email e senha incorretos
+```
+
+```
+3 - Faça uma função que recebe o preço de um produto e o percentual de desconto a ser dado no produto e retorne o valor do produto com desconto.
+```
+
+```
+4 - Criar uma função que receba a idade de uma pessoa e diga quais filmes aquela pessoa pode assistir. Use como base o seguinte objeto:
+
+let filmes = [ { nome: "Deadpool", classificacaoEtaria: 18 }, { nome: "Your Name", classificacaoEtaria: 0 }, { nome: "Kill Bill", classificacaoEtaria: 18 }, { nome: "Shrek", classificacaoEtaria: 0 }, { nome: "Matrix ", classificacaoEtaria: 14 }, { nome: "Você nem imagina", classificacaoEtaria: 12 }, { nome: "Brilho eterno de uma mente sem lembranças", classificacaoEtaria: 14 }, { nome: "Scott Pilgrim contra o mundo", classificacaoEtaria: 12 }, { nome: "Capitão Fantástico", classificacaoEtaria: 14 }, { nome: "El Camino", classificacaoEtaria: 16 }, { nome: "Parasita", classificacaoEtaria: 16 }, { nome: "Star Wars: o retorno do jedi", classificacaoEtaria: 0 }, { nome: "Red: crescer é uma fera", classificacaoEtaria: 0 }, { nome: "Ninja Assassino", classificacaoEtaria: 18 }, ]
+```
+
+
+# LINKS UTEIS:
+
+- [MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [W3Schools](https://www.w3schools.com/js/default.asp)
+- [Lorem Ipsum](https://www.lipsum.com/feed/html)
+- [Lorem Ipsum](https://www.lipsum.com/feed/html)
+- [Objetos](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/Basics)
+- [Funções](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Functions)
+- [For](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for)
+- [While](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/while)
+- [Arrow Function](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+- [Callbacks](https://www.freecodecamp.org/news/javascript-callback-functions-what-are-callbacks-in-js-and-how-to-use-them/)
+
+# Plataformas de estudos
+
+- [URI Online Judge](https://www.urionlinejudge.com.br/judge/pt/login?redirect=%2Fpt)
+- [FreeCodeCamp](https://www.freecodecamp.org/)
+- [KhanAcademy](https://www.khanacademy.org/computing/computer-programming)
+
 
 
 
