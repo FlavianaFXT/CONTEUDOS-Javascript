@@ -5,6 +5,9 @@ Conteúdos de Cursos realizados nas Seguintes Comunidades:
 
 ![image](https://github.com/FlavianaFXT/CONTEUDOS-Javascript/assets/113718720/751bbaa3-59d5-4430-9bb9-3faaeeaa6df9)
 
+![image](https://github.com/FlavianaFXT/CONTEUDOS-Javascript/assets/113718720/d368247b-f0eb-49f9-a5a1-aa6d1f051131)
+
+
 
 
 
