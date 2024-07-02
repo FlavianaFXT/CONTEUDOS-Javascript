@@ -1,5 +1,9 @@
 # CONTEUDOS-Javascript
-Repositorio destinado a resumo com os principais conceitos e principios orientadores de trabalho, aprendidos nos cursos que venho realizando na área. O objetivo desse resumo é auxiliar outros estudantes e utilizar como consulta em situações necessárias do cotidiano.
+Repositorio destinado a resumo com os principais conceitos e principios orientadores de trabalho, aprendidos nos cursos que venho realizando na área. 
+
+
+O objetivo desse resumo é auxiliar outros estudantes e utilizar como consulta em situações necessárias do cotidiano.
+
 
 Conteúdos de Cursos realizados nas Seguintes Comunidades:
 
@@ -13,9 +17,10 @@ Conteúdos de Cursos realizados nas Seguintes Comunidades:
 
 ## INDICE
 
-* [Lógica de programação](#lógica-de-programação)
-* [Console](#console)
-- [1 TIPOS PRIMITIVOS](#1-TIPOS-PRIMITIVOS)
+- [1 Lógica de programação](#1-lógica-de-programação)
+- [2 TIPOS PRIMITIVOS](#2-TIPOS-PRIMITIVOS)
+
+  
    - [ 1.1 Tipo Number](#1.1-Tipo-Number)
      - [Ponto Flutuante no JavaScript](#Ponto-Flutuante-no-JavaScript)
    - [ 1.2 Tipo String](#1.2-Tipo-String)
@@ -80,24 +85,30 @@ Conteúdos de Cursos realizados nas Seguintes Comunidades:
      - [Big O Notation](#Big-O-Notation)
    .................... FALTA ................................
    - [9.11 CONCLUSÃO ALGORITMOS](#9.11-CONCLUSÃO-ALGORITMOS)
- 
-  ### Lógica de Programação 
-1. [O que é um algoritmo](#definicao-algoritmo)
-2. [Linguagem de programação](#linguagem-de-programação)
 
-### Console 
-1. [Definição](#console)
-2. [Javascript dentro do HTML](#JavaScript-dentro-do-HTML)
-3. [console.log(), alert(), confirm e prompt](#consolelog-alert-confirm-e-prompt) 
 
- ## Lógica de programação
+
+  # 1 Lógica de Programação
+
 <br/>
+[1.1 O que é um algoritmo](#1.1-O-que-é-um-algoritmo)
+
+[1.2 Linguagem de programação](#1.2-linguagem-de-programação)
+
+[1.3 O que é Javascript](#1.3-O-que-é-Javascript)
+
+[1.4 Console](#1.4-Console)
+	[console.log(), alert(), confirm e prompt](#console.log(),-alert(),-confirm-e-prompt)
+
+[1.5 JavaScript dentro do HTML](#1.5-JavaScript-dentro-do-HTML)
+<br/>
+
 Lógica de programação é o método usado para escrever programas que um computador entenda.
 
 A lógica de programação parte do princípio de que praticamente todas as tarefas humanas são uma sequência ordenada de passos, que acontecem durante um tempo finito e que produzem um resultado esperado.
 <br/>
 
-### o que é um algorimto 
+### 1.1 O que é um algoritmo 
 <br/>
 Um algoritmo, ou programa, é um conjunto de instruções que reunimos para se chegar num objetivo. Para isso temos a entrada, o processamento (o modo de executar) e a saída. Uma maneira simples de pensarmos é em uma receita onde temos os ingredientes, o modo de fazer e o alimento pronto. Para o computador informamos algo, por exemplo o clique em um botão, o processamento, um conjunto de comandos e a saída, abertura de uma nova página.
 Para escrever um programa de computador, você tem que dizer ao computador, passo a passo, exatamente o que você quer que ele faça. O computador "executa" o programa, seguindo cada etapa mecanicamente, para atingir o objetivo final.
@@ -105,7 +116,7 @@ Para escrever um programa de computador, você tem que dizer ao computador, pass
 Alguns exemplos de algoritmos que podemos citar: manual de instrução de aparelhos e funções matemáticas.
 <br/>
 
-### Linguagem de programação 
+###1.2  Linguagem de programação 
 <br/>
 A linguagem de programação é um método padronizado para comunicar instruções para um computador. É um conjunto de regras de sintaxes e semânticas usadas para definir um programa de computador. É uma linguagem que pode ser compreendida tanto por um ser humano como por um computador.
 
@@ -116,7 +127,7 @@ Existem diversos tipos de linguagem de programação, e elas podem ser classific
 Podemos falar “oi” em muitos idiomas. Podemos dizer “oi” em português, inglês, árabe ou japonês. São formas diferentes, mas no fim temos a mesma situação, estamos fazendo uma saudação a alguém.
 <br/>
 
-### O que é Javascript
+ ###1.3 O que é Javascript
 <br/>
 JavaScript é uma linguagem de programação interpretada (não precisa de um compilador, ela é lida diretamente pelo navegador) estruturada (ênfase em sequência, decisão e, iteração - subrotinas, laços de repetição, condicionais e, estruturas em bloco), client-side, de script em alto nível .Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da Internet. JavaScript surgiu em 1995 e permite páginas da Web interativas e, portanto, é uma parte essencial dos aplicativos da web. A grande maioria dos sites usa, e todos os principais navegadores têm um mecanismo JavaScript dedicado para executá-lo.
 
@@ -130,10 +141,10 @@ Para programar e testar em javascript precisamos somente de um editor de código
 
 <br/>
 
-## Console
+ ###1.4 Console
 <br/>
 
-### Definição
+#### Definição
 <br/>
 O console acessível através das Ferramentas de Desenvolvedor é uma interface conectada ao interpretador que vem incluso no navegador, e fica rodando “por trás dos panos” para ler e executar todo o JavaScript que o HTML contenha. O objeto Console fornece acesso ao console de depuração do navegador. O seu funcionamento específico varia de navegador para navegador, mas existe um conjunto de ferramentas que na prática são fornecidas normalmente.
 
@@ -147,7 +158,7 @@ Com o navegador aberto como abrir o painel dedicado Console:
 <br/>
 
 
-### console.log(), alert(), confirm e prompt
+#### console.log(), alert(), confirm e prompt
 <br/>
 O `console.log()` é uma funcão que utilizamos para testar nosso código. O resultado será impresso no console do navegador.
 
@@ -179,7 +190,8 @@ prompt(nome);
 ```
 <br/>
 
-### JavaScript dentro do HTML
+
+1.5 ### JavaScript dentro do HTML
 <br/>
 Você precisa avisar ao navegador que existe um arquivo Javascipt e que ele precisa carregá-lo.
 
@@ -199,9 +211,18 @@ Você precisa avisar ao navegador que existe um arquivo Javascipt e que ele prec
 <br/>
 
        
-## 1 TIPOS PRIMITIVOS
+# 2 TIPOS PRIMITIVOS
 
-### O que são
+[2.1 O que são](#2.1-O-que-são)
+
+[2.2 Tipo Number](#2.2-Tipo-Number)
+	[Operadores](#Operadores)
+[2.3 Tipo String](#2.3-Tipo-String)
+[2.4 Tipo Boolean](#1.3-Tipo-Boolean)
+
+
+
+###2.1 O que são
 <br/>
 
 Tipos de dados descrevem os diferentes tipos de dados que vamos trabalhar e guardar em variáveis.
@@ -210,22 +231,11 @@ Tipos de dados descrevem os diferentes tipos de dados que vamos trabalhar e guar
 ### Dados primitivos
 <br/>
 Dados primitivos são aqueles que os dados não são objetos e não possuem métodos ou propriedades. São dados que são representados diretamente no nível mais baixo da linguagem de programação. Alguns dos dados primitivos mais utilizados.
-#### String
+
 <br/>
 
-é uma sequência de caracteres utilizada para representar texto.
-
-```javascript
-"Este texto é uma informação com o tipo de dado string";
-"Ana Beatriz";
-"1 é um número ímpar";
-```
+ ###2.2 Tipo Number
 <br/>
-
-É fundamental que o JavaScript consiga determinar qual é o tipo de dado para poder manipulá-lo. Por exemplo, para executar cálculos matemáticos, o dado armazenado na variável precisa ser um número.
-
-### 1.1 Tipo Number
-
 é um tipo de dado utilizado para representar valores numéricos.
 
 ```javascript
@@ -251,11 +261,13 @@ console.log(operacaoMatematica)
 ```
 
 
-Operadores  `+`, `-`, `/`, `*`
+#### Operadores 
+<br/>
+`+`, `-`, `/`, `*`
 
 Podemos operar com números negativos, positivos e assim por diante. Normalmente, em linguagem de programação, não estamos restritos a números inteiros, mas podemos trabalhar com números que costumamos chamar de decimais em nosso cotidiano, que têm um ponto seguido de outros números.
 
-### Operador de atribuição
+#### Operador de atribuição
 <br/>
 
 O operador de atribuição é o igual (=), que atribui o valor do operando à direita ao operando à esquerda. Isto é, x = y atribui o valor de y a x.
@@ -272,7 +284,7 @@ let x = y; // y é atribuído a x
 ```
 <br/>
 
-### Operadores aritméticos
+#### Operadores aritméticos
 <br/>
 
 #### Adição (+)
@@ -524,6 +536,7 @@ if (bateria) {
 ```
 <br/>
 
+
 ### Ponto Flutuante no JavaScript
 
 
@@ -557,18 +570,19 @@ Principalmente quando tentamos multiplicar duas coisas e alguma delas ou as duas
 **Dica: podemos utilizar o número PI através do código Math.PI.**
 
 
-↪️
-[Como formatar número com JavaScript](https://www.alura.com.br/artigos/formatando-numeros-no-javascript?_gl=1*1j0vrgf*_ga*MTAyMjIzNjI2OC4xNzAxODc3NTU5*_ga_1EPWSW3PCS*MTcwOTczMTQ4NS4zNS4xLjE3MDk3MzM0NTAuMC4wLjA.*_fplc*UEg3RkVXQTFWQXpOU3BGdUdoWkpOWDR6Qmk2QkJFbmR4RXpEdjl1OVh6Qm1DZCUyRnRwVDJ3UzZ4UDZja0NwWjVJWEhta3JaUUZuanZHcDRXa3UwUXNOJTJCeGtsME5Ca0g0dWszU1pFRFIlMkJITVU0MHNFZ2VGR3E1JTJCanlkZU5nYXclM0QlM0Q.)
+### 2.3 Tipo String
+<br/>
 
+é uma sequência de caracteres utilizada para representar texto.
 
-↪️
-[Como ordenar uma sequência de números no JavaScript](https://www.alura.com.br/artigos/ordenacao-de-numeros-no-javascript-nao-funciona?_gl=1*164k246*_ga*MTAyMjIzNjI2OC4xNzAxODc3NTU5*_ga_1EPWSW3PCS*MTcwOTczMTQ4NS4zNS4xLjE3MDk3MzM0NzkuMC4wLjA.*_fplc*UEg3RkVXQTFWQXpOU3BGdUdoWkpOWDR6Qmk2QkJFbmR4RXpEdjl1OVh6Qm1DZCUyRnRwVDJ3UzZ4UDZja0NwWjVJWEhta3JaUUZuanZHcDRXa3UwUXNOJTJCeGtsME5Ca0g0dWszU1pFRFIlMkJITVU0MHNFZ2VGR3E1JTJCanlkZU5nYXclM0QlM0Q.)
+```javascript
+"Este texto é uma informação com o tipo de dado string";
+"Ana Beatriz";
+"1 é um número ímpar";
+```
+<br/>
 
-
-
-###  1.2 Tipo String
-
-
+É fundamental que o JavaScript consiga determinar qual é o tipo de dado para poder manipulá-lo. Por exemplo, para executar cálculos matemáticos, o dado armazenado na variável precisa ser um número.
 
 tipos textuais, que não se enquadram na categoria de números ou booleanos.
 
@@ -615,7 +629,6 @@ Além disso, temos *outro tipo de aspa, que na verdade é um acento grave*, que 
 **Codificação de strings**
 
 
-
 Nas últimas décadas, foram desenvolvidos diversos conjuntos de caracteres especiais, cada um com seus próprios códigos, para que pessoas que escrevem e leem em linguagens diferentes do inglês pudessem utilizar computadores com seus próprios idiomas. 
 
 Para que o computador consiga decifrar um caractere especial, é preciso utilizar um sistema específico que tenha basicamente um código para cada caractere, e que o computador possa acessá-lo para fazer a conversão - uma ideia similar a que está por trás da criptografia.
@@ -655,8 +668,7 @@ Mais detalhes precisos e documentação sobre o Unicode na página da [Unicode F
 
 
 
-## Métodos e ferramentas prontas do Javascript
-
+### Métodos e ferramentas prontas do Javascript
 
 
 | O que | Como | Sobre |
@@ -670,7 +682,7 @@ Mais detalhes precisos e documentação sobre o Unicode na página da [Unicode F
 [métodos de string do MDN (são vários)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String#m%C3%A9todos), com a descrição de cada um.
 
 
-### 1.3 Tipo Boolean
+###2.4 Tipo Boolean
 
 é um tipo de dado lógico utilizado para representar os valores: verdadeiro ou falso, true or false.
 
@@ -747,41 +759,8 @@ console.log(texto1 === texto2)
 ```
 
 
-#### Null
-<br/>
 
-é um tipo de dado utilizado para representar um valor nulo ou "vazio".
-
-```javascript
-null;
-```
-
-```javascript
-let y = null;
-console.log(y);
-```
-<br/>
-
-#### undefined
-<br/>
-
-```javascript
-undefined;
-```
-
-```javascript
-let x;
-console.log(x);
-```
-
-O javascript é uma linguagem não tipada, onde não precisamos descrever qual é o tipo de dado de uma determinada variável, ele tenta "entender/adivinhar" qual é o tipo de dado que está na variável.
-
----
-<br/>
-
-
-
-## 2 VARIAVEIS
+# 3 VARIAVEIS
 
 
 *VARIAVEIS* Quando um programa precisa armazenar um valor para usar futuramente, já sabemos que usamos variáveis para isso.
@@ -792,7 +771,7 @@ Criamos variáveis para ler um valor de um usuário, guardar um dado de outro si
 Exemplo: precisamos criar a variável number e guardar o valor 1. Seguindo a ideia acima, number é o nome de uma etiqueta.
 <br/>
 
-### Declarando variáveis
+### 3.1 Declarando variáveis
 <br/>
 
 Criar uma variável também é chamado de declarar uma variável e para isso existem algumas regrinhas:
@@ -826,6 +805,8 @@ Referência: https://www.w3schools.com/js/js_es6.asp
 <br/>
 
 ### Comentários
+<br/>
+
 Comentar o código serve para deixar mensagens importantes para você e para outro programador que vai ler seu código.
 
 Em JavaScript você pode fazer comentários de duas formas:
@@ -850,7 +831,7 @@ Em JavaScript você pode fazer comentários de duas formas:
 
 
 
-## 2.1 Var, Let e Const
+## 3.2 Var, Let e Const
 
 
 
@@ -859,9 +840,22 @@ Em JavaScript você pode fazer comentários de duas formas:
 `const` --> impede que alguem mude o valor da variavel;
 
 
-### Tipos null e undefined
+### 3.3 Tipos null e undefined
 
+#### Null
+<br/>
 
+é um tipo de dado utilizado para representar um valor nulo ou "vazio".
+
+```javascript
+null;
+```
+
+```javascript
+let y = null;
+console.log(y);
+```
+<br/>
 
 O `null` é um tipo especial, pois pode ser traduzido como “ausência de valor” e pode ser atribuído como valor de uma variável:
 
@@ -874,17 +868,12 @@ if (input === null) {
 } else {
  console.log(input);
 }
-
-Nesse caso, qual seria a diferença entre os dois casos abaixo?
-
-let input = null;
-let input2;
-
-console.log(input); // null
-console.log(input2); // undefined
 ```
 
-`undefined`. Este tipo também representa “ausência de valor”, porém de uma outra forma: usualmente, enquanto null é um valor atribuído a uma variável que existe e foi iniciada, undefined se refere ao valor de uma variável que não foi inicializada (ou seja, não foi atribuído nenhum valor a ela).
+#### undefined
+<br/>
+
+Este tipo também representa “ausência de valor”, porém de uma outra forma: usualmente, enquanto null é um valor atribuído a uma variável que existe e foi iniciada, undefined se refere ao valor de uma variável que não foi inicializada (ou seja, não foi atribuído nenhum valor a ela).
 
 undefined também é o valor retornado por uma função que não tem cláusula return.
 
@@ -900,7 +889,25 @@ console.log(null === undefined); // false
 No cotidiano é comum considerar undefined como uma ausência de valor “inesperada” (causada por um bug ou erro no código) e null como um tipo de dado que também significa ausência de valor, mas não de maneira inesperada. Por exemplo, um campo em uma tabela de um banco de dados que esteja sem dados ou uma informação solicitada que não seja obrigatória e não tenha sido preenchida pelo usuário pode ter valor null.
 
 
-### Padrão de nomes no JavaScript
+O javascript é uma linguagem não tipada, onde não precisamos descrever qual é o tipo de dado de uma determinada variável, ele tenta "entender/adivinhar" qual é o tipo de dado que está na variável.
+
+---
+<br/>
+
+
+Nesse caso, qual seria a diferença entre os dois casos abaixo?
+
+```
+let input = null;
+let input2;
+
+console.log(input); // null
+console.log(input2); // undefined
+```
+
+
+
+### 3.4 Padrão de nomes no JavaScript
 
 
 
@@ -936,7 +943,7 @@ Importante: Nunca utilize espaço nem caracteres especiais, nem inicie os nomes 
 Se você utilizar qualquer um dos padrões acima para nomear variáveis com JavaScript (com exceção do padrão kebab-case), seu código continuará funcionando, mas seguir as convenções é parte de desenvolver um código legível e bem escrito.
 
 
-## 3 FUNÇÕES
+# 4 FUNÇÕES
 
 
 Funções são blocos de código que são executados quando chamados ou invocados.
@@ -980,7 +987,10 @@ const somar = function (x, y) {
 As expressões de função são convenientes ao passar uma função como um argumento para outra função. 
 
 
-#### Invocando ou chamando funções
+### 4.1 Invocando ou chamando funções
+
+
+
 Para invocar funções basta utilizar o nome da função seguido de parenteses, caso a função possua parâmetros é necessário passar os argumentos também
 
 ```javascript
@@ -1020,10 +1030,11 @@ console.log(soma(1, 1))
 
 
 
+### 4.2 Arrow Function
 
-`Arrow Function`
 
 A arrow function é uma função de seta, isso porque utiliza uma seta na sua sintaxe. Essa é uma novidade do ES6. é semelhante à expressão de função. 
+Funções de seta são funções com uma sintaxe mais enxuta e elas são sempre anônimas.
 
 
 ```
@@ -1035,7 +1046,7 @@ const apresentaArrow = nome => `meu nome é ${nome}`;
 ```
 
 
- A Arrow Function foi introduzida junto com o ES6, em 2015, e deixou o código muito menor, pois agora podemos declarar tudo em uma única linha, não precisamos de chaves, nem retornar nada.
+A Arrow Function foi introduzida junto com o ES6, em 2015, e deixou o código muito menor, pois agora podemos declarar tudo em uma única linha, não precisamos de chaves, nem retornar nada.
 
 Além disso, ela não pode ser nomeada, ou seja, essa opção não está nem disponível e também sempre precede uma constante com o nome da variável que será utilizada.  Se o código tiver mais de uma linha de instrução será preciso usar as chaves e o return.
 
@@ -1045,8 +1056,8 @@ A arrow function também possui vantagens quando estamos trabalhando com objetos
 
 Para saber mais sobre arrow functions leia o artigo - [Conhecendo Arrow Functions](https://www.alura.com.br/artigos/conhecendo-arrow-functions?_gl=1*1gij91k*_ga*MTAyMjIzNjI2OC4xNzAxODc3NTU5*_ga_1EPWSW3PCS*MTcwNTMzODQ1OC4xNi4xLjE3MDUzMzg5MzQuMC4wLjA.*_fplc*dW9uU0VaVkprRURiWDduU043TzUwWE4zNllKUFczMG4lMkJyM2FsMVdJUW1sNzhVbENibDZ0VFRYUGtFdG1ZR29COHdXNG5CYURnQTJKMUtnZVRuaU56TElPbldVakxyMHp5MzE3MW9uY2YxNGZEUEx2cHMlMkJGaWtqZWlJZXRKZyUzRCUzRA..) no site da Alura. 
 
-#### Arrow Function
-Funções de seta são funções com uma sintaxe mais enxuta e elas são sempre anônimas.
+
+
 Existe uma diferença técnica entre uma arrow function e uma função comum em relação a uma palavra reservada, o this. Mas nesse momento de início de aprendizado não convém explicá-lo com muitos detalhes.
 
 ```javascript
@@ -1058,7 +1069,9 @@ somar(2, 4) // 6
 
 ```
 
-#### Função anônima
+### 4.3 Função anônima
+
+
 Funções anônimas são aquelas que não possuem um nome no ato de sua declaração.
 
 ```javascript
@@ -1071,8 +1084,27 @@ Funções anônimas são aquelas que não possuem um nome no ato de sua declara�
   }
 ```
 
+ ###  4.4 Callback
 
-## 4 Estrutura do `if`
+
+
+Callback do inglês, chamar de volta, são funções que são passadas como argumento para outras funções e chamadas dentro de outra função para execução. As callbacks podem ser do tipo síncronas ou do tipo assíncronas. Vocês podem se aprofundar nesse tópico mais pra frente, pois já um assunto mais avançado.
+
+```javascript
+function perguntarNome () {
+  return prompt("Qual o seu nome?")
+}
+
+function dizerOla (callback) {
+  const nome = callback();
+  return `Olá ${nome}`
+}
+
+dizerOla(perguntarNome)
+
+```
+
+# 5 Estrutura do `if`
 
 
 
@@ -1094,7 +1126,8 @@ if (condicao) {
 
 A condicao é sempre uma expressão que deverá ser avaliada e retornar true ou false (ou seus equivalentes “truthy” ou “falsy”). O bloco de código dentro do if só será executado caso a expressão retorne true ou um valor “truthy”.
 
-### Estrutura if / else
+
+### 5.1 Estrutura if / else
 <br/>
 
 ```javascript
@@ -1112,7 +1145,7 @@ if (bateria) {
 ```
 <br/>
 
-### Estrutura if / else if / else
+### 5.2 Estrutura if / else if / else
 <br/>
 
 ```javascript
@@ -1133,7 +1166,9 @@ if (hora <= 12) {
 ```
 <br/>
 
-### Switch case
+
+
+### 5.3 Switch case
 <br/>
 
 Se a condição for correspondida, o programa executa as instruções asssociadas. Se múltiplos casos corresponderem o valor, o primeiro caso que corresponder é selecionado, mesmo se os casos não forem iguais entre si.
@@ -1169,6 +1204,7 @@ switch (dia) {
 ```
 <br/>
 
+
 ### Importância do break (switch case)
 <br/>
 
@@ -1180,7 +1216,7 @@ Se você esquecer um break então o script irá rodar a partir do caso onde o cr
 <br/>
 
 
-### 4.1 **Múltiplas condições**
+### 5.4 **Múltiplas condições**
 
 
 
@@ -1245,54 +1281,13 @@ console.log(nomeCompleto)  //Fundamentos de JS Alura
 Você pode conferir a lista completa de métodos de string na - [documentação do MDN]( https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String#methods) .
 
 
-### 4.2 **if…else**
-
-
-
-Outra forma de condicional muito utilizada é adicionar a cláusula else para ser executada quando a condição do if retorna false. Podemos ler if…else como “se… senão”, como por exemplo “se uma dada condição for verdadeira (true) execute um determinado código; senão, execute outro código”.
-
-
-```
-function verificaNumero(numero) {
-    if (numero > 10) {
-         return 'número maior que 10';
-    } else {
-        return 'número não é maior que 10';
-    }
-}
-
-console.log(verificaNumero(9)) //número não é maior que 10
-```
-
-
-### 4.3 **else if**
-
-
-
-A condicional if…else vai executar um bloco de código entre duas possibilidades, dependendo do resultado da expressão que é passada como condição do if. Porém, em alguns casos é necessário mais de duas opções de fluxo para o código; para estes casos existe a cláusula else if:
-
-
-```
-const num = 15;
-
-if (num >= 0 && num <= 10) {
-  console.log('número entre zero e dez');
-} else if (num > 10 && num <= 20) {
-  console.log('número entre dez e vinte');
-} else if (num > 20 && num <= 30) {
-  console.log('número entre vinte e trinta');
-} else {
-  console.log('outro número');
-}
-```
-
-
 ** IMPORTANTE: Ao trabalhar com múltiplas condições e else if, lembre-se sempre que cada condição e cada bloco (if, else if e else) deve representar condições excludentes entre si! Ou seja, não pode haver ambiguidade entre as condições - uma mesma condição válida tanto no if quanto no else if, por exemplo. **
 
-## Laços de repetição
+
+# 6 Laços de repetição
 <br/>
 
-### Estrutura de repetição
+### 6.1 Estrutura de repetição
 <br/>
 Da mesma forma que temos que decidir coisas na nossa vida e em software também temos que repetir ações. Escrever um programa com várias linhas repetidas não é uma boa prática. 
 Laços ou loops são formas de repetir instruções um determinado número de vezes sem que haja a necessidade de repetir essas instruções. Em pseudocódigo nós usamos a palavra ENQUANTO, essa palavra indicava que os passos que estivessem descritos em seguida seriam repetidos até a nossa condição se tornar falsa. Qual condição? Não conseguimos simplesmente mandar o código se repetir sozinho, para esse laço acontecer é necessário existir uma condição para avaliar se o laço vai ser executado ou não, do mesmo jeito que fazemos com o SE/SENÃO. 
@@ -1349,12 +1344,11 @@ Por exemplo, é preciso alterar de “salvar comprovante” para “enviar compr
 <br/>
 
 
-### Sintaxe de repetição
 <br/>
 Existem algumas formas diferentes de utilizar laços em javascript
 <br/>
 
-#### while (enquanto)
+### 6.2 while (enquanto)
 <br/>
 
 Em Javascript este 'enquanto' se torna WHILE e funciona exatamente da mesma forma que o enquanto no pseudocódigo. A sintaxe dele no javascript é a seguinte:
@@ -1393,7 +1387,7 @@ Enquanto o valor da variável i for menor que 10, o console irá imprimir a fras
 Ao escrever um while é importante notar que no seu código é necessário criar uma variável fora do laço para essa condição, normalmente chamamos de contador, e em algum momento a sua condição deve ser atualizada, caso contrário o seu loop se torna infinito e no nosso caso trava o navegador. O que eu quero dizer com atualizar a condição? É necessário que o nosso loop tenha um fim e para isso a nossa condição tem que se tornar falsa.
 <br/>
 
-##### for (para)
+### 6.3 for (para)
 <br/>
 O comando FOR é um comando completo porque contém o início, a condição e o passo de um laço de repetição. 
   - Início - onde que o laço começa
@@ -1414,27 +1408,39 @@ A sintaxe do for no javascript é:
   }
 ```
 
-#### Callback
-Callback do inglês, chamar de volta, são funções que são passadas como argumento para outras funções e chamadas dentro de outra função para execução. As callbacks podem ser do tipo síncronas ou do tipo assíncronas. Vocês podem se aprofundar nesse tópico mais pra frente, pois já um assunto mais avançado.
-
-```javascript
-function perguntarNome () {
-  return prompt("Qual o seu nome?")
-}
-
-function dizerOla (callback) {
-  const nome = callback();
-  return `Olá ${nome}`
-}
-
-dizerOla(perguntarNome)
-
-```
 
 
 
+## 7 ARRAYS
 
-## 5 ARRAYS
+[7.1 Introdução a Arrays](#7.1-Introdução-a-Arrays)
+[Acessando itens de um array](#Acessando-itens-de-um-array)
+[Tamanho de uma lista](#)
+[Verificando que um array é um array](#)
+[Como funcionam os arrays](#)
+[Adicionando Elementos](#)
+[Deletando Elementos](#)
+[7.2 Metodos de Array](#7.2-Metodos-de-Array)
+[push](#)
+[pop](#)
+[shift](#)
+[unshift](#)
+[forEach](#)
+[7.3 Alterando Arrays](#7.3-Alterando-Arrays)
+Dividindo com slice()
+Alterando com splice()
+Alterando Strings com map()
+filter
+find
+findIndex
+reduce
+For in e for of
+[7.4 Concatenando Arrays](#7.4-Concatenando-Arrays)
+[7.5 Laços de Repetição](#7.5-Laços-de-Repetição)
+Desestruturando uma lista
+For Clássico
+Loop infinito
+
 
 é um tipo de estrutura de dados. Ao contrário de uma variável, que guarda somente um valor por vez, um array (ou lista) pode armazenar diversos valores. Pode ser usada, por exemplo, para agrupar diversos dados que têm relação entre si.
 
@@ -1464,14 +1470,22 @@ A administração e manipulação dos dados passam pelo entendimento das estrutu
 Logo, Estrutura de Dados - ou Data Structure - é um meio de coletar e organizar informações de uma certa forma em que seja possível realizar operações com essas informações de um jeito efetivo.
 
 
-### 5.1 Introdução a Arrays
+### 7.1 Introdução a Arrays
 
 
 ![image](https://github.com/FlavianaFXT/Curso-Javascript-Arrays/assets/113718720/fa089fef-beb9-4afb-8d4d-d222d50764ef)
 
+
+
 Arrays ou listas sõ estruturas de dados ordenadas que permitem que seja possível guardar um conjunto de informações numa única variável. Cada item que compõe essa lista normalmente é chamado de elemento. Os elementos de um array no javascript tem sua posição definida por um índice que se inicia em 0.
+
+
 ![lista-indices](assets/lista-indices.png)
+
+
 #### Acessando itens de um array
+
+
 Para acessar um item de um array é muito simples, basta utilizarmos o índice da posição do item.
 
 ``` javascript
@@ -1480,7 +1494,11 @@ personagens[0] // Naruto
 personagens[2] // Tanjiro
 ```
 
+
+
 #### Tamanho de uma lista
+
+
 É possível saber o tamanho de uma lista acessando a propriedade length
 
 ``` javascript
@@ -1489,6 +1507,8 @@ personagens.length // 4
 ```
 
 #### Verificando que um array é um array
+
+
 No JavaScript nós temos o comando Array.isArray(obj); que permite verificar se um objeto é um array.
 
 ```javascript
@@ -1583,7 +1603,7 @@ Para corrigir, precisamos que remover a última nota e fazer o cálculo da médi
 Para remover a última nota, usaremos outro `método dos arrays` do JavaScript — o `pop()`.
 
 
-## 5.2 Metodos de Array
+### 7.2 Metodos de Array
 
 
 Um método é uma função que serve como uma propriedade do array ou de um objeto (que veremos em outro curso). Ele pode realizar tarefas pré-definidas usando os dados do array e dos parâmetros que passamos para eles, como adicionar, remover ou até encontrar elementos.
@@ -1621,7 +1641,10 @@ podemos consultar rapidamente o que o método faz, seu valor de retorno e se ele
 
 A documentação também fornece informações bastante detalhadas sobre cada recurso da linguagem; você não precisa entender tudo que é mencionado em cada página (e no início de desenvolvimento, você provavelmente irá se deparar com muitos termos novos), mas ela é uma excelente fonte de consultas. Além disso, ela fornece vários exemplos práticos onde um método pode ser útil. A documentação será muito importante na sua jornada de desenvolvimento!
 
-##### push
+
+### push
+
+
 O comando "push" pode ser usado para adicionar valores a ele. Este comando adiciona o valor no final da lista.
 
 ```javascript
@@ -1635,7 +1658,12 @@ numeros.push(5, 6);
 
 console.log(numeros); // [1, 2, 3, 4, 5, 6]
 ```
-##### pop
+
+
+
+### pop
+
+
 O oposto do push, ele retira e retorna o último valor do vetor.
 ```javascript
 const numeros = [1, 2, 3, 4];
@@ -1648,7 +1676,11 @@ numeros.pop(); //3
 
 console.log(numeros); // [1, 2]
 ```
-##### shift
+
+
+### shift
+
+
 O método shift() remove o primeiro elemento de um array e retorna esse elemento. Este método também muda o tamanho do array.
 
 ```javascript
@@ -1663,7 +1695,9 @@ numeros.shift(); // 2
 console.log(numeros); // [3, 4]
 ```
 
-##### unshift
+### unshift
+
+
 O método unshift() adiciona um ou mais elementos no início de um array e retorna o número de elementos (a propriedade length) atualizado.
 
 ```javascript
@@ -1678,7 +1712,11 @@ numeros.unshift(-1); // 6
 console.log(numeros); // [-1, 0, 1, 2, 3, 4]
 ```
 
-#### forEach
+
+### forEach
+
+
+
 O método forEach() tem o objetivo de apenas iterar um array, ou seja, percorrer todos os elementos de um array
 
 Logo, é importante frisar: o método forEach() não retorna nada! Ou seja, ele é útil para percorrer o array original e executar algum procedimento com cada item.
@@ -1697,7 +1735,7 @@ function myFunction(item) {
 
 
 
-## 5.3 Alterando Arrays
+## 7.3 Alterando Arrays
 
 
 #### **Dividindo com slice()**
@@ -1767,9 +1805,7 @@ removed = animes.splice(0, 2, "Haikyuu", "Jojo", "Boku no Hero");
 //removed é ["Naruto", "Jujutsu Kaisen"]
 ```
 
-**Principal diferença: o slice() não alterará o array original! Ele apenas vai retornar a você um novo array contendo a seleção passada.
-
-Por sua vez, o splice() tem o poder tanto de remover elementos, quanto de adicionar novos elementos ao array original.**
+** Principal diferença: o slice() não alterará o array original! Ele apenas vai retornar a você um novo array contendo a seleção passada. Por sua vez, o splice() tem o poder tanto de remover elementos, quanto de adicionar novos elementos ao array original. **
 
 
 ![image](https://github.com/FlavianaFXT/Curso-Javascript-Arrays/assets/113718720/d243d406-2efb-4a45-89fc-f075a1d723f7)
@@ -1868,7 +1904,9 @@ const nomesPadronizados = nomes.map((nome) => nome.toUpperCase());
 console.log(nomesPadronizados);
 ```
 
-##### filter
+### filter
+
+
 O método filter() cria um novo array com todos os elementos que passaram no teste implementado pela função fornecida. Ou seja, ele literalmente filtra os elementos de um array de acordo com uma função com uma condição passada para ele.
 
 Sintaxe: 
@@ -1890,7 +1928,12 @@ const result = idades.filter((idade) => idade > 18);
 
 console.log(result); // [32, 33, 40, 69]
 ```
+
+
+
 ##### find
+
+
 O método find() retorna o valor do primeiro elemento do array que satisfizer a função de teste provida. Caso contrario, undefined é retornado.
 
 ```javascript
@@ -1903,6 +1946,8 @@ console.log(found);
 ```
 
 ##### findIndex
+
+
 O método findIndex() retorna o índice no array do primeiro elemento que satisfizer a função de teste provida. Caso contrário, retorna -1, indicando que nenhum elemento passou no teste.
 
 ```javascript
@@ -1914,7 +1959,12 @@ const found = array1.findIndex(element => element === 12);
 console.log(found);
 // expected output: 1
 ```
-#### reduce
+
+
+### reduce
+
+
+
 O método reduce() executa uma função reducer (callback) para cada elemento do array, resultando num único valor de retorno.
 
 Sintaxe: 
@@ -1942,7 +1992,11 @@ console.log(array1.reduce(reducer, 5));
 // expected output: 15
 ```
 
+
+
 ### For in e for of
+
+
 Além do for tradicional que foi vimos até agora, temos outros dois derivados: o for in e o for of. Esses dois tipos de for são usados para listas. Como são derivados do for, a ideia dele muda na hora de escrever a sintaxe. No "for in" nós criamos uma variável responsável por receber o valor do índice da nossa lista. Enquanto no "for of" criamos uma variável responsável por receber o valor do elemento da lista, isso de passar elemento por elemento de uma lista nós chamamos de iterar uma lista.
 Abaixo nós temos a sintaxe dos dois for:
 
@@ -1957,13 +2011,21 @@ for(let elemento of lista){
 ```
 
 #### For in
+
+
+
 Nesse caso, nós estamos criando uma variável responsável por assumir o valor de cada índice da nossa lista. Sendo assim, para mostrar no console cada item da nossa lista é preciso acessar elemento por elemento usando a lista[indice].
 ``` javascript
 for(let indice in lista){ 
   console.log(lista[indice])
 }
 ```
+
+
 #### For of
+
+
+
 Nesse caso, criamos uma variável responsável por assumir valor de cada elemento da nossa lista. Assim, para poder mostrar cada item da nossa lista no console, precisamos usar somente o próprio elemento. É comum que o nome de listas estejam no plural por serem listas de um conjunto de coisas, nesse caso o nome da variável criada para assumir o valor de cada elemento costuma ter o nome da lista no singular. Exemplo: a lista chama filmes, a variável criada no for of chama-se filme.
 
 ``` javascript
@@ -1973,7 +2035,7 @@ for(let elemento of lista){
 ```
 
 
-## 5.4 **Concatenando Arrays**
+## 7.4 **Concatenando Arrays**
 
 
 ![image](https://github.com/FlavianaFXT/Curso-Javascript-Arrays/assets/113718720/aa7a5c1e-94d4-4006-8e23-b148662390ed)
@@ -2111,7 +2173,7 @@ concat() é um método útil quando não se deseja alterar o array original, e s
 
 
 
-## 5.5 Laços de Repetição
+## 7.5 Laços de Repetição
 
 
 ![image](https://github.com/FlavianaFXT/Curso-Javascript-Arrays/assets/113718720/2bce8028-6631-4112-af0e-6f3a86cf2e03)
@@ -2627,7 +2689,7 @@ Na maioria dos casos, você não precisará realizar repetições mais complexas
 Como vimos, para percorrer todos os elementos de um array e do início ao fim, o for of fornece uma sintaxe mais sucinta que o for.
 
 
-## 6 FUNÇÕES CALLBACK
+## 8 FUNÇÕES CALLBACK
 
 
 ### **Média com FOR EACH**
@@ -5696,6 +5758,9 @@ let filmes = [ { nome: "Deadpool", classificacaoEtaria: 18 }, { nome: "Your Name
 
 # LINKS UTEIS:
 
+
+- [Como formatar número com JavaScript](https://www.alura.com.br/artigos/formatando-numeros-no-javascript?_gl=1*1j0vrgf*_ga*MTAyMjIzNjI2OC4xNzAxODc3NTU5*_ga_1EPWSW3PCS*MTcwOTczMTQ4NS4zNS4xLjE3MDk3MzM0NTAuMC4wLjA.*_fplc*UEg3RkVXQTFWQXpOU3BGdUdoWkpOWDR6Qmk2QkJFbmR4RXpEdjl1OVh6Qm1DZCUyRnRwVDJ3UzZ4UDZja0NwWjVJWEhta3JaUUZuanZHcDRXa3UwUXNOJTJCeGtsME5Ca0g0dWszU1pFRFIlMkJITVU0MHNFZ2VGR3E1JTJCanlkZU5nYXclM0QlM0Q.)
+- [Como ordenar uma sequência de números no JavaScript](https://www.alura.com.br/artigos/ordenacao-de-numeros-no-javascript-nao-funciona?_gl=1*164k246*_ga*MTAyMjIzNjI2OC4xNzAxODc3NTU5*_ga_1EPWSW3PCS*MTcwOTczMTQ4NS4zNS4xLjE3MDk3MzM0NzkuMC4wLjA.*_fplc*UEg3RkVXQTFWQXpOU3BGdUdoWkpOWDR6Qmk2QkJFbmR4RXpEdjl1OVh6Qm1DZCUyRnRwVDJ3UzZ4UDZja0NwWjVJWEhta3JaUUZuanZHcDRXa3UwUXNOJTJCeGtsME5Ca0g0dWszU1pFRFIlMkJITVU0MHNFZ2VGR3E1JTJCanlkZU5nYXclM0QlM0Q.)
 - [MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [W3Schools](https://www.w3schools.com/js/default.asp)
 - [Lorem Ipsum](https://www.lipsum.com/feed/html)
