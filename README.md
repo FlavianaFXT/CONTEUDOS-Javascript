@@ -51,14 +51,14 @@ Conteúdos de Cursos realizados nas Seguintes Comunidades:
 
 - [I O que é um algoritmo](#I-O-que-é-um-algoritmo)
 
-- [1.2 Linguagem de programação](#1.2-linguagem-de-programação)
+- [II Linguagem de programação](#II-linguagem-de-programação)
 
-- [1.3 O que é Javascript](#1.3-O-que-é-Javascript)
+- [III O que é Javascript](#III-O-que-é-Javascript)
 
-- [1.4 Console](#1.4-Console)
+- [IV Console](#IV-Console)
 	- [console.log(), alert(), confirm e prompt](#console.log(),-alert(),-confirm-e-prompt)
 
-- [1.5 JavaScript dentro do HTML](#1.5-JavaScript-dentro-do-HTML)
+- [V JavaScript dentro do HTML](#V-JavaScript-dentro-do-HTML)
 <br/>
 
 Lógica de programação é o método usado para escrever programas que um computador entenda.
@@ -74,7 +74,7 @@ Para escrever um programa de computador, você tem que dizer ao computador, pass
 Alguns exemplos de algoritmos que podemos citar: manual de instrução de aparelhos e funções matemáticas.
 <br/>
 
-###1.2  Linguagem de programação 
+### II  Linguagem de programação 
 <br/>
 A linguagem de programação é um método padronizado para comunicar instruções para um computador. É um conjunto de regras de sintaxes e semânticas usadas para definir um programa de computador. É uma linguagem que pode ser compreendida tanto por um ser humano como por um computador.
 
@@ -85,7 +85,7 @@ Existem diversos tipos de linguagem de programação, e elas podem ser classific
 Podemos falar “oi” em muitos idiomas. Podemos dizer “oi” em português, inglês, árabe ou japonês. São formas diferentes, mas no fim temos a mesma situação, estamos fazendo uma saudação a alguém.
 <br/>
 
- ###1.3 O que é Javascript
+ ### III O que é Javascript
 <br/>
 JavaScript é uma linguagem de programação interpretada (não precisa de um compilador, ela é lida diretamente pelo navegador) estruturada (ênfase em sequência, decisão e, iteração - subrotinas, laços de repetição, condicionais e, estruturas em bloco), client-side, de script em alto nível .Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da Internet. JavaScript surgiu em 1995 e permite páginas da Web interativas e, portanto, é uma parte essencial dos aplicativos da web. A grande maioria dos sites usa, e todos os principais navegadores têm um mecanismo JavaScript dedicado para executá-lo.
 
@@ -99,7 +99,7 @@ Para programar e testar em javascript precisamos somente de um editor de código
 
 <br/>
 
- ###1.4 Console
+ ### IV Console
 <br/>
 
 #### Definição
@@ -149,7 +149,7 @@ prompt(nome);
 <br/>
 
 
-1.5 ### JavaScript dentro do HTML
+### V JavaScript dentro do HTML
 <br/>
 Você precisa avisar ao navegador que existe um arquivo Javascipt e que ele precisa carregá-lo.
 
@@ -171,16 +171,17 @@ Você precisa avisar ao navegador que existe um arquivo Javascipt e que ele prec
        
 # 2 TIPOS PRIMITIVOS
 
-[2.1 O que são](#2.1-O-que-são)
+- [I O que são](#I-O-que-são)
 
-[2.2 Tipo Number](#2.2-Tipo-Number)
-	[Operadores](#Operadores)
-[2.3 Tipo String](#2.3-Tipo-String)
-[2.4 Tipo Boolean](#1.3-Tipo-Boolean)
+- [II Tipo Number](#II-Tipo-Number)
+	- [Operadores](#Operadores)
+	- [Operadores Lógicos](#Operadores-Lógicos)
+- [III Tipo String](#III-Tipo-String)
+- [IV Tipo Boolean](#IV-Tipo-Boolean)
 
 
 
-###2.1 O que são
+### I O que são
 <br/>
 
 Tipos de dados descrevem os diferentes tipos de dados que vamos trabalhar e guardar em variáveis.
@@ -192,7 +193,7 @@ Dados primitivos são aqueles que os dados não são objetos e não possuem mét
 
 <br/>
 
- ###2.2 Tipo Number
+ ### II Tipo Number
 <br/>
 é um tipo de dado utilizado para representar valores numéricos.
 
@@ -460,7 +461,7 @@ let bonus = salario * (salario > 1000 ? 0.1 : 0.15);
 ---
 <br/>
 
-## Estrutura de decisão
+### Estrutura de decisão
 <br/>
 
 Em muitas situações precisamos tomar decisões de algo. Se o carro já está ligado não precisamos virar a chave. Se o arroz está sequinho não precisa colocar mais água. Quando o celular chega em 100% da bateria podemos tirar da tomada. Pequenas situações da vida são decisões. 
@@ -640,7 +641,7 @@ Mais detalhes precisos e documentação sobre o Unicode na página da [Unicode F
 [métodos de string do MDN (são vários)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String#m%C3%A9todos), com a descrição de cada um.
 
 
-###2.4 Tipo Boolean
+### IV Tipo Boolean
 
 é um tipo de dado lógico utilizado para representar os valores: verdadeiro ou falso, true or false.
 
@@ -720,6 +721,11 @@ console.log(texto1 === texto2)
 
 # 3 VARIAVEIS
 
+- [I Declarando variáveis](#I-Declarando-variáveis)
+- [II  Var, Let e Const](#II-Var,-Let-e-Const)
+- [III Tipos null e undefined](#III-Tipos-null-e-undefined)
+- [IV Padrão de nomes no JavaScript](#IV-Padrão-de-nomes-no-JavaScript)
+
 
 *VARIAVEIS* Quando um programa precisa armazenar um valor para usar futuramente, já sabemos que usamos variáveis para isso.
 
@@ -729,7 +735,7 @@ Criamos variáveis para ler um valor de um usuário, guardar um dado de outro si
 Exemplo: precisamos criar a variável number e guardar o valor 1. Seguindo a ideia acima, number é o nome de uma etiqueta.
 <br/>
 
-### 3.1 Declarando variáveis
+### I Declarando variáveis
 <br/>
 
 Criar uma variável também é chamado de declarar uma variável e para isso existem algumas regrinhas:
@@ -789,7 +795,7 @@ Em JavaScript você pode fazer comentários de duas formas:
 
 
 
-## 3.2 Var, Let e Const
+## II Var, Let e Const
 
 
 
@@ -798,7 +804,7 @@ Em JavaScript você pode fazer comentários de duas formas:
 `const` --> impede que alguem mude o valor da variavel;
 
 
-### 3.3 Tipos null e undefined
+### III Tipos null e undefined
 
 #### Null
 <br/>
@@ -865,7 +871,7 @@ console.log(input2); // undefined
 
 
 
-### 3.4 Padrão de nomes no JavaScript
+### IV Padrão de nomes no JavaScript
 
 
 
@@ -904,7 +910,15 @@ Se você utilizar qualquer um dos padrões acima para nomear variáveis com Java
 # 4 FUNÇÕES
 
 
+- [I Invocando ou chamando funções](#I-Invocando-ou-chamando-funções)
+- [II Arrow Function](#II-Arrow-Function)
+- [III Função anônima](#III-Função-anônima)
+- [IV Callback](#IV-Callback)
+
+
 Funções são blocos de código que são executados quando chamados ou invocados.
+
+
 #### Assinatura
 Assinatura de uma função nada mais é do que os elementos que compões uma função
 
@@ -945,7 +959,7 @@ const somar = function (x, y) {
 As expressões de função são convenientes ao passar uma função como um argumento para outra função. 
 
 
-### 4.1 Invocando ou chamando funções
+### I Invocando ou chamando funções
 
 
 
@@ -988,7 +1002,7 @@ console.log(soma(1, 1))
 
 
 
-### 4.2 Arrow Function
+### II Arrow Function
 
 
 A arrow function é uma função de seta, isso porque utiliza uma seta na sua sintaxe. Essa é uma novidade do ES6. é semelhante à expressão de função. 
@@ -1027,7 +1041,7 @@ somar(2, 4) // 6
 
 ```
 
-### 4.3 Função anônima
+### III Função anônima
 
 
 Funções anônimas são aquelas que não possuem um nome no ato de sua declaração.
@@ -1042,7 +1056,7 @@ Funções anônimas são aquelas que não possuem um nome no ato de sua declara�
   }
 ```
 
- ###  4.4 Callback
+ ###  IV Callback
 
 
 
@@ -1062,8 +1076,14 @@ dizerOla(perguntarNome)
 
 ```
 
-# 5 Estrutura do `if`
+# 5 Estrutura do if
 
+
+- [I Estrutura if/else](#I-Estrutura-if/else)
+- [II Estrutura if/else if/else](#II-Estrutura-if/else-if/else)
+- [III Switch case](#III-Switch-case)
+	- [Importância do break (switch case)](#Importância-do-break-(switch-case))
+- [IV Múltiplas condições](#IV-Múltiplas-condições)
 
 
 As estruturas condicionais são essenciais para a programação, pois permitem que um programa execute este ou aquele bloco de código de acordo com uma condição, por exemplo: “Se o e-mail e a senha estiverem corretos, o usuário poderá acessar o sistema. Senão ele deve receber um aviso de credenciais de acesso incorretas”. Uma condição exclui automaticamente a outra, pois ou ambas as credenciais (e-mail e senha) estarão corretas, ou não.
@@ -1085,7 +1105,7 @@ if (condicao) {
 A condicao é sempre uma expressão que deverá ser avaliada e retornar true ou false (ou seus equivalentes “truthy” ou “falsy”). O bloco de código dentro do if só será executado caso a expressão retorne true ou um valor “truthy”.
 
 
-### 5.1 Estrutura if / else
+### I Estrutura if/else
 <br/>
 
 ```javascript
@@ -1103,7 +1123,7 @@ if (bateria) {
 ```
 <br/>
 
-### 5.2 Estrutura if / else if / else
+### II Estrutura if/else if/else
 <br/>
 
 ```javascript
@@ -1126,7 +1146,7 @@ if (hora <= 12) {
 
 
 
-### 5.3 Switch case
+### III Switch case
 <br/>
 
 Se a condição for correspondida, o programa executa as instruções asssociadas. Se múltiplos casos corresponderem o valor, o primeiro caso que corresponder é selecionado, mesmo se os casos não forem iguais entre si.
@@ -1163,7 +1183,7 @@ switch (dia) {
 <br/>
 
 
-### Importância do break (switch case)
+#### Importância do break (switch case)
 <br/>
 
 A instrução opcional break associada com cada case garante que o programa saia da condicional switch assim que a instrução correspondente for executada e executa a instrução que segue logo após o switch. Caso break seja omitido, o programa continua a execução para a próxima instrução dentro de switch.
@@ -1174,7 +1194,7 @@ Se você esquecer um break então o script irá rodar a partir do caso onde o cr
 <br/>
 
 
-### 5.4 **Múltiplas condições**
+### IV Múltiplas condições
 
 
 
@@ -1243,9 +1263,14 @@ Você pode conferir a lista completa de métodos de string na - [documentação 
 
 
 # 6 Laços de repetição
-<br/>
 
-### 6.1 Estrutura de repetição
+
+- [I Estrutura de repetição](#I-Estrutura-de-repetição)
+- [II while (enquanto)](#II-while-(enquanto))
+- [III for (para)](#III-for-(para))
+
+
+### I Estrutura de repetição
 <br/>
 Da mesma forma que temos que decidir coisas na nossa vida e em software também temos que repetir ações. Escrever um programa com várias linhas repetidas não é uma boa prática. 
 Laços ou loops são formas de repetir instruções um determinado número de vezes sem que haja a necessidade de repetir essas instruções. Em pseudocódigo nós usamos a palavra ENQUANTO, essa palavra indicava que os passos que estivessem descritos em seguida seriam repetidos até a nossa condição se tornar falsa. Qual condição? Não conseguimos simplesmente mandar o código se repetir sozinho, para esse laço acontecer é necessário existir uma condição para avaliar se o laço vai ser executado ou não, do mesmo jeito que fazemos com o SE/SENÃO. 
@@ -1306,7 +1331,7 @@ Por exemplo, é preciso alterar de “salvar comprovante” para “enviar compr
 Existem algumas formas diferentes de utilizar laços em javascript
 <br/>
 
-### 6.2 while (enquanto)
+### II while (enquanto)
 <br/>
 
 Em Javascript este 'enquanto' se torna WHILE e funciona exatamente da mesma forma que o enquanto no pseudocódigo. A sintaxe dele no javascript é a seguinte:
@@ -1345,7 +1370,7 @@ Enquanto o valor da variável i for menor que 10, o console irá imprimir a fras
 Ao escrever um while é importante notar que no seu código é necessário criar uma variável fora do laço para essa condição, normalmente chamamos de contador, e em algum momento a sua condição deve ser atualizada, caso contrário o seu loop se torna infinito e no nosso caso trava o navegador. O que eu quero dizer com atualizar a condição? É necessário que o nosso loop tenha um fim e para isso a nossa condição tem que se tornar falsa.
 <br/>
 
-### 6.3 for (para)
+### III for (para)
 <br/>
 O comando FOR é um comando completo porque contém o início, a condição e o passo de um laço de repetição. 
   - Início - onde que o laço começa
@@ -1371,33 +1396,33 @@ A sintaxe do for no javascript é:
 
 ## 7 ARRAYS
 
-[7.1 Introdução a Arrays](#7.1-Introdução-a-Arrays)
-[Acessando itens de um array](#Acessando-itens-de-um-array)
-[Tamanho de uma lista](#)
-[Verificando que um array é um array](#)
-[Como funcionam os arrays](#)
-[Adicionando Elementos](#)
-[Deletando Elementos](#)
-[7.2 Metodos de Array](#7.2-Metodos-de-Array)
-[push](#)
-[pop](#)
-[shift](#)
-[unshift](#)
-[forEach](#)
-[7.3 Alterando Arrays](#7.3-Alterando-Arrays)
-Dividindo com slice()
-Alterando com splice()
-Alterando Strings com map()
-filter
-find
-findIndex
-reduce
-For in e for of
-[7.4 Concatenando Arrays](#7.4-Concatenando-Arrays)
-[7.5 Laços de Repetição](#7.5-Laços-de-Repetição)
-Desestruturando uma lista
-For Clássico
-Loop infinito
+- [I Introdução a Arrays](#I-Introdução-a-Arrays)
+	- [Acessando itens de um array](#Acessando-itens-de-um-array)
+	- [Tamanho de uma lista](#Tamanho-de-uma-lista)
+	- [Verificando que um array é um array](#Verificando-que-um-array-é-um-array)
+	- [Como funcionam os arrays](#Como-funcionam-os-arrays)
+	- [Adicionando Elementos](#Adicionando-Elementos)
+	- [Deletando Elementos](#Deletando-Elementos)
+- [II Metodos de Array](#II-Metodos-de-Array)
+	- [push](#push)
+	- [pop](#pop)
+	- [shift](#shift)
+	- [unshift](#unshift)
+	- [forEach](#forEach)
+- [III Alterando Arrays](#III-Alterando-Arrays)
+	- [Dividindo com slice()](#Dividindo-com-slice())
+	- [Alterando com splice()](#Alterando-com-splice())
+	- [Alterando Strings com map()](#Alterando-Strings-com-map())
+	- [filter](#filter)
+	- [find](#find)
+	- [findIndex](#findIndex)
+	- [reduce](#reduce)
+	- [For in e for of](#For-in-e-for-of)
+- [IV Concatenando Arrays](#IV-Concatenando-Arrays)
+- [V Laços de Repetição](#V-Laços-de-Repetição)
+	- [Desestruturando uma lista](#Desestruturando-uma-lista)
+	- [For Clássico](#For-Clássico)
+	- [Loop infinito](#Loop-infinito)
 
 
 é um tipo de estrutura de dados. Ao contrário de uma variável, que guarda somente um valor por vez, um array (ou lista) pode armazenar diversos valores. Pode ser usada, por exemplo, para agrupar diversos dados que têm relação entre si.
@@ -1428,7 +1453,7 @@ A administração e manipulação dos dados passam pelo entendimento das estrutu
 Logo, Estrutura de Dados - ou Data Structure - é um meio de coletar e organizar informações de uma certa forma em que seja possível realizar operações com essas informações de um jeito efetivo.
 
 
-### 7.1 Introdução a Arrays
+### I Introdução a Arrays
 
 
 ![image](https://github.com/FlavianaFXT/Curso-Javascript-Arrays/assets/113718720/fa089fef-beb9-4afb-8d4d-d222d50764ef)
@@ -1561,7 +1586,7 @@ Para corrigir, precisamos que remover a última nota e fazer o cálculo da médi
 Para remover a última nota, usaremos outro `método dos arrays` do JavaScript — o `pop()`.
 
 
-### 7.2 Metodos de Array
+### II Metodos de Array
 
 
 Um método é uma função que serve como uma propriedade do array ou de um objeto (que veremos em outro curso). Ele pode realizar tarefas pré-definidas usando os dados do array e dos parâmetros que passamos para eles, como adicionar, remover ou até encontrar elementos.
@@ -1693,7 +1718,7 @@ function myFunction(item) {
 
 
 
-## 7.3 Alterando Arrays
+## III Alterando Arrays
 
 
 #### **Dividindo com slice()**
@@ -1993,7 +2018,7 @@ for(let elemento of lista){
 ```
 
 
-## 7.4 **Concatenando Arrays**
+## IV Concatenando Arrays
 
 
 ![image](https://github.com/FlavianaFXT/Curso-Javascript-Arrays/assets/113718720/aa7a5c1e-94d4-4006-8e23-b148662390ed)
@@ -2131,7 +2156,7 @@ concat() é um método útil quando não se deseja alterar o array original, e s
 
 
 
-## 7.5 Laços de Repetição
+## V Laços de Repetição
 
 
 ![image](https://github.com/FlavianaFXT/Curso-Javascript-Arrays/assets/113718720/2bce8028-6631-4112-af0e-6f3a86cf2e03)
