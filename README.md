@@ -48,7 +48,7 @@ Conteúdos de Cursos realizados nas Seguintes Comunidades:
   # 1 Lógica de Programação
 
 <br/>
-- [1_1 O que é um algoritmo](#1_1-O-que-é-um-algoritmo)
+- [1a O que é um algoritmo](#1a-O-que-é-um-algoritmo)
 
 - [1.2 Linguagem de programação](#1.2-linguagem-de-programação)
 
@@ -65,7 +65,7 @@ Lógica de programação é o método usado para escrever programas que um compu
 A lógica de programação parte do princípio de que praticamente todas as tarefas humanas são uma sequência ordenada de passos, que acontecem durante um tempo finito e que produzem um resultado esperado.
 <br/>
 
-### 1_1 O que é um algoritmo 
+### 1a O que é um algoritmo 
 <br/>
 Um algoritmo, ou programa, é um conjunto de instruções que reunimos para se chegar num objetivo. Para isso temos a entrada, o processamento (o modo de executar) e a saída. Uma maneira simples de pensarmos é em uma receita onde temos os ingredientes, o modo de fazer e o alimento pronto. Para o computador informamos algo, por exemplo o clique em um botão, o processamento, um conjunto de comandos e a saída, abertura de uma nova página.
 Para escrever um programa de computador, você tem que dizer ao computador, passo a passo, exatamente o que você quer que ele faça. O computador "executa" o programa, seguindo cada etapa mecanicamente, para atingir o objetivo final.
