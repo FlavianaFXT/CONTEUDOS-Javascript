@@ -46,7 +46,6 @@ Conteúdos de Cursos realizados nas Seguintes Comunidades:
 
 
   # 1 Lógica de Programação
-
 <br/>
 - [I O que é um algoritmo](#I-O-que-é-um-algoritmo)
 
