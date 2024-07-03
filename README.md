@@ -19,61 +19,18 @@ Conteúdos de Cursos realizados nas Seguintes Comunidades:
 
 - [1 Lógica de programação](#1-lógica-de-programação)
 - [2 TIPOS PRIMITIVOS](#2-TIPOS-PRIMITIVOS)
+- [3 VARIAVEIS](#3-VARIAVEIS)
+- [4 FUNÇÕES](#4-FUNÇÕES)
+- [5 Estrutura do `if`](#5-Estrutura-do-`if`)
+- [6 Laços de repetição](#6-Laços-de-repetição)
+- [7 ARRAYS](#7-ARRAYS)
+- [8 FUNÇÕES CALLBACK](#8-FUNÇÕES-CALLBACK)
 
   
-   - [ 1.1 Tipo Number](#1.1-Tipo-Number)
-     - [Ponto Flutuante no JavaScript](#Ponto-Flutuante-no-JavaScript)
-   - [ 1.2 Tipo String](#1.2-Tipo-String)
-   - [ 1.3 Tipo Boolean](#1.3-0Tipo-Boolean)
-- [2 VARIAVEIS](#2-VARIAVEIS)
-- [3 FUNÇÕES](#3-FUNÇÕES)
-- [4 ESTRUTURA DO `if`](#4-ESTRUTURA-DO-`if`)
-- [5 ARRAYS](#5-ARRAYS)
-   - [5.1 Introdução a Arrays](#5.1-Introdução-a-Arrays)
-     - [Adicionando Elementos](#Adicionando-Elementos)
-     - [Deletando Elementos](#Deletando-Elementos)
-   - [5.2 Metodos de Array](#5.2-Metodos-de-Array)
-   - [5.3 Alterando Arrays](#5.3-Alterando-Arrays)
-     - [Dividindo com slice()](#Dividindo-com-slice())
-     - [Alterando com splice()](#Alterando-com-splice())
-     - [Alterando Strings com map()](#Alterando-Strings-com-map())
-   - [5.4 Concatenando Arrays](#5.4-Concatenando-Arrays)
-      - [Lista com 2 Dimensões](#Lista-com-2-Dimensões)
-      - [Matrizes](#Matrizes)
-   - [5.5 Laços de Repetição](#5.5-Laços-de-Repetição)
-     - [Desestruturando uma lista](#Desestruturando-uma-lista)
-     - [For Clássico](#For-Clássico)
-     - [Loop infinito](#Loop-infinito)
-     - [Média com FOR](#Média-com-FOR)
-     - [Loops em matrizes](#Loops-em-matrizes)
-     - [Media com FOR OF](#Media-com-FOR-OF)
-     - [Possibilidades do for](#Possibilidades-do-for)
-- [6 FUNÇÕES CALLBACK](#6-FUNÇÕES-CALLBACK)
-      - [Média com FOR EACH](#Média-com-FOR-EACH)
-     - [for...of vs callbacks](#for...of-vs-callbacks)
-     - [forEach()](#forEach())
-     - [Método map()](#Método-map())
-     - [map() e forEach](#map()-e-forEach)
- - [7 AVANÇANDO EM ARRAYS](#7-AVANÇANDO-EM-ARRAYS)
-   - [7.1 Filtrando Elementos](#7.1-Filtrando-Elementos)
-     - [Retorno do filter](#Retorno-do-filter)
-   - [7.2 Somando com Reduce](#7.2-Somando-com-Reduce)
-     - [estrutura do reduce()](#estrutura-do-reduce())
-   - [7.3 Clonando com spread operator](#7.3-Clonando-com-spread-operator)
-   - [7.4 Removendo Elementos Repetidos](#7.4-Removendo-Elementos-Repetidos)
-      - [estrutura Set](#estrutura-Set)
-- [8 OBJETOS](#8-OBJETOS)
-   - [8.1 O que são objetos?](#8.1-O-que-são-objetos?)
-   - [8.2 Manipulação de Objetos](#8.2-Manipulação-de-Objetos)
-   - [8.3 Percorrendo Objetos](#8.3-Percorrendo-Objetos)
-        - [FOR...IN](#FOR...IN)
-        - [METODOS DE OBJETO](#METODOS-DE-OBJETO)
-        - [spread operator](#spread-operator)
-   - [8.4 CONHECENDO O JSON](#8.4-CONHECENDO-O-JSON)
-   - [8.5 EXERCITANDO OS CONHECIMENTOS](#8.5-EXERCITANDO-OS-CONHECIMENTOS)
-        - [Encontrando um Objeto](#Encontrando-um-Objeto)
-        - [Filtrando Objetos](#Filtrando-Objetos)
-        - [Ordenando Objetos](#Ordenando-Objetos)
+  
+    
+     
+  
 - [9 PENSANDO EM ALGORITMOS](#9-PENSANDO-EM-ALGORITMOS)
    - [9.1 Nosso primeiro problema](#9.1-Nosso-primeiro-problema)
    - [9.2 Representando algoritmos](#9.2-Representando-algoritmos)
@@ -91,16 +48,16 @@ Conteúdos de Cursos realizados nas Seguintes Comunidades:
   # 1 Lógica de Programação
 
 <br/>
-[1.1 O que é um algoritmo](#1.1-O-que-é-um-algoritmo)
+- [1.1 O que é um algoritmo](#1.1-O-que-é-um-algoritmo)
 
-[1.2 Linguagem de programação](#1.2-linguagem-de-programação)
+- [1.2 Linguagem de programação](#1.2-linguagem-de-programação)
 
-[1.3 O que é Javascript](#1.3-O-que-é-Javascript)
+- [1.3 O que é Javascript](#1.3-O-que-é-Javascript)
 
-[1.4 Console](#1.4-Console)
-	[console.log(), alert(), confirm e prompt](#console.log(),-alert(),-confirm-e-prompt)
+- [1.4 Console](#1.4-Console)
+	- [console.log(), alert(), confirm e prompt](#console.log(),-alert(),-confirm-e-prompt)
 
-[1.5 JavaScript dentro do HTML](#1.5-JavaScript-dentro-do-HTML)
+- [1.5 JavaScript dentro do HTML](#1.5-JavaScript-dentro-do-HTML)
 <br/>
 
 Lógica de programação é o método usado para escrever programas que um computador entenda.
