@@ -21,7 +21,7 @@ Conteúdos de Cursos realizados nas Seguintes Comunidades:
 - [2 TIPOS PRIMITIVOS](#2-TIPOS-PRIMITIVOS)
 - [3 VARIAVEIS](#3-VARIAVEIS)
 - [4 FUNÇÕES](#4-FUNÇÕES)
-- [5 Estrutura do `if`](#5-Estrutura-do-`if`)
+- [5 Estrutura do if](#5-Estrutura-do-`if`)
 - [6 Laços de repetição](#6-Laços-de-repetição)
 - [7 ARRAYS](#7-ARRAYS)
 - [8 FUNÇÕES CALLBACK](#8-FUNÇÕES-CALLBACK)
@@ -2674,8 +2674,14 @@ Como vimos, para percorrer todos os elementos de um array e do início ao fim, o
 
 ## 8 FUNÇÕES CALLBACK
 
+- [I Média com FOR EACH](#I-Média-com-FOR-EACH)
+- [II for...of vs callbacks](#II-for...of-vs-callbacks)
+- [III forEach()](#III-forEach())
+- [IV Método map()](#IV-Método-map())
+- [V map() e forEach](#V-map()-e-forEach)
 
-### **Média com FOR EACH**
+
+### I Média com FOR EACH
 
 
 *Desafio 12: Média com forEach*
@@ -2711,7 +2717,7 @@ console.log(`A média das notas é ${media}.`);
 ```
 
 
-#### **for...of vs callbacks**
+### II for...of vs callbacks
 
 
 Até agora vimos várias formas de fazer o que parece ser a mesma coisa: for, for…of, forEach()... Com tantas opções, como posso escolher qual usar no meu código?
@@ -2787,7 +2793,7 @@ A diferença principal e mais visível entre o for e o for…of é que o anterio
 Em contrapartida, a sintaxe simplificada e mais “legível” para pessoas faz com que o uso do for…of seja mais prático do que o for, pois laços de repetição mais simplificados, que percorrem um iterável do primeiro ao último elemento e executam o código do bloco a cada iteração, são muito mais corriqueiros.
 
 
-#### *** `forEach()` ***
+### III forEach()
 
 
 Ao contrário de for e for…of, o forEach() é um método do objeto Array.
@@ -2852,7 +2858,7 @@ for para casos em que seja necessário manipular de forma mais fina as fases do 
 
 
 
-#### **Método map()**
+###IV Método map()
 
 
 ![image](https://github.com/FlavianaFXT/Curso-Javascript-Arrays/assets/113718720/a44bd41c-e51c-471d-9488-869cae9f9115)
@@ -2918,7 +2924,7 @@ console.log(nomeCompleto)  //Fundamentos de JS Alura
 Você pode conferir a lista completa de métodos de string na - [documentação do MDN]( https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String#methods) .
 
 
-#### **map() e forEach**
+### V map() e forEach
 
 
 Agora já vimos mais sobre as funções callback e o método map() que utiliza essas funções, também vimos anteriormente sobre o método forEach().
@@ -2987,9 +2993,21 @@ Para o JavaScript, qualquer função que seja chamada como argumento de outra é
 ![image](https://github.com/FlavianaFXT/Curso-Javascript-Arrays/assets/113718720/7efcda38-08b1-4740-a015-bb81e24ee1f6)
 
 
-## 7 AVANÇANDO EM ARRAYS
+## 9 AVANÇANDO EM ARRAYS
 
-### 7.1 **Filtrando Elementos**
+
+- [I Filtrando Elementos](#I-Filtrando-Elementos)
+- [Retorno do filter](#Retorno-do-filter)
+- [II Somando com Reduce](#II-Somando-com-Reduce)
+- [estrutura do reduce()](#estrutura-do-reduce())
+- [III Clonando com spread operator](#III-Clonando-com-spread-operator)
+- [IV Removendo Elementos Repetidos](#IV-Removendo-Elementos-Repetidos)
+- [estrutura Set](#estrutura-Set)
+
+
+
+
+### I Filtrando Elementos
 
 
 ![image](https://github.com/FlavianaFXT/Curso-Javascript-Arrays/assets/113718720/32d89e5f-d4b7-4d52-a549-6e97c2335967)
@@ -3032,7 +3050,7 @@ console.log(reprovados);
 ```
 
 
-### **Retorno do filter**
+### Retorno do filter
 
 
 Vimos como utilizar o método filter para retornar um array com apenas alguns elementos do array principal através de uma função callback.
@@ -3044,7 +3062,7 @@ O que deve ser retornado da função callback para que o método filter funcione
 
 
 
-### 7.2 **Somando com Reduce**
+### II Somando com Reduce
 
 
 ![image](https://github.com/FlavianaFXT/Curso-Javascript-Arrays/assets/113718720/7bce3347-3494-43a6-9f6d-b5e2719759ad)
@@ -3091,7 +3109,7 @@ console.log(`A média da sala de Java é ${calculaMedia(salaJava)}`);
 console.log(`A média da sala de Python é ${calculaMedia(salaPython)}`);
 ```
 
-#### **estrutura do reduce()**
+#### estrutura do reduce()
 
 
 Durante a aula trabalhamos com o método reduce() para “reduzir” uma lista de números para um único valor. Este método trabalha com parâmetros um pouco diferentes dos outros que vimos durante o curso. Por isso, vamos destrinchar o exemplo da aula para entender melhor as partes do código.
@@ -3147,7 +3165,7 @@ No dia a dia, a forma que utilizamos no vídeo é a mais usual. Porém, durante 
 
 
 
-### 7.3 **Clonando com spread operator**
+### III Clonando com spread operator
 
 
 ![image](https://github.com/FlavianaFXT/Curso-Javascript-Arrays/assets/113718720/2f43d3cd-c237-4142-b40d-878a324e3d68)
@@ -3284,7 +3302,7 @@ arrayOriginal é 7,7,8,9
 ```
 
 
-### 7.4 **Removendo Elementos Repetidos**
+### IV Removendo Elementos Repetidos
 
 
 ![image](https://github.com/FlavianaFXT/Curso-Javascript-Arrays/assets/113718720/4582aa7f-f016-4f3c-9c2c-e9732d06f477)
@@ -3330,7 +3348,7 @@ console.log(nomesAtualizados);
 Usando o `[...new Set(nomes)]` fazemos duas coisas ao mesmo tempo: passamos os nomes como valor de entrada do Set e os espalhamos para um novo array.
 
 
-#### **estrutura Set**
+#### estrutura Set
 
 
 Você viu que a estrutura Set é muito semelhante aos arrays, mas possui diferentes métodos e a interessante regra de que seus elementos não podem se repetir. Utilizamos essa regra ao nosso favor para eliminar as duplicatas de um array, convertendo-o para um Set e de volta para um array.
@@ -3338,13 +3356,47 @@ Você viu que a estrutura Set é muito semelhante aos arrays, mas possui diferen
 Você pode explorar mais seus conhecimentos sobre o Set na - [documentação](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Set).
 
 
-## 8 OBJETOS
 
-### 8.1 O que são objetos?
+
+## 10 OBJETOS
+
+- [I O que são objetos?](#I-O-que-são-objetos?)
+- [Acessando valores de um objeto](#Acessando-valores-de-um-objeto)
+- [Adicionando propriedades a um objeto](#Adicionando-propriedades-a-um-objeto)
+- [Deletando propriedades de um objeto](#Deletando-propriedades-de-um-objeto)
+- [Escopo](#Escopo)
+- [Adicionando e Alterando](#Adicionando-e-Alterando)
+- [Tipos de variáveis e objetos](#Tipos-de-variáveis-e-objetos)
+- [como deletar uma propriedade?](#como-deletar-uma-propriedade?)
+II Manipulação de Objetos
+Tipos de Dados e Valores
+Objetos em Objetos
+ Listas de Objetos
+Funções
+objeto literal e referência
+III Percorrendo Objetos
+FOR...IN
+METODOS DE OBJETO
+SINTAXE DE ESPALHAMENTO
+spread operator
+ IV CONHECENDO O JSON
+V EXERCITANDO OS CONHECIMENTOS
+Encontrando um Objeto
+Filtrando Objetos
+Ordenando Objetos
+
+
+
+### I O que são objetos?
+
+
 
 Um objeto é uma coleção de dados e/ou funcionalidades relacionadas (que geralmente consistem em diversas variáveis e funções — que são chamadas de propriedades e métodos quando estão dentro de objetos). Vamos trabalhar com um exemplo para entender como eles são.
 
+
+
 #### Acessando valores de um objeto
+
 
 Existem duas formas de acessar um objeto: por meio da *notação de ponto (dot notation)* ou da *notação de colchetes (bracket notation)*:
 
@@ -3361,7 +3413,10 @@ Existem duas formas de acessar um objeto: por meio da *notação de ponto (dot n
 
 ```
 
+
 #### Adicionando propriedades a um objeto
+
+
 Para adicionar uma nova propriedade a um objeto já existente podemos utilizar a seguinte sintaxe:
 
 ```javascript
@@ -3373,7 +3428,11 @@ pessoa.sobrenome = "Morita"
 
 ```
 
+
+
 #### Deletando propriedades de um objeto
+
+
 A palavra-chave "delete" remove propriedades específicas. Tentar ler uma propriedade inexistente terá como valor "undefined".
 
 ```javascript 
@@ -3383,7 +3442,12 @@ A palavra-chave "delete" remove propriedades específicas. Tentar ler uma propri
 
   delete pessoa.nome
 ```
+
+
+
 ### Escopo
+
+
 É o contexto atual de execução, em que valores e expressões são "visíveis" ou podem ser referenciadas. Se uma variável ou outra expressão não estiver "no escopo atual", então não está disponível para uso. Os escopos também podem ser em camadas em uma hierarquia, de modo que os escopos filhos tenham acesso aos escopos pais, mas não vice-versa.
 
 O escopo de uma função é a função na qual ela é declarada, ou todo o programa se ela é declarada no nível superior.
@@ -3391,14 +3455,19 @@ O escopo de uma função é a função na qual ela é declarada, ou todo o progr
 As variáveis definidas no interior de uma função não podem ser acessadas de nenhum lugar fora da função, porque a variável está definida apenas no escopo da função. No entanto, uma função pode acessar todas variáveis e funções definida fora do escopo onde ela está definida. Em outras palavras, a função definida no escopo global pode acessar todas as variáveis definidas no escopo global. A função definida dentro de outra função também pode acessar todas as variáveis definidas na função hospedeira e outras variáveis ao qual a função hospedeira tem acesso.
 
 
+
 #### Adicionando e Alterando
+
 
 
 TypeError: Assignment to constant variable.
 
 Em português, atribuição à variável constante. Logo, isso é o que não podemos fazer, mas se tivermos um objeto armazenado em uma variável constante, podemos manipulá-lo, porém, não podemos reatribuir algum valor naquela variável.
 
+
+
 #### Tipos de variáveis e objetos
+
 
 
 Podemos alterar e manipular as propriedades de um objeto mesmo quando o objeto está armazenado em uma variável do tipo const.
@@ -3470,7 +3539,7 @@ console.log(delPropInexistente) //true
 ```
 
 
-### 8.2 Manipulação de Objetos
+### II Manipulação de Objetos
 
 
 #### Tipos de Dados e Valores
@@ -3569,7 +3638,7 @@ Você pode ver mais exemplos desse método na [documentação do MDN](https://de
 Um objeto pode conter um array de objetos, o que nos permite invocar desde funções comuns até arrays como filter().
 
 
-### 8.3 Percorrendo Objetos
+### III Percorrendo Objetos
 
 #### FOR...IN
 
@@ -3766,7 +3835,7 @@ Caso queira, temos outra explicação deste processo aqui no [artigo ES6 - Deses
 
 Você sabia que também é possível utilizar esta sintaxe com arrays? Confira mais exemplos disso neste [Alura+](https://youtu.be/f8a-qwKC5yk).
 
-### 8.4 CONHECENDO O JSON
+### IV CONHECENDO O JSON
 
 
 
@@ -3774,7 +3843,7 @@ Você sabia que também é possível utilizar esta sintaxe com arrays? Confira m
 
 
 
-### 8.5 EXERCITANDO OS CONHECIMENTOS
+### V EXERCITANDO OS CONHECIMENTOS
 
 
 #### Encontrando um Objeto
@@ -3798,7 +3867,9 @@ Como ordenar nossa lista de clientes em ordem alfabética:
 ![image](https://github.com/FlavianaFXT/Js-objetos/assets/113718720/1c6c59cd-d6f9-4146-bf2a-8d827dbbc29e)
 
 
-## 9 PENSANDO EM ALGORITMOS
+
+
+## 11 PENSANDO EM ALGORITMOS
 
 
 ## 9.1 Nosso primeiro problema
