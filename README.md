@@ -3368,22 +3368,22 @@ Você pode explorar mais seus conhecimentos sobre o Set na - [documentação](ht
 - [Adicionando e Alterando](#Adicionando-e-Alterando)
 - [Tipos de variáveis e objetos](#Tipos-de-variáveis-e-objetos)
 - [como deletar uma propriedade?](#como-deletar-uma-propriedade?)
-II Manipulação de Objetos
-Tipos de Dados e Valores
-Objetos em Objetos
- Listas de Objetos
-Funções
-objeto literal e referência
-III Percorrendo Objetos
-FOR...IN
-METODOS DE OBJETO
-SINTAXE DE ESPALHAMENTO
-spread operator
- IV CONHECENDO O JSON
-V EXERCITANDO OS CONHECIMENTOS
-Encontrando um Objeto
-Filtrando Objetos
-Ordenando Objetos
+- [II Manipulação de Objetos](#II-Manipulação-de-Objetos)
+- [Tipos de Dados e Valores](#Tipos-de-Dados-e-Valores)
+- [Objetos em Objetos](#Objetos-em-Objetos)
+- [Listas de Objetos](#Listas-de-Objetos)
+- [Funções](#Funções)
+- [objeto literal e referência](#objeto-literal-e-referência)
+- [III Percorrendo Objetos](#III-Percorrendo-Objetos)
+- [FOR...IN](#FOR...IN)
+- [METODOS DE OBJETO](#METODOS-DE-OBJETO)
+- [SINTAXE DE ESPALHAMENTO](#SINTAXE-DE-ESPALHAMENTO)
+- [spread operator](#spread-operator)
+- [IV CONHECENDO O JSON](#IV-CONHECENDO-O-JSON)
+- [V EXERCITANDO OS CONHECIMENTOS](#
+- [Encontrando um Objeto](#Encontrando-um-Objeto)
+- [Filtrando Objetos](#Filtrando-Objetos)
+- [Ordenando Objetos](#Ordenando-Objetos)
 
 
 
