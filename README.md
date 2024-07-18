@@ -21,32 +21,22 @@ Conteúdos de Cursos realizados nas Seguintes Comunidades:
 - [2 TIPOS PRIMITIVOS](#2-TIPOS-PRIMITIVOS)
 - [3 VARIAVEIS](#3-VARIAVEIS)
 - [4 FUNÇÕES](#4-FUNÇÕES)
-- [5 Estrutura do if](#5-Estrutura-do-`if`)
+- [5 Estrutura do if](#5-Estrutura-do-if)
 - [6 Laços de repetição](#6-Laços-de-repetição)
 - [7 ARRAYS](#7-ARRAYS)
 - [8 FUNÇÕES CALLBACK](#8-FUNÇÕES-CALLBACK)
-
-  
-  
-    
-     
-  
-- [9 PENSANDO EM ALGORITMOS](#9-PENSANDO-EM-ALGORITMOS)
-   - [9.1 Nosso primeiro problema](#9.1-Nosso-primeiro-problema)
-   - [9.2 Representando algoritmos](#9.2-Representando-algoritmos)
-   - [9.3 Ordenação com Selection Sort](#9.3-Ordenação-com-Selection-Sort)
-      - [Usando loops do JavaScript](#Usando-loops-do-JavaScript)
-   - [9.4 Insertion Sort](#9.4-Insertion-Sort)
-   - [9.5 Comparando Algoritmos](#9.5-Comparando-Algoritmos)
-     - [Tabelas de comparação](#Tabelas-de-comparação)
-     - [Big O Notation](#Big-O-Notation)
-   .................... FALTA ................................
-   - [9.11 CONCLUSÃO ALGORITMOS](#9.11-CONCLUSÃO-ALGORITMOS)
+- [9 AVANÇANDO EM ARRAYS](#9-AVANÇANDO-EM-ARRAYS)
+- [10 OBJETOS](#10-OBJETOS)
+- [11 PENSANDO EM ALGORITMOS](#11-PENSANDO-EM-ALGORITMOS)
+- [12 EXERCICIOS](#12-EXERCICIOS)
+- [LINKS UTEIS](#LINKS-UTEIS)
+- [PLATAFORMAS DE ESTUDOS](#PLATAFORMAS-DE-ESTUDOS)
 
 
 
   # 1 Lógica de Programação
 <br/>
+
 
 
 - [I O que é um algoritmo](#I-O-que-é-um-algoritmo)
@@ -61,21 +51,31 @@ Conteúdos de Cursos realizados nas Seguintes Comunidades:
 - [V JavaScript dentro do HTML](#V-JavaScript-dentro-do-HTML)
 <br/>
 
+
+
 Lógica de programação é o método usado para escrever programas que um computador entenda.
 
 A lógica de programação parte do princípio de que praticamente todas as tarefas humanas são uma sequência ordenada de passos, que acontecem durante um tempo finito e que produzem um resultado esperado.
 <br/>
 
+
+
 ### I O que é um algoritmo 
 <br/>
+
+
 Um algoritmo, ou programa, é um conjunto de instruções que reunimos para se chegar num objetivo. Para isso temos a entrada, o processamento (o modo de executar) e a saída. Uma maneira simples de pensarmos é em uma receita onde temos os ingredientes, o modo de fazer e o alimento pronto. Para o computador informamos algo, por exemplo o clique em um botão, o processamento, um conjunto de comandos e a saída, abertura de uma nova página.
 Para escrever um programa de computador, você tem que dizer ao computador, passo a passo, exatamente o que você quer que ele faça. O computador "executa" o programa, seguindo cada etapa mecanicamente, para atingir o objetivo final.
 
 Alguns exemplos de algoritmos que podemos citar: manual de instrução de aparelhos e funções matemáticas.
 <br/>
 
+
+
 ### II  Linguagem de programação 
 <br/>
+
+
 A linguagem de programação é um método padronizado para comunicar instruções para um computador. É um conjunto de regras de sintaxes e semânticas usadas para definir um programa de computador. É uma linguagem que pode ser compreendida tanto por um ser humano como por um computador.
 
 A linguagem de programação pode ser comparada às linguas faladas pelos seres humanos. A língua portuguesa, por exemplo, tem um conjunto de regras de sintaxe e de semântica, que uma pessoa precisa aprender para se comunicar com outra. No caso do computador, ele só entende comandos lógicos. Por exemplo ele não sabe o que é um pão, para ele pão é uma palavra que ele trata como texto. 
@@ -85,8 +85,12 @@ Existem diversos tipos de linguagem de programação, e elas podem ser classific
 Podemos falar “oi” em muitos idiomas. Podemos dizer “oi” em português, inglês, árabe ou japonês. São formas diferentes, mas no fim temos a mesma situação, estamos fazendo uma saudação a alguém.
 <br/>
 
+
+
  ### III O que é Javascript
 <br/>
+
+
 JavaScript é uma linguagem de programação interpretada (não precisa de um compilador, ela é lida diretamente pelo navegador) estruturada (ênfase em sequência, decisão e, iteração - subrotinas, laços de repetição, condicionais e, estruturas em bloco), client-side, de script em alto nível .Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da Internet. JavaScript surgiu em 1995 e permite páginas da Web interativas e, portanto, é uma parte essencial dos aplicativos da web. A grande maioria dos sites usa, e todos os principais navegadores têm um mecanismo JavaScript dedicado para executá-lo.
 
 Javascript também é chamado de JS. Javascript e Java são linguagens completamente diferentes.
@@ -99,11 +103,17 @@ Para programar e testar em javascript precisamos somente de um editor de código
 
 <br/>
 
+
+
  ### IV Console
 <br/>
 
+
+
 #### Definição
 <br/>
+
+
 O console acessível através das Ferramentas de Desenvolvedor é uma interface conectada ao interpretador que vem incluso no navegador, e fica rodando “por trás dos panos” para ler e executar todo o JavaScript que o HTML contenha. O objeto Console fornece acesso ao console de depuração do navegador. O seu funcionamento específico varia de navegador para navegador, mas existe um conjunto de ferramentas que na prática são fornecidas normalmente.
 
 Essa é uma ferramenta extremamente útil, pois ela permite que você veja erros, execute códigos em JavaScript e teste suas implementações antes de programá-las de fato em um arquivo. Aprender a ler as mensagens que o console mostra é essencial no dia a dia do desenvolvedor, visto que entender um erro, por exemplo, acelera o processo de entendimento e correção do problema de código.
@@ -118,6 +128,8 @@ Com o navegador aberto como abrir o painel dedicado Console:
 
 #### console.log(), alert(), confirm e prompt
 <br/>
+
+
 O `console.log()` é uma funcão que utilizamos para testar nosso código. O resultado será impresso no console do navegador.
 
 ```js
@@ -151,6 +163,8 @@ prompt(nome);
 
 ### V JavaScript dentro do HTML
 <br/>
+
+
 Você precisa avisar ao navegador que existe um arquivo Javascipt e que ele precisa carregá-lo.
 
 ```javascript
@@ -171,30 +185,44 @@ Você precisa avisar ao navegador que existe um arquivo Javascipt e que ele prec
        
 # 2 TIPOS PRIMITIVOS
 
+<br/>
+
 - [I O que são](#I-O-que-são)
 
 - [II Tipo Number](#II-Tipo-Number)
 	- [Operadores](#Operadores)
 	- [Operadores Lógicos](#Operadores-Lógicos)
+   
 - [III Tipo String](#III-Tipo-String)
+  
 - [IV Tipo Boolean](#IV-Tipo-Boolean)
 
-
+<br/>
 
 ### I O que são
+
+
 <br/>
 
 Tipos de dados descrevem os diferentes tipos de dados que vamos trabalhar e guardar em variáveis.
 <br/>
 
+
+
 ### Dados primitivos
 <br/>
+
+
 Dados primitivos são aqueles que os dados não são objetos e não possuem métodos ou propriedades. São dados que são representados diretamente no nível mais baixo da linguagem de programação. Alguns dos dados primitivos mais utilizados.
 
 <br/>
 
+
+
  ### II Tipo Number
 <br/>
+
+
 é um tipo de dado utilizado para representar valores numéricos.
 
 ```javascript
@@ -222,14 +250,24 @@ console.log(operacaoMatematica)
 
 #### Operadores 
 <br/>
+
+
 `+`, `-`, `/`, `*`
 
+
+
 Podemos operar com números negativos, positivos e assim por diante. Normalmente, em linguagem de programação, não estamos restritos a números inteiros, mas podemos trabalhar com números que costumamos chamar de decimais em nosso cotidiano, que têm um ponto seguido de outros números.
+
+
 
 #### Operador de atribuição
 <br/>
 
+
+
 O operador de atribuição é o igual (=), que atribui o valor do operando à direita ao operando à esquerda. Isto é, x = y atribui o valor de y a x.
+
+
 
 ```javascript
 let y = 7; // 7 é atribuído a y
@@ -243,32 +281,53 @@ let x = y; // y é atribuído a x
 ```
 <br/>
 
+
+
 #### Operadores aritméticos
 <br/>
 
+
+
 #### Adição (+)
 <br/>
+
+
+
 ```javascript
 let resultado = 7 + 3;
 console.log(resultado); // 10
 ```
 
+
+
 #### Subtração (-)
 <br/>
+
+
+
 ```javascript
 let resultado = 5 - 2;
 console.log(resultado); // 3
 ```
 
+
 #### Multiplicação(\*)
 <br/>
+
+
+
 ```javascript
 let resultado = 5 * 4;
 console.log(resultado); // 20
 ```
 
+
+
 #### Divisão (/)
 <br/>
+
+
+
 O operador de divisão produz o quociente de seus operandos onde o operando da esquerda é o dividendo e o da direita é o divisor.
 
 ```javascript
@@ -276,31 +335,56 @@ let resultado = 10 / 2;
 console.log(resultado); // 5
 ```
 
+
+
 #### Módulo (%)
 <br/>
+
+
+
 O operador módulo retorna o resto inteiro da divisão de um numero pelo outro.
+
+
 
 ```javascript
 let resultado = 10 % 2;
 console.log(resultado); // 0
 ```
+
+
+
 #### Sintaxe simplificada:
+
+
+
 <br/>
 - Incremento (++) (Soma 1)
 - Decremento (--) (Subtrai 1)
 - Expoente (\*\*)
 <br/>
 
+
+
 ### Operadores de comparação
 <br/>
+
+
+
 
 Um operador de comparação compara seus operandos e retorna um valor lógico (true ou false) baseado em se a comparação é verdadeira. Os operandos podem ser numéricos, strings, lógicos ou objetos.
 
 <br/>
 
+
+
 #### == Igual
 <br/>
+
+
 Retorna verdadeiro caso os operandos sejam iguais caso contrário retorna falso. Neste caso é apenas comparado o valor do dado e não é levado em conta o tipo.
+
+
+
 
 ```javascript
 3 == 1; // false
@@ -310,9 +394,16 @@ Retorna verdadeiro caso os operandos sejam iguais caso contrário retorna falso.
 ```
 <br/>
 
+
+
 #### === Estritamente igual
 <br/>
+
+
+
 Retorna verdadeiro caso os operandos sejam iguais e do mesmo tipo.
+
+
 
 ```javascript
 3 === 3; // true
@@ -321,9 +412,16 @@ Retorna verdadeiro caso os operandos sejam iguais e do mesmo tipo.
 <br/>
 
 
+
+
 #### != Não igual
 <br/>
+
+
+
 Retorna verdadeiro caso os operandos não sejam iguais.
+
+
 
 ```javascript
 3 != 4; // true
@@ -331,9 +429,15 @@ Retorna verdadeiro caso os operandos não sejam iguais.
 ```
 <br/>
 
+
+
 #### !== Estritamente não igual
 <br/>
+
+
 Retorna verdadeiro caso os operandos não sejam iguais e/ou não sejam do mesmo tipo.
+
+
 
 ```javascript
 3 !== "4"; // true
@@ -341,18 +445,30 @@ Retorna verdadeiro caso os operandos não sejam iguais e/ou não sejam do mesmo 
 ```
 <br/>
 
+
+
 #### > maior que
 <br/>
+
+
 O operador de Maior retorna true se o operando da esquerda for maior que o operando da direita.
+
+
 
 ```javascript
 4 > 3; // true
 ```
 <br/>
 
+
+
 #### >= maior ou igual a
 <br/>
+
+
 O operador maior ou igual retorna true se o operando da esquerda for maior ou igual ao operando da direita.
+
+
 
 ```javascript
 4 >= 3; // true
@@ -360,34 +476,56 @@ O operador maior ou igual retorna true se o operando da esquerda for maior ou ig
 ```
 <br/>
 
+
+
 #### < menor que
 <br/>
+
+
 O operador menor retorna true (verdadeiro) se o operando da esquerda for menor que o operando da direita.
+
+
 
 ```javascript
 3 < 4; // verdade
 ```
 <br/>
 
+
+
 #### <= menor ou igual a
 <br/>
+
+
 O operador menor ou igual retorna true (verdadeiro) se o operando da esquerda for menor ou igual ao operando da direita.
+
+
 
 ```javascript
 3 <= 4; // verdade
 ```
 <br/>
 
+
+
 ### Operadores Lógicos
 <br/>
+
+
 Operadores lógicos são utilizados tipicamente com valores booleanos (lógicos - true ou false); neste caso, retornam um valor booleano. 
 Entretanto, os operadores && e || na verdade retornam o valor de um dos operandos especificados, de forma que se esses operadores forem utilizados com valores não-booleanos, eles possam retornar um valor não-booleano.
 <br/>
 
+
+
 #### && E lógico
 <br/>
+
+
 No caso de operar expressões se o primeiro valor for verdadeiro, ou puder ser convertido pra verdadeiro retorna o segundo valor. Se o primeiro valor for falso, retorna falso.
 No caso de operar apenas valores booleanos o && retorna verdadeiro apenas se ambos valores sejam verdadeiros, caso contrário retorna falso
+
+
 
 ```javascript
 true && "oi"; // "oi"
@@ -398,10 +536,16 @@ true && true; //true
 ```
 <br/>
 
+
+
 #### || Ou lógico
 <br/>
+
+
 No caso de operar expressões se o primeiro valor for verdadeiro, ou puder ser convertido pra verdadeiro retorna o primeiro valor. Se o primeiro valor for falso, retorna falso.
 No caso de operar apenas valores booleanos o || retorna verdadeiro se um dos valores seja verdadeiro, caso os odois valores sejam falsos retorna falso.
+
+
 
 ```javascript
 false || true; // true
@@ -411,8 +555,13 @@ false || 0; // 0
 ```
 <br/>
 
+
+
 #### ! Não lógico
 <br/>
+
+
+
 Esse operador inverte o valor de uma expressão
 
 Obs: Se um valor pode ser convertido para verdadeiro, este valor é chamado de truthy. Se um valor pode ser convertido para falso, este valor é chamado de falsy.
@@ -427,6 +576,8 @@ Exemplos de expressões que podem ser convertidas para falso são:
 
 Todos os outros são considerados verdadeiros.
 
+
+
 ```javascript
 !true; // false
 !false; // true
@@ -435,15 +586,25 @@ Todos os outros são considerados verdadeiros.
 ```
 <br/>
 
+
+
 ### Operador condicional (ternário)
 <br/>
 
+
+
 O operador condicional (ternário) é o único operador JavaScript que possui três operandos. Este operador é frequentemente usado como um atalho para a instrução de if else.
+
+
 
 ```
 condicao ? valor1 : valor2
 ```
+
+
 A expressão antes do ? é a condição if, se for verdadeira o primeira ação é executada, caso contrário a segunda ação, a que vem depois dos :, é executada.
+
+
 
 ```javascript
 let idade = 16;
@@ -451,18 +612,25 @@ let idade = 16;
 let acesso = idade > 18 ? true : false;
 ```
 
+
+
 É muito útil para testes mais básicos em que se tem apenas uma única linha de código dentro do if ou do else.
+
+
 
 ```javascript
 let salario = 1000;
 let bonus = salario * (salario > 1000 ? 0.1 : 0.15);
 ```
-
 ---
 <br/>
 
+
+
 ### Estrutura de decisão
 <br/>
+
+
 
 Em muitas situações precisamos tomar decisões de algo. Se o carro já está ligado não precisamos virar a chave. Se o arroz está sequinho não precisa colocar mais água. Quando o celular chega em 100% da bateria podemos tirar da tomada. Pequenas situações da vida são decisões. 
 Em um programa chamamos essa verificação de estrutura de decisão. 
@@ -483,6 +651,8 @@ Essa estrutura de tomada de decisão também é conhecida como condicional, onde
 ### Expressões condicionais simples
 <br/>
 
+
+
 ```javascript
 // Variável booleana verdadeira
 let bateria = true;
@@ -496,7 +666,9 @@ if (bateria) {
 <br/>
 
 
+
 ### Ponto Flutuante no JavaScript
+
 
 
 No JavaScript, podem ser declarados da mesma forma que declaramos os números inteiros e, na hora de associar um valor a ele, podemos apenas inserir o ponto seguido pelo valor desejado.
@@ -512,9 +684,12 @@ Então, por exemplo, colocamos 3.3 em uma constante chamada numeroPontoFlutuante
 const numeroPontoFlutuante = 3.3;
 ```
 
+
 Por exemplo, 0.5, nós podemos declará-la apenas como .5.
 
+
 `0.30303030303030304` - Existe muitos dígitos após a vírgula e desejamos truncar apenas para dois, por exemplo. O JavaScript tem várias ferramentas prontas de operações matemáticas das mais simples até as um pouco mais complexas.
+
 
 
 ### Not a number no JavasScript
@@ -529,10 +704,15 @@ Principalmente quando tentamos multiplicar duas coisas e alguma delas ou as duas
 **Dica: podemos utilizar o número PI através do código Math.PI.**
 
 
+
 ### 2.3 Tipo String
 <br/>
 
+
+
 é uma sequência de caracteres utilizada para representar texto.
+
+
 
 ```javascript
 "Este texto é uma informação com o tipo de dado string";
@@ -541,6 +721,8 @@ Principalmente quando tentamos multiplicar duas coisas e alguma delas ou as duas
 ```
 <br/>
 
+
+
 É fundamental que o JavaScript consiga determinar qual é o tipo de dado para poder manipulá-lo. Por exemplo, para executar cálculos matemáticos, o dado armazenado na variável precisa ser um número.
 
 tipos textuais, que não se enquadram na categoria de números ou booleanos.
@@ -548,6 +730,7 @@ tipos textuais, que não se enquadram na categoria de números ou booleanos.
 Podemos utilizar para armazenar texto, caracteres, como, por exemplo, letras do alfabeto, pontuação e, basicamente, qualquer coisa que quisermos.
 
 Para criar uma string em JavaScript, precisamos usar aspas, podendo ser duplas ou simples. Tudo que colocarmos entre aspas, o JavaScript considerará como uma string. Isso pode também incluir apenas números.
+
 
 
 ```
@@ -577,6 +760,7 @@ const citacao = 'O Leo disse "oi!"'
 Além disso, temos *outro tipo de aspa, que na verdade é um acento grave*, que conseguimos utilizar também como se fossem as aspas da string. Isso se chama `template string`  ou `template literal`.
 
 
+
 **Strings em variáveis**  - `concatenação`
 
 
@@ -588,13 +772,18 @@ Além disso, temos *outro tipo de aspa, que na verdade é um acento grave*, que 
 **Codificação de strings**
 
 
+
 Nas últimas décadas, foram desenvolvidos diversos conjuntos de caracteres especiais, cada um com seus próprios códigos, para que pessoas que escrevem e leem em linguagens diferentes do inglês pudessem utilizar computadores com seus próprios idiomas. 
+
 
 Para que o computador consiga decifrar um caractere especial, é preciso utilizar um sistema específico que tenha basicamente um código para cada caractere, e que o computador possa acessá-lo para fazer a conversão - uma ideia similar a que está por trás da criptografia.
 
+
 Foram desenvolvidos diversos conjuntos de caracteres, desde os específicos de cada linguagem como Western, Latin-US, Japanese e assim por diante, até o ASCII (American Standard Code for Information Interchange ou ”Código Padrão Americano para o Intercâmbio de Informação”) e a partir de 2007 foi adotado o formato Unicode. O padrão UTF (de Unicode Transformation Format ou “formato de conversão de unicode”, em tradução livre) é utilizado como padrão na web até hoje.
 
+
 O Unicode tem códigos específicos para “cifrar” e “decifrar” caracteres de mais de 150 idiomas antigos e modernos, e também diversos outros conjuntos de caracteres como símbolos matemáticos e inclusive emojs. A [Wikipedia](https://en.wikipedia.org/wiki/List_of_Unicode_characters) tem uma lista extensa de todas as tabelas com os códigos Unicode e os caracteres, como por exemplo os que estão abaixo:
+
 
 caractere	UTF-16	descrição oficial
 $	U+0024	DOLLAR SIGN
@@ -602,6 +791,7 @@ A	U+0041	LATIN CAPITAL LETTER A
 ✅	U+2705	CHECK MARK
 ぁ	U+3041	HIRAGANA LETTER SMALL A
 Podemos testar a transformação/conversão do código Unicode em caractere utilizando o console.log(). Faça o teste:
+
 
 
 ```
@@ -617,17 +807,22 @@ console.log(hiragana)
 ```
 
 
+
 Os caracteres \u no início do código são caracteres de escape que usamos para sinalizar ao JavaScript de que estamos falando de códigos Unicode, e não de strings de texto usuais.
+
 
 O JavaScript usa, por padrão, o UTF-16. O número 16 está relacionado aos espaços em bits ocupados por cada caractere, 16 neste caso. Não vamos nos aprofundar na relação entre tipos de dados e espaço de memória ocupado por cada tipo - você pode pesquisar mais sobre o assunto, assim como sobre o que são caracteres de escape! - mas por enquanto é bacana vermos na prática como o Unicode funciona.
 
+
 Bancos de dados podem aceitar outros tipos de codificação de caracteres, o que faz sentido se pensarmos que o UTF-16 utiliza uma quantidade relativamente grande de espaço em memória para salvar cada caractere. 16 bits parece pouco, mas algumas vezes os bancos precisam salvar quantidades enormes de dados! Porém, com as tecnologias de armazenamento e tráfego de dados que temos hoje, esta já não é uma preocupação tão grande, a não ser em casos muito específicos. Já não é muito comum utilizar uma codificação diferente da UTF em bancos mesmo em caso de grandes volumes de dados, mas sempre vai depender muito do caso.
+
 
 Mais detalhes precisos e documentação sobre o Unicode na página da [Unicode Foundation](https://home.unicode.org/).
 
 
 
 ### Métodos e ferramentas prontas do Javascript
+
 
 
 | O que | Como | Sobre |
@@ -638,12 +833,18 @@ Mais detalhes precisos e documentação sobre o Unicode na página da [Unicode F
 | para retirar espaços | | |
 
 
+
 [métodos de string do MDN (são vários)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String#m%C3%A9todos), com a descrição de cada um.
+
 
 
 ### IV Tipo Boolean
 
+
+
 é um tipo de dado lógico utilizado para representar os valores: verdadeiro ou falso, true or false.
+
+
 
 ```javascript
 false;
@@ -662,6 +863,7 @@ Usamos os booleanos com frequência quando precisamos fazer alguma comparação,
 Para comparações no JavaScript,usamos dois ou três sinais de igual e o resultado das comparações sempre será Verdadeiro ou falso.
 
 
+
 ```
 type-boolean.js
 
@@ -670,6 +872,7 @@ const segundoNumero = 5;
 
 console.log(primeiroNumero === segundoNumero);
 ```
+
 
 
 **Boolean como valores de variáveis**
@@ -694,7 +897,8 @@ console.log(primeiroNumero === segundoNumero);
 ```
 
 
-#### **Comparando duas strings com boolean**
+
+#### Comparando duas strings com boolean
 
 
 
@@ -721,10 +925,15 @@ console.log(texto1 === texto2)
 
 # 3 VARIAVEIS
 
+
 - [I Declarando variáveis](#I-Declarando-variáveis)
+  
 - [II  Var, Let e Const](#II-Var,-Let-e-Const)
+  
 - [III Tipos null e undefined](#III-Tipos-null-e-undefined)
+  
 - [IV Padrão de nomes no JavaScript](#IV-Padrão-de-nomes-no-JavaScript)
+
 
 
 *VARIAVEIS* Quando um programa precisa armazenar um valor para usar futuramente, já sabemos que usamos variáveis para isso.
@@ -735,8 +944,12 @@ Criamos variáveis para ler um valor de um usuário, guardar um dado de outro si
 Exemplo: precisamos criar a variável number e guardar o valor 1. Seguindo a ideia acima, number é o nome de uma etiqueta.
 <br/>
 
+
+
 ### I Declarando variáveis
 <br/>
+
+
 
 Criar uma variável também é chamado de declarar uma variável e para isso existem algumas regrinhas:
 
@@ -751,25 +964,37 @@ Existem algumas palavras que não podemos utilizar para a criação de variávei
 
 Para declarar uma variável, podemos utilizar a palavra reservada `var`, seguida do nome da variável e o valor que estamos atribuindo a ela.
 
+
+
 ```js
 var meuNome = 'Patricia';
 var fruta = 'Pera';
 ```
 
+
+
 Nas nossas aulas vamos utilizar a palavras reservada `let` para declarar variáveis.
 
+
 `let` é a versão mais moderna de `var`. A sintaxe é mesma.
+
+
 
 ```js
 let meuNome = 'Patricia';
 let fruta = 'Pera';
 ```
 
+
 Referência: https://www.w3schools.com/js/js_es6.asp
 <br/>
 
+
+
 ### Comentários
 <br/>
+
+
 
 Comentar o código serve para deixar mensagens importantes para você e para outro programador que vai ler seu código.
 
@@ -777,17 +1002,24 @@ Em JavaScript você pode fazer comentários de duas formas:
 
 - Comentário em uma linha
 
+
+
 ```js
 // Comentário simples de uma linha
 ```
 
+
+
 - Comentário de múltiplas linhas
+
+
 
 ```js
 /* Comentário
  de múltiplas
  linhas */
 ```
+
 
 
 ---
@@ -804,22 +1036,32 @@ Em JavaScript você pode fazer comentários de duas formas:
 `const` --> impede que alguem mude o valor da variavel;
 
 
+
 ### III Tipos null e undefined
+
+
 
 #### Null
 <br/>
 
+
+
 é um tipo de dado utilizado para representar um valor nulo ou "vazio".
+
+
 
 ```javascript
 null;
 ```
+
 
 ```javascript
 let y = null;
 console.log(y);
 ```
 <br/>
+
+
 
 O `null` é um tipo especial, pois pode ser traduzido como “ausência de valor” e pode ser atribuído como valor de uma variável:
 
@@ -834,14 +1076,21 @@ if (input === null) {
 }
 ```
 
+
+
 #### undefined
 <br/>
 
+
+
 Este tipo também representa “ausência de valor”, porém de uma outra forma: usualmente, enquanto null é um valor atribuído a uma variável que existe e foi iniciada, undefined se refere ao valor de uma variável que não foi inicializada (ou seja, não foi atribuído nenhum valor a ela).
+
 
 undefined também é o valor retornado por uma função que não tem cláusula return.
 
+
 embora os dois tipos sejam utilizados para sinalizar ausência de valor, os operadores de comparação do JavaScript podem ou não diferenciá-los:
+
 
 
 ```
@@ -855,11 +1104,14 @@ No cotidiano é comum considerar undefined como uma ausência de valor “inespe
 
 O javascript é uma linguagem não tipada, onde não precisamos descrever qual é o tipo de dado de uma determinada variável, ele tenta "entender/adivinhar" qual é o tipo de dado que está na variável.
 
+
 ---
 <br/>
 
 
 Nesse caso, qual seria a diferença entre os dois casos abaixo?
+
+
 
 ```
 let input = null;
@@ -878,6 +1130,7 @@ console.log(input2); // undefined
 cada linguagem possui seus próprios padrões. 
 
 A primeira coisa que precisamos ter em mente é que o JavaScript é case-sensitive, ou seja, diferencia maiúsculas e minúsculas. 
+
 
 
 ```
@@ -907,20 +1160,32 @@ Importante: Nunca utilize espaço nem caracteres especiais, nem inicie os nomes 
 Se você utilizar qualquer um dos padrões acima para nomear variáveis com JavaScript (com exceção do padrão kebab-case), seu código continuará funcionando, mas seguir as convenções é parte de desenvolver um código legível e bem escrito.
 
 
+
 # 4 FUNÇÕES
 
 
+
 - [I Invocando ou chamando funções](#I-Invocando-ou-chamando-funções)
+  
 - [II Arrow Function](#II-Arrow-Function)
+  
 - [III Função anônima](#III-Função-anônima)
+  
 - [IV Callback](#IV-Callback)
+
 
 
 Funções são blocos de código que são executados quando chamados ou invocados.
 
 
+
 #### Assinatura
+
+
+
 Assinatura de uma função nada mais é do que os elementos que compões uma função
+
+
 
 ```javascript
 function nomeDaFuncao (parametro1, parametro2) {
@@ -935,6 +1200,8 @@ somar(2, 4) // 6
 
 ```
 
+
+
 No exemplo acima, a função de nome somar tem dois parâmetros 'x' e 'y' e um retono de x + y.
 Parâmetros são os valores que são definidos na assinatura da função e funcionam como variáveis durante a execução da mesma.
 
@@ -948,6 +1215,8 @@ A instrução return indica que a função terminou. Qualquer código após o re
 
 Além da declaração padrão acima as funções também podem ser expressões. Neste caso as funções são atribuídas a uma variável.
 
+
+
 ```javascript
 
 const somar = function (x, y) {
@@ -956,7 +1225,10 @@ const somar = function (x, y) {
 
 ```
 
+
+
 As expressões de função são convenientes ao passar uma função como um argumento para outra função. 
+
 
 
 ### I Invocando ou chamando funções
@@ -964,6 +1236,8 @@ As expressões de função são convenientes ao passar uma função como um argu
 
 
 Para invocar funções basta utilizar o nome da função seguido de parenteses, caso a função possua parâmetros é necessário passar os argumentos também
+
+
 
 ```javascript
 function somar (x, y) {
@@ -1005,6 +1279,7 @@ console.log(soma(1, 1))
 ### II Arrow Function
 
 
+
 A arrow function é uma função de seta, isso porque utiliza uma seta na sua sintaxe. Essa é uma novidade do ES6. é semelhante à expressão de função. 
 Funções de seta são funções com uma sintaxe mais enxuta e elas são sempre anônimas.
 
@@ -1020,17 +1295,22 @@ const apresentaArrow = nome => `meu nome é ${nome}`;
 
 A Arrow Function foi introduzida junto com o ES6, em 2015, e deixou o código muito menor, pois agora podemos declarar tudo em uma única linha, não precisamos de chaves, nem retornar nada.
 
+
 Além disso, ela não pode ser nomeada, ou seja, essa opção não está nem disponível e também sempre precede uma constante com o nome da variável que será utilizada.  Se o código tiver mais de uma linha de instrução será preciso usar as chaves e o return.
+
 
 A arrow function é uma forma rápida e concisa de escrever funções, tornando o código mais limpo.
 
+
 A arrow function também possui vantagens quando estamos trabalhando com objetos.
+
 
 Para saber mais sobre arrow functions leia o artigo - [Conhecendo Arrow Functions](https://www.alura.com.br/artigos/conhecendo-arrow-functions?_gl=1*1gij91k*_ga*MTAyMjIzNjI2OC4xNzAxODc3NTU5*_ga_1EPWSW3PCS*MTcwNTMzODQ1OC4xNi4xLjE3MDUzMzg5MzQuMC4wLjA.*_fplc*dW9uU0VaVkprRURiWDduU043TzUwWE4zNllKUFczMG4lMkJyM2FsMVdJUW1sNzhVbENibDZ0VFRYUGtFdG1ZR29COHdXNG5CYURnQTJKMUtnZVRuaU56TElPbldVakxyMHp5MzE3MW9uY2YxNGZEUEx2cHMlMkJGaWtqZWlJZXRKZyUzRCUzRA..) no site da Alura. 
 
 
-
 Existe uma diferença técnica entre uma arrow function e uma função comum em relação a uma palavra reservada, o this. Mas nesse momento de início de aprendizado não convém explicá-lo com muitos detalhes.
+
+
 
 ```javascript
 const somar = (x, y) => {
@@ -1041,10 +1321,17 @@ somar(2, 4) // 6
 
 ```
 
+
+
+
 ### III Função anônima
 
 
+
+
 Funções anônimas são aquelas que não possuem um nome no ato de sua declaração.
+
+
 
 ```javascript
   function () {
@@ -1056,11 +1343,16 @@ Funções anônimas são aquelas que não possuem um nome no ato de sua declara�
   }
 ```
 
+
+
+
  ###  IV Callback
 
 
 
 Callback do inglês, chamar de volta, são funções que são passadas como argumento para outras funções e chamadas dentro de outra função para execução. As callbacks podem ser do tipo síncronas ou do tipo assíncronas. Vocês podem se aprofundar nesse tópico mais pra frente, pois já um assunto mais avançado.
+
+
 
 ```javascript
 function perguntarNome () {
@@ -1076,14 +1368,20 @@ dizerOla(perguntarNome)
 
 ```
 
+
+
 # 5 Estrutura do if
 
 
 - [I Estrutura if/else](#I-Estrutura-if/else)
+  
 - [II Estrutura if/else if/else](#II-Estrutura-if/else-if/else)
+  
 - [III Switch case](#III-Switch-case)
 	- [Importância do break (switch case)](#Importância-do-break-(switch-case))
+   
 - [IV Múltiplas condições](#IV-Múltiplas-condições)
+
 
 
 As estruturas condicionais são essenciais para a programação, pois permitem que um programa execute este ou aquele bloco de código de acordo com uma condição, por exemplo: “Se o e-mail e a senha estiverem corretos, o usuário poderá acessar o sistema. Senão ele deve receber um aviso de credenciais de acesso incorretas”. Uma condição exclui automaticamente a outra, pois ou ambas as credenciais (e-mail e senha) estarão corretas, ou não.
@@ -1105,8 +1403,11 @@ if (condicao) {
 A condicao é sempre uma expressão que deverá ser avaliada e retornar true ou false (ou seus equivalentes “truthy” ou “falsy”). O bloco de código dentro do if só será executado caso a expressão retorne true ou um valor “truthy”.
 
 
+
 ### I Estrutura if/else
 <br/>
+
+
 
 ```javascript
 // Variável booleana verdadeira
@@ -1123,8 +1424,13 @@ if (bateria) {
 ```
 <br/>
 
+
+
 ### II Estrutura if/else if/else
 <br/>
+
+
+
 
 ```javascript
 // Variável booleana verdadeira
@@ -1149,7 +1455,11 @@ if (hora <= 12) {
 ### III Switch case
 <br/>
 
+
+
 Se a condição for correspondida, o programa executa as instruções asssociadas. Se múltiplos casos corresponderem o valor, o primeiro caso que corresponder é selecionado, mesmo se os casos não forem iguais entre si.
+
+
 
 ```javascript
 let dia = "Segunda";
@@ -1183,8 +1493,12 @@ switch (dia) {
 <br/>
 
 
+
+
 #### Importância do break (switch case)
 <br/>
+
+
 
 A instrução opcional break associada com cada case garante que o programa saia da condicional switch assim que a instrução correspondente for executada e executa a instrução que segue logo após o switch. Caso break seja omitido, o programa continua a execução para a próxima instrução dentro de switch.
 
@@ -1194,11 +1508,13 @@ Se você esquecer um break então o script irá rodar a partir do caso onde o cr
 <br/>
 
 
+
 ### IV Múltiplas condições
 
 
 
 É possível usar os operadores AND (&&) ou OR (||) para executar o código no if caso uma das condições for verdadeira, ou as duas:
+
 
 
 ```
@@ -1210,7 +1526,9 @@ if (num > 10 || !num) {
 ```
 
 
+
 Também é possível usar o operador lógico && (and ou e em português) para especificar que a condição do if será validada apenas se todas as condições retornarem true:
+
 
 
 ```
@@ -1226,9 +1544,12 @@ if (num > 10 && num < 20) {
 **Poderíamos usar um loop para percorrer todas as letras de um string?**
 
 
+
 “String”, além de ser o tipo de dado usado para representar textos, também se define como uma sequência ordenada de caracteres!
 
+
 “Lista ordenada” (ou sequência) também é uma forma de definir arrays, certo? Então podemos pensar que, por baixo dos panos, strings são armazenadas em memória da seguinte forma:
+
 
 
 ```bash
@@ -1237,7 +1558,9 @@ const nome = "Alura";
 ```
 
 
+
 Ou seja, é possível utilizar alguns métodos de array e laços de repetição para acessar e alterar strings:
+
 
 
 ```bash
@@ -1256,22 +1579,30 @@ console.log(nomeCompleto)  //Fundamentos de JS Alura
 ```
 
 
+
 Você pode conferir a lista completa de métodos de string na - [documentação do MDN]( https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String#methods) .
 
 
 ** IMPORTANTE: Ao trabalhar com múltiplas condições e else if, lembre-se sempre que cada condição e cada bloco (if, else if e else) deve representar condições excludentes entre si! Ou seja, não pode haver ambiguidade entre as condições - uma mesma condição válida tanto no if quanto no else if, por exemplo. **
 
 
+
 # 6 Laços de repetição
 
 
+
 - [I Estrutura de repetição](#I-Estrutura-de-repetição)
+  
 - [II while (enquanto)](#II-while-(enquanto))
+  
 - [III for (para)](#III-for-(para))
+
 
 
 ### I Estrutura de repetição
 <br/>
+
+
 Da mesma forma que temos que decidir coisas na nossa vida e em software também temos que repetir ações. Escrever um programa com várias linhas repetidas não é uma boa prática. 
 Laços ou loops são formas de repetir instruções um determinado número de vezes sem que haja a necessidade de repetir essas instruções. Em pseudocódigo nós usamos a palavra ENQUANTO, essa palavra indicava que os passos que estivessem descritos em seguida seriam repetidos até a nossa condição se tornar falsa. Qual condição? Não conseguimos simplesmente mandar o código se repetir sozinho, para esse laço acontecer é necessário existir uma condição para avaliar se o laço vai ser executado ou não, do mesmo jeito que fazemos com o SE/SENÃO. 
 
@@ -1331,10 +1662,15 @@ Por exemplo, é preciso alterar de “salvar comprovante” para “enviar compr
 Existem algumas formas diferentes de utilizar laços em javascript
 <br/>
 
+
+
 ### II while (enquanto)
 <br/>
 
+
+
 Em Javascript este 'enquanto' se torna WHILE e funciona exatamente da mesma forma que o enquanto no pseudocódigo. A sintaxe dele no javascript é a seguinte:
+
 
           while(CONDICAO){
             Código a ser repetido se a condição for verdadeira
@@ -1343,9 +1679,11 @@ Em Javascript este 'enquanto' se torna WHILE e funciona exatamente da mesma form
 
 A leitura do código acima seria:
 
+
         ENQUANTO CONDIÇÃO FOR VERDADEIRA FAÇA
           Instruções a serem repetidas
         FIM do ENQUANTO
+
 
 
 ```javascript
@@ -1356,7 +1694,9 @@ while (frio) {
 }
 ```
 
+
 Outro exemplo usando números:
+
 
 ```javascript
 while (i < 10) {
@@ -1365,24 +1705,33 @@ while (i < 10) {
 }
 ```
 
+
 Enquanto o valor da variável i for menor que 10, o console irá imprimir a frase "o número é i".
 
 Ao escrever um while é importante notar que no seu código é necessário criar uma variável fora do laço para essa condição, normalmente chamamos de contador, e em algum momento a sua condição deve ser atualizada, caso contrário o seu loop se torna infinito e no nosso caso trava o navegador. O que eu quero dizer com atualizar a condição? É necessário que o nosso loop tenha um fim e para isso a nossa condição tem que se tornar falsa.
 <br/>
 
+
+
 ### III for (para)
 <br/>
+
+
 O comando FOR é um comando completo porque contém o início, a condição e o passo de um laço de repetição. 
   - Início - onde que o laço começa
 	- Condição - até onde o laço roda (condição de fim)
 	- Passo - o passo para a próxima rodada
 
+
 O interessante do for é que na própria estrutura dele nós já fazemos uma atualização do valor que é usado na nossa condição de fim.
 A sintaxe do for no javascript é:
-	
+
+ 
       for(inicio; fim; passo){
         Código a ser repetido enquanto o critério de fim estiver válido
       } 
+
+
 
 
 ```javascript
@@ -1393,8 +1742,9 @@ A sintaxe do for no javascript é:
 
 
 
-
 ## 7 ARRAYS
+
+
 
 - [I Introdução a Arrays](#I-Introdução-a-Arrays)
 	- [Acessando itens de um array](#Acessando-itens-de-um-array)
@@ -1403,12 +1753,14 @@ A sintaxe do for no javascript é:
 	- [Como funcionam os arrays](#Como-funcionam-os-arrays)
 	- [Adicionando Elementos](#Adicionando-Elementos)
 	- [Deletando Elementos](#Deletando-Elementos)
+   
 - [II Metodos de Array](#II-Metodos-de-Array)
 	- [push](#push)
 	- [pop](#pop)
 	- [shift](#shift)
 	- [unshift](#unshift)
 	- [forEach](#forEach)
+   
 - [III Alterando Arrays](#III-Alterando-Arrays)
 	- [Dividindo com slice()](#Dividindo-com-slice())
 	- [Alterando com splice()](#Alterando-com-splice())
@@ -1418,11 +1770,14 @@ A sintaxe do for no javascript é:
 	- [findIndex](#findIndex)
 	- [reduce](#reduce)
 	- [For in e for of](#For-in-e-for-of)
+   
 - [IV Concatenando Arrays](#IV-Concatenando-Arrays)
+  
 - [V Laços de Repetição](#V-Laços-de-Repetição)
 	- [Desestruturando uma lista](#Desestruturando-uma-lista)
 	- [For Clássico](#For-Clássico)
 	- [Loop infinito](#Loop-infinito)
+
 
 
 é um tipo de estrutura de dados. Ao contrário de uma variável, que guarda somente um valor por vez, um array (ou lista) pode armazenar diversos valores. Pode ser usada, por exemplo, para agrupar diversos dados que têm relação entre si.
@@ -1445,7 +1800,12 @@ Quando trabalhamos com arrays, chamamos de elemento ou item cada um dos valores 
 
 Lembrando que cada elemento corresponde a um dado, separados por vírgula.
 
+
+
 ### Estrutura de dados 
+
+
+
 Estrutura de dados é o ramo da computação que estuda os diversos mecanismos de organização de dados para atender aos diferentes requisitos de processamento. As estruturas de dados definem a organização, métodos de acesso e opções de processamento para a informação manipulada pelo programa.
 
 A administração e manipulação dos dados passam pelo entendimento das estruturas de dados e dos métodos que podem ser utilizados para trabalhar com esses dados.
@@ -1453,7 +1813,9 @@ A administração e manipulação dos dados passam pelo entendimento das estrutu
 Logo, Estrutura de Dados - ou Data Structure - é um meio de coletar e organizar informações de uma certa forma em que seja possível realizar operações com essas informações de um jeito efetivo.
 
 
+
 ### I Introdução a Arrays
+
 
 
 ![image](https://github.com/FlavianaFXT/Curso-Javascript-Arrays/assets/113718720/fa089fef-beb9-4afb-8d4d-d222d50764ef)
@@ -1466,10 +1828,14 @@ Arrays ou listas sõ estruturas de dados ordenadas que permitem que seja possív
 ![lista-indices](assets/lista-indices.png)
 
 
+
 #### Acessando itens de um array
 
 
+
 Para acessar um item de um array é muito simples, basta utilizarmos o índice da posição do item.
+
+
 
 ``` javascript
 let personagens = ["Naruto", "Midoriya", "Tanjiro", "Maki"];
@@ -1482,24 +1848,35 @@ personagens[2] // Tanjiro
 #### Tamanho de uma lista
 
 
+
 É possível saber o tamanho de uma lista acessando a propriedade length
+
+
 
 ``` javascript
 let personagens = ["Naruto", "Midoriya", "Tanjiro", "Maki"];
 personagens.length // 4
 ```
 
+
+
 #### Verificando que um array é um array
 
 
+
 No JavaScript nós temos o comando Array.isArray(obj); que permite verificar se um objeto é um array.
+
+
 
 ```javascript
   let lista = [];
   Array.isArray(lista) // true
 ```
 
+
+
 ### **Como funcionam os arrays**
+
 
 
 ![image](https://github.com/FlavianaFXT/Curso-Javascript-Arrays/assets/113718720/ba1a8335-ca1b-495c-b9d6-869e4def9f92)
@@ -1518,12 +1895,15 @@ cada um desses itens tem um identificador numérico único. Esses identificadore
 Se um array é uma lista ordenada, então é possível acessar cada um dos dados (ou valores) nele se soubermos a posição dele na lista. Por exemplo:
 
 
+
 ```bash
 const nums = [50, 43, 12];
 // o número 43 está na posição de número 1 (segunda posição) nessa lista de três números.
 ```
 
+
 A `propriedade length`:  especifica o tamanho de um array, ou melhor dizendo, o número de elementos. É importante notar que não estamos falando aqui de índices ou posições, e sim da quantidade de valores (dados) contidos no array. Por exemplo:
+
 
 
 ```bash
@@ -1531,6 +1911,7 @@ A `propriedade length`:  especifica o tamanho de um array, ou melhor dizendo, o 
 const nums = [50, 43, 12, 98];
 console.log(nums.length) //
 ```
+
 
 
 Considerando que o array acima tem 4 elementos, podemos dizer que o valor retornado por length sempre será 1 número a mais do que o valor de índice mais alto. Neste caso, o array nums é um array de 4 elementos e seus índices vão de 0 a 3.
@@ -1541,7 +1922,9 @@ Considerando que o array acima tem 4 elementos, podemos dizer que o valor retorn
 vale ressaltar que as listas do JavaScript não se restringem a um único tipo de dado. Em um único array, podemos ter o valor 10 , uma string "oi" e um valor true e outro false (booleanos). É possível colocar todos esses valores em uma mesma lista, apesar de não ser comum. Considera-se uma boa prática trabalhar com o mesmo tipo de dado em um array, mas o JavaScript permite inserir diferentes tipos de dados em um mesmo array.
 
 
+
 #### **Adicionando Elementos**
+
 
 
 ![image](https://github.com/FlavianaFXT/Curso-Javascript-Arrays/assets/113718720/3234d56e-1541-4b56-b340-f2b8819f8070)
@@ -1557,15 +1940,20 @@ Um professor acidentalmente passou apenas 3 das 4 notas no sistema para um aluno
 
 Para corrigir, precisamos adicionar a nota 7 e fazer o cálculo da média corretamente.
 
+
 *Alterando constantes?*
 
+
 Por mais que declaremos um array como constante, conseguimos alterá-lo de acordo com alguns métodos do próprio array. Quando criamos uma constante no JavaScript, somos somente impedidos de fazer uma nova atribuição para a constante.
+
 
 
 #### **Deletando Elementos**
 
 
+
 ![image](https://github.com/FlavianaFXT/Curso-Javascript-Arrays/assets/113718720/c57fe0ad-37d7-4f0f-9c24-0626efd0b8ce)
+
 
 
 *Desafio 3: Deletando elementos*
@@ -1586,12 +1974,15 @@ Para corrigir, precisamos que remover a última nota e fazer o cálculo da médi
 Para remover a última nota, usaremos outro `método dos arrays` do JavaScript — o `pop()`.
 
 
+
 ### II Metodos de Array
+
 
 
 Um método é uma função que serve como uma propriedade do array ou de um objeto (que veremos em outro curso). Ele pode realizar tarefas pré-definidas usando os dados do array e dos parâmetros que passamos para eles, como adicionar, remover ou até encontrar elementos.
 
 Os principais são:
+
 
 
 | METODO | DESCRIÇÃO |
@@ -1625,10 +2016,14 @@ podemos consultar rapidamente o que o método faz, seu valor de retorno e se ele
 A documentação também fornece informações bastante detalhadas sobre cada recurso da linguagem; você não precisa entender tudo que é mencionado em cada página (e no início de desenvolvimento, você provavelmente irá se deparar com muitos termos novos), mas ela é uma excelente fonte de consultas. Além disso, ela fornece vários exemplos práticos onde um método pode ser útil. A documentação será muito importante na sua jornada de desenvolvimento!
 
 
+
 ### push
 
 
+
 O comando "push" pode ser usado para adicionar valores a ele. Este comando adiciona o valor no final da lista.
+
+
 
 ```javascript
 const numeros = [1, 2, 3];
@@ -1648,6 +2043,8 @@ console.log(numeros); // [1, 2, 3, 4, 5, 6]
 
 
 O oposto do push, ele retira e retorna o último valor do vetor.
+
+
 ```javascript
 const numeros = [1, 2, 3, 4];
 
@@ -1664,7 +2061,10 @@ console.log(numeros); // [1, 2]
 ### shift
 
 
+
 O método shift() remove o primeiro elemento de um array e retorna esse elemento. Este método também muda o tamanho do array.
+
+
 
 ```javascript
 const numeros = [1, 2, 3, 4];
@@ -1678,10 +2078,15 @@ numeros.shift(); // 2
 console.log(numeros); // [3, 4]
 ```
 
+
+
 ### unshift
 
 
+
 O método unshift() adiciona um ou mais elementos no início de um array e retorna o número de elementos (a propriedade length) atualizado.
+
+
 
 ```javascript
 const numeros = [1, 2, 3, 4];
@@ -1696,6 +2101,7 @@ console.log(numeros); // [-1, 0, 1, 2, 3, 4]
 ```
 
 
+
 ### forEach
 
 
@@ -1703,6 +2109,8 @@ console.log(numeros); // [-1, 0, 1, 2, 3, 4]
 O método forEach() tem o objetivo de apenas iterar um array, ou seja, percorrer todos os elementos de um array
 
 Logo, é importante frisar: o método forEach() não retorna nada! Ou seja, ele é útil para percorrer o array original e executar algum procedimento com cada item.
+
+
 
 ```javascript
 let sum = 0;
@@ -1717,11 +2125,12 @@ function myFunction(item) {
 
 
 
-
 ## III Alterando Arrays
 
 
+
 #### **Dividindo com slice()**
+
 
 
 Esse método retorna os elementos selecionados de um array em um novo array. Essa seleção é feita a partir do index dos itens.
@@ -1733,6 +2142,7 @@ Obs: esse método não remove do array original os elementos selecionados!
 
 
 *Desafio 4: Sala dividida*
+
 
 Temos uma sala de aula com 20 estudantes, representados por uma lista de strings:
 
@@ -1747,27 +2157,37 @@ Existe uma peculiaridade do método slice() que devemos nos atentar! No segundo 
 
 *Melhorias*
 
+
 Atualmente, nosso código funciona para uma lista de 20 estudantes. Mas e se tivéssemos uma lista de 30, 40 ou 100 alunos? É interessante que o nosso código seja o mais dinâmico possível. Em vez de escrever valores estáticos (como o 10, que sabemos que é a metade da lista), podemos inserir valores dinâmicos.
 
 Para encontrar a metade do nosso array, em lugar de 10, vamos colocar o tamanho da lista dividido por 2. Faremos isso tanto na atribuição da constante sala1 como em sala2.
+
 
  - [documentação do JavaScript](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript)
 
 
 
-#### **Alterando com splice()**
+#### Alterando com splice()
+
+
 
 Já o splice() é diferente. Ele mexe no conteúdo do array original, adicionando itens novos enquanto remove itens selecionados.
+
+
 
 ```javascript
 array.splice(indice[, contagemDeDeleção[, elemento1[, ...[, elementoN]]]);
 ```
+
+
 
 indice: Índice o qual deve iniciar a alterar a lista - ou seja, a partir de qual posição serão acrescentados itens, ou a partir de qual posição serão excluídos itens.
 
 contagemDeDeleção: indicador de quantos itens devem ser removidos de um array. Se está em 0, então nenhum elemento/item deverá ser removido. É opcional.
 
 elemento1, ..., elementoN: Os elementos que serão adicionados no array. É opcional - caso não exista, o splice apenas removerá itens.
+
+
 
 ``` javascript
 const animes = ["Naruto", "Jujutsu Kaisen", "Spy X Family", "Demon Slayer"];
@@ -1788,6 +2208,8 @@ removed = animes.splice(0, 2, "Haikyuu", "Jojo", "Boku no Hero");
 //removed é ["Naruto", "Jujutsu Kaisen"]
 ```
 
+
+
 ** Principal diferença: o slice() não alterará o array original! Ele apenas vai retornar a você um novo array contendo a seleção passada. Por sua vez, o splice() tem o poder tanto de remover elementos, quanto de adicionar novos elementos ao array original. **
 
 
@@ -1801,7 +2223,10 @@ O segundo parâmetro é a quantidade de itens que queremos remover a partir dess
 O método splice() aceita um terceiro parâmetro. Então, vamos colocar a string "Rodrigo".
 
 
+
 #### **Alterando Strings com map()**
+
+
 
 Esse talvez seja o método de manipulação de array que você mais utilizará na sua carreira como pessoa desenvolvedora.
 
@@ -1809,6 +2234,8 @@ O método map() invoca um callback passada por argumento para cada elemento do A
 Existe uma infinidade de coisas que podem ser feitas com o array.map(), mas talvez a mais importante e mais usada seja o mapeamento de um array e criar um novo array incluindo as informações mais relevantes do array original. E isso pode ser feito pelo uso do callback. 
 
 Em React um caso muito comum é utilizar o map para renderizar elementos de uma lista utilizando um componente.
+
+
 
 ```javascript
 const personagens = [
@@ -1832,6 +2259,8 @@ const nomes = personagens.map((item) =>{
 
 console.log(nomes) // ['Eleven', 'Nairóbi', 'Klaus']
 ```
+
+
 
 ```javascript
 const personagens = [
@@ -1859,6 +2288,7 @@ console.log(nomes) // ['1, Eleven de Stranger Things', '2, Nairóbi de La Casa d
 
 
 
+
 ![image](https://github.com/FlavianaFXT/Curso-Javascript-Arrays/assets/113718720/07aa89a6-f45d-4ba1-ae27-0492b1d3f1be)
 
 
@@ -1879,6 +2309,7 @@ Como pegar uma string e deixar todas as letras maiúsculas? Usaremos o método t
 Para finalizar, uma particularidade das arrow functions é que quando tudo o que fazemos dentro da arrow function é retornar um valor, podemos simplesmente omitir a palavra-chave return, vamos apagá-la, e podemos tirar as chaves de abertura e chave de fechamento da função. Então tudo o que ficou como callback foi `(nome) => nome.toUpperCase());`.
 
 
+
 ```bash
 const nomes = ["ana Julia", "Caio vinicius", "BIA silva"];
 
@@ -1887,22 +2318,31 @@ const nomesPadronizados = nomes.map((nome) => nome.toUpperCase());
 console.log(nomesPadronizados);
 ```
 
+
+
 ### filter
+
 
 
 O método filter() cria um novo array com todos os elementos que passaram no teste implementado pela função fornecida. Ou seja, ele literalmente filtra os elementos de um array de acordo com uma função com uma condição passada para ele.
 
 Sintaxe: 
 
+
+
 ``` Javascript
 const newArray = arr.filter(callback)
 ```
+
+
 
 **Callback:** função que é chamada e é executada. Retorna true para manter o elemento, false caso contrário, recebendo três argumentos:
 
 - *element*: O elemento que está sendo processado no array.
 - *index*: O índice do elemento atual que está sendo processado no array.
 - *array*: O array para qual filter foi chamada.
+
+
 
 ```Javascript
 const idades = [32, 33, 16, 40, 2, 69];
@@ -1917,7 +2357,10 @@ console.log(result); // [32, 33, 40, 69]
 ##### find
 
 
+
 O método find() retorna o valor do primeiro elemento do array que satisfizer a função de teste provida. Caso contrario, undefined é retornado.
+
+
 
 ```javascript
 const array1 = [5, 12, 8, 130, 44];
@@ -1928,10 +2371,15 @@ console.log(found);
 // expected output: 12
 ```
 
+
+
 ##### findIndex
 
 
+
 O método findIndex() retorna o índice no array do primeiro elemento que satisfizer a função de teste provida. Caso contrário, retorna -1, indicando que nenhum elemento passou no teste.
+
+
 
 ```javascript
 
@@ -1944,6 +2392,7 @@ console.log(found);
 ```
 
 
+
 ### reduce
 
 
@@ -1952,15 +2401,23 @@ O método reduce() executa uma função reducer (callback) para cada elemento do
 
 Sintaxe: 
 
+
+
 ``` Javascript
 array.reduce(callback( acumulador, valorAtual[, index[, array]] )[, valorInicial]))
 ```
 
+
+
 **Callback:** função que é chamada e é executada em cada valor no array (exceto no primeiro, se nenhum valorInicial for passado); recebe quatro argumentos: 
 
+
 - *acumulador*: O índice do elemento atual que está sendo processado no array. Começa a partir do index 0 se um valorInicial for fornecido. Do contrário, começa do index 1.
+
   
 - *valor inicial*: Opcional. Valor a ser usado como o primeiro argumento da primeira chamada da função callback. Se nenhum valorInicial é fornecido, o primeiro elemento do array será usado como o valor inicial do acumulador e o valorAtual não será lido.
+
+
 
 ```Javascript
 const array1 = [1, 2, 3, 4];
@@ -1980,8 +2437,11 @@ console.log(array1.reduce(reducer, 5));
 ### For in e for of
 
 
+
 Além do for tradicional que foi vimos até agora, temos outros dois derivados: o for in e o for of. Esses dois tipos de for são usados para listas. Como são derivados do for, a ideia dele muda na hora de escrever a sintaxe. No "for in" nós criamos uma variável responsável por receber o valor do índice da nossa lista. Enquanto no "for of" criamos uma variável responsável por receber o valor do elemento da lista, isso de passar elemento por elemento de uma lista nós chamamos de iterar uma lista.
 Abaixo nós temos a sintaxe dos dois for:
+
+
 
 ``` javascript
 for(let indice in lista){ 
@@ -1992,6 +2452,8 @@ for(let elemento of lista){
   código
 }
 ```
+
+
 
 #### For in
 
@@ -2018,10 +2480,13 @@ for(let elemento of lista){
 ```
 
 
+
 ## IV Concatenando Arrays
 
 
+
 ![image](https://github.com/FlavianaFXT/Curso-Javascript-Arrays/assets/113718720/aa7a5c1e-94d4-4006-8e23-b148662390ed)
+
 
 
 Mais uma vez, teremos um método para nos auxiliar na junção dessas listas: o concat(), que vem da palavra "concatenar". Em programação, isso significa "juntar".
@@ -2033,13 +2498,16 @@ Como resultado, temos um novo array com todos os nomes — primeiro com estudant
 Vale lembrar que a ordem em que informamos os arrays afeta a ordem em que os nomes aparecerão na lista final. Para demonstrar essa diferença, vamos inverter as referências na linha em que atribuímos o valor da constante salasUnificadas. Em vez de salaJS, colocaremos salaPython e, em lugar de salaPython, usaremos salaJS.
 
 
+
 #### **Lista com 2 Dimensões**
+
 
 
 ![image](https://github.com/FlavianaFXT/Curso-Javascript-Arrays/assets/113718720/1fff1b43-ab46-4069-bba8-44e5f25379dd)
 
 
 *Desafio 7: Lista com 2 dimensões*
+
 
 Foram fornecidas duas listas para nós. A primeira contém os nomes de quatro estudantes e a segunda possui suas respectivas médias:
 
@@ -2051,6 +2519,7 @@ Nosso objetivo é criar uma lista que contenha essas duas listas. Já adiantando
 
 *Listas dentro de listas*
 
+
 No VS Code, vamos criar um arquivo chamado lista-duas-dimensoes.js. Começaremos declarando duas listas, uma com os nomes das pessoas estudantes e outra com suas notas:
 
 Em seguida, vamos declarar uma lista chamada listaDeAlunosEMedias, que conterá as listas alunos e medias. O primeiro elemento será a lista de estudantes e o segundo será a lista de médias:
@@ -2059,6 +2528,7 @@ O retorno pode parecer um pouco estranho, mas está correto. Trata-se de uma lis
 
 
 *Acessando elementos*
+
 
 Conseguimos criar uma lista que contém outras duas listas, mas como faremos para acessar elementos dentro delas? Por exemplo, como podemos selecionar Juliana, que está na posição 1 da lista alunos? Vamos descobrir, a seguir.
 
@@ -2070,13 +2540,13 @@ bash```
     );
 ```
 
-
 ```
+
+
 Portanto, listadeAlunosEMedias[0] representa a lista de alunos. Na sequência, vamos acessar a posição 1 da lista de alunos, pois sabemos que é onde está Juliana. Após [0], basta abrir e fechar outros colchetes e inserir o valor 1 entre eles:
 
 
-```bash
-
+```
      console.log(
     `A aluna da posição 1 da lista de alunos é: ${listaDeAlunosEMedias[0][1]}.`
      );
@@ -2086,6 +2556,7 @@ Portanto, listadeAlunosEMedias[0] representa a lista de alunos. Na sequência, v
 
 Digamos que agora também precisamos indicar a média da Juliana.
 Uma vez dentro da lista de médias, vamos acessar a nota de Juliana, que está na posição 1 também. 
+
 
 
 ```bash
@@ -2099,9 +2570,12 @@ Uma vez dentro da lista de médias, vamos acessar a nota de Juliana, que está n
  ```
 
 
- #### ** Matrizes **
+
+ ####  Matrizes
 
  listas com duas dimensões, ou seja, arrays que contêm arrays, podendo ter um único array ou vários dentro do principal.
+
+
 
 ```bash
 const nomes = ["Ana", "Juliana", "Leonardo"];
@@ -2132,6 +2606,8 @@ As matrizes não são limitadas a 2 dimensões, podendo ter mais dimensões, de 
 
 vamos ver o que acontece se um dos parâmetros for um array com dois elementos, um número e um array:
 
+
+
 ```bash
 const arrayOriginal = [50, 60, 70]
 const arrayConcat = arrayOriginal.concat([80, [90, 100]])
@@ -2159,6 +2635,7 @@ concat() é um método útil quando não se deseja alterar o array original, e s
 ## V Laços de Repetição
 
 
+
 ![image](https://github.com/FlavianaFXT/Curso-Javascript-Arrays/assets/113718720/2bce8028-6631-4112-af0e-6f3a86cf2e03)
 
 
@@ -2177,6 +2654,7 @@ Para este desafio, usaremos as mesmas listas da aula anterior:
 
 *Checando nomes cadastrados*
 
+
 Vamos criar uma função chamada exibeNomeENota(), que verificará se o nome de uma pessoa está cadastrado na lista e, depois, mostrará sua nota. Essa função receberá como parâmetro o nome do aluno:
 Primeiramente, criaremos uma lógica para checar se conseguimos exibir uma mensagem ou não, a depender se o nome está presente ou não na lista.
 
@@ -2194,6 +2672,7 @@ Portanto, já criamos um código para definir se um nome está presente na lista
 
 *Exibindo a média*
 
+
 Conforme o desafio, quando o aluno estiver incluso na lista, temos que procurar sua média e exibi-la. Sabemos que a média está no mesmo índice do aluno, porém em outra lista. Por exemplo, João está no índice 0 da lista alunos e sua média está no índice 0 da lista medias. Então, para descobrirmos a média de um aluno, precisamos saber seu índice.
 
 Para encontrar o índice de um elemento em um array, podemos usar o método indexOf() — que significa "índice de", em inglês. Vamos utilizá-lo dentro do bloco if, após o console.log():
@@ -2207,9 +2686,11 @@ Agora que conseguimos selecionar o índice do aluno, vamos pesquisar sua média!
 
 *Refinamentos* 
 
+
 Por fim, vamos alterar a mensagem exibida no console para torná-la mais objetiva e remover alguns trechos desnecessários do nosso código.
 
 Primeiro, vamos apagar o console.log() em que mostramos a mensagem de que o aluno está cadastrado. E, no console.log() que está dentro do bloco if, vamos utilizar uma template string com uma mensagem mais explicativa.
+
 
 
  ```bash
@@ -2230,10 +2711,13 @@ Primeiro, vamos apagar o console.log() em que mostramos a mensagem de que o alun
  ```
 
 
+
 #### **Desestruturando uma lista**
 
 
+
 *Refatoração*
+
 
 
 Tem algo no nosso código que podemos melhorar. Dentro do bloco if, escrevemos listaDeAlunosEMedias[0] para treinar a sintaxe de listas de duas dimensões. Porém, não fica intuitivo o que essa expressão significa, não fica claro que a posição 0 de listaDeAlunosEMedias se refere à lista de alunos. Vale lembrar que também estamos simulando um cenário em que apenas temos acesso à listaDeAlunosEMedias (e não diretamente à lista alunos).
@@ -2281,13 +2765,16 @@ exibeNomeENota("Ana");
 ```
 
 
-### **For Clássico**
+### For Clássico
+
 
 
 ![image](https://github.com/FlavianaFXT/Curso-Javascript-Arrays/assets/113718720/60e20abe-ffcf-40f2-8f6a-2bd9b6f83270)
 
 
+
 *Desafio 9: For*
+
 
 Imprima o índice e a lista com os seguintes números:
 
@@ -2326,7 +2813,10 @@ for (let indice = 0; indice < numeros.length; indice++) {
 }
 ```
 
+
+
 ### **Loop infinito**
+
 
 
 Os laços de repetição, como o for, são ferramentas essenciais na programação. São utilizados para, entre outras coisas, percorrer arrays e executar blocos de código para cada elemento.
@@ -2382,13 +2872,16 @@ IMPORTANTE: Como mencionamos acima, o loop infinito pode travar o terminal ou co
 
 
 
-#### **Média com FOR**
+#### Média com FOR
+
 
 
 ![image](https://github.com/FlavianaFXT/Curso-Javascript-Arrays/assets/113718720/14013d6a-8465-4c4d-9a42-f0272899a9ae)
 
 
+
 *Desafio 10: Média*
+
 
 
 Calcule a média entre as seguintes notas, usando o for:
@@ -2414,7 +2907,9 @@ console.log(`A média das notas é ${media}.`);
 ```
 
 
+
 #### *Loops em matrizes*
+
 
 
 Vimos como usar os loops para percorrer um array utilizando ofor:
@@ -2523,6 +3018,7 @@ Com isso usamos o for para passar por todos os elementos da matriz, e nesse caso
 #### **Media com FOR OF**
 
 
+
 *Desafio 11: Média com for of*
 
 
@@ -2564,7 +3060,10 @@ const media = somaDasNotas / notas.length;
 console.log(`A média das notas é ${media}.`);
 ```
 
-#### **Possibilidades do for**
+
+
+#### Possibilidades do for
+
 
 
 A estrutura for tem uma sintaxe mais complexa que o for of, com mais expressões, mas por causa disso fornece um maior leque de possibilidades de acordo com a nossa necessidade.
@@ -2672,19 +3171,28 @@ Na maioria dos casos, você não precisará realizar repetições mais complexas
 Como vimos, para percorrer todos os elementos de um array e do início ao fim, o for of fornece uma sintaxe mais sucinta que o for.
 
 
+
 ## 8 FUNÇÕES CALLBACK
 
+
 - [I Média com FOR EACH](#I-Média-com-FOR-EACH)
+  
 - [II for...of vs callbacks](#II-for...of-vs-callbacks)
+  
 - [III forEach()](#III-forEach())
+  
 - [IV Método map()](#IV-Método-map())
+  
 - [V map() e forEach](#V-map()-e-forEach)
+
 
 
 ### I Média com FOR EACH
 
 
+
 *Desafio 12: Média com forEach*
+
 
 Calcule a média entre as seguintes notas usando o forEach:
 
@@ -2701,6 +3209,7 @@ Podemos perceber que o forEach tem uma lógica parecida com o for of, ele fornec
 Mas o forEach tem uma vantagem em relação ao for of. Nos parâmetros da função callback, podemos passar mais um parâmetro, usando uma vírgula entre os parâmetros.
 
 Provavelmente, no mercado, você verá o forEach sendo bastante utilizado, até mais do que o for of.
+
 
 ```bash
 const notas = [10, 6.5, 8, 7.5];
@@ -2720,6 +3229,7 @@ console.log(`A média das notas é ${media}.`);
 ### II for...of vs callbacks
 
 
+
 Até agora vimos várias formas de fazer o que parece ser a mesma coisa: for, for…of, forEach()... Com tantas opções, como posso escolher qual usar no meu código?
 
 Antes, vamos dar uma olhada em cada um deles:
@@ -2727,6 +3237,7 @@ Antes, vamos dar uma olhada em cada um deles:
 `for` - A forma mais “clássica” de se efetuar um loop em JavaScript e em várias outras linguagens, o for é muito conveniente pois pode ser utilizado com qualquer tipo de iterável e é construído de uma forma que deixa muito claro quais são todas as “fases” de cada loop - também chamamos um loop de laço de repetição ou de iteração.
 
 `O que é um “iterável”?` Além de arrays, strings, sets (conjuntos) e maps (mapas ou dicionários) são considerados iteráveis. Não vamos falar dos dois últimos tipos neste curso, mas se você tiver interesse em saber mais sobre conjuntos, dicionários e outras estruturas de dados, pode dar uma olhada neste artigo; o que precisamos saber agora é que um iterável, aqui, representa uma sequência de elementos que pode ser percorrida (ou seja, iterada) utilizando ferramentas próprias para isso. É importante fazer uma distinção entre array e iterável, pois nem todo método que funciona em um array vai funcionar em outros iteráveis - veremos isso em seguida.
+
 
 
 ```bash
@@ -2766,6 +3277,7 @@ for (let i = 0, j = 0; i < lista.length; i++, j++) {
 
 Ainda há outras formas de se trabalhar com as condições do for, que você pode conferir na - [documentação sobre for](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for) no MDN. 
 
+
 `for…of` Adicionado às funcionalidades do JavaScript na versão ES6, é um tipo de laço de repetição diferente do for tradicional, embora utilize a mesma palavra-chave:
 
 
@@ -2793,7 +3305,9 @@ A diferença principal e mais visível entre o for e o for…of é que o anterio
 Em contrapartida, a sintaxe simplificada e mais “legível” para pessoas faz com que o uso do for…of seja mais prático do que o for, pois laços de repetição mais simplificados, que percorrem um iterável do primeiro ao último elemento e executam o código do bloco a cada iteração, são muito mais corriqueiros.
 
 
+
 ### III forEach()
+
 
 
 Ao contrário de for e for…of, o forEach() é um método do objeto Array.
@@ -2866,6 +3380,7 @@ for para casos em que seja necessário manipular de forma mais fina as fases do 
 
 *Desafio 13: ponto extra*
 
+
 Um aluno recebeu um ponto extra nas suas notas. Adicione esse ponto nas notas da seguinte lista:
 
 `
@@ -2883,6 +3398,7 @@ O map() é muito apropriado para reescrever arrays, que é justamente o que quer
 o map() não altera o array original.
 
 O map() não substitui o forEach(), ele não consegue abranger todas as situações do forEach(). Porém, ele é muito útil nos casos em que queremos reescrever um array e alterar todos os valores de alguma forma.
+
 
 
 ![image](https://github.com/FlavianaFXT/Curso-Javascript-Arrays/assets/113718720/f60945d3-cdc8-4fed-8550-569a6f32551b)
@@ -2924,7 +3440,9 @@ console.log(nomeCompleto)  //Fundamentos de JS Alura
 Você pode conferir a lista completa de métodos de string na - [documentação do MDN]( https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String#methods) .
 
 
+
 ### V map() e forEach
+
 
 
 Agora já vimos mais sobre as funções callback e o método map() que utiliza essas funções, também vimos anteriormente sobre o método forEach().
@@ -2993,16 +3511,21 @@ Para o JavaScript, qualquer função que seja chamada como argumento de outra é
 ![image](https://github.com/FlavianaFXT/Curso-Javascript-Arrays/assets/113718720/7efcda38-08b1-4740-a015-bb81e24ee1f6)
 
 
+
 ## 9 AVANÇANDO EM ARRAYS
 
 
+
 - [I Filtrando Elementos](#I-Filtrando-Elementos)
-- [Retorno do filter](#Retorno-do-filter)
+	- [Retorno do filter](#Retorno-do-filter)
+   
 - [II Somando com Reduce](#II-Somando-com-Reduce)
-- [estrutura do reduce()](#estrutura-do-reduce())
+	- [estrutura do reduce()](#estrutura-do-reduce())
+   
 - [III Clonando com spread operator](#III-Clonando-com-spread-operator)
+  
 - [IV Removendo Elementos Repetidos](#IV-Removendo-Elementos-Repetidos)
-- [estrutura Set](#estrutura-Set)
+	- [estrutura Set](#estrutura-Set)
 
 
 
@@ -3010,10 +3533,12 @@ Para o JavaScript, qualquer função que seja chamada como argumento de outra é
 ### I Filtrando Elementos
 
 
+
 ![image](https://github.com/FlavianaFXT/Curso-Javascript-Arrays/assets/113718720/32d89e5f-d4b7-4d52-a549-6e97c2335967)
 
 
 *Desafio 15: filtrando por nota*
+
 
 Depois de calcular a média dos alunos, precisamos mostrar quem está reprovado entre os alunos:
 
@@ -3068,7 +3593,9 @@ O que deve ser retornado da função callback para que o método filter funcione
 ![image](https://github.com/FlavianaFXT/Curso-Javascript-Arrays/assets/113718720/7bce3347-3494-43a6-9f6d-b5e2719759ad)
 
 
+
 *Desafio 16: médias das turmas*
+
 
 Com a média de todos os alunos de 3 salas, calcule a média geral de cada sala:
 
@@ -3109,12 +3636,15 @@ console.log(`A média da sala de Java é ${calculaMedia(salaJava)}`);
 console.log(`A média da sala de Python é ${calculaMedia(salaPython)}`);
 ```
 
+
 #### estrutura do reduce()
+
 
 
 Durante a aula trabalhamos com o método reduce() para “reduzir” uma lista de números para um único valor. Este método trabalha com parâmetros um pouco diferentes dos outros que vimos durante o curso. Por isso, vamos destrinchar o exemplo da aula para entender melhor as partes do código.
 
 Em seu editor, crie um arquivo index.js e execute o seguinte código:
+
 
 
 ```bash
@@ -3124,6 +3654,7 @@ const soma = numeros.reduce((acc, atual) => atual + acc, 0)
 
 console.log(soma)
 ```
+
 
 
 O código acima é muito parecido com o que foi feito durante a aula. É importante notar que:
@@ -3136,6 +3667,7 @@ Caso você tenha mais de uma linha de instrução dentro de uma arrow function, 
 Vamos reescrever o reduce() de uma forma um pouco mais extensa para separar melhor as partes do código:
 
 
+
 ```
 const soma = numeros.reduce(function (acc, atual) {
  return atual + acc
@@ -3143,9 +3675,11 @@ const soma = numeros.reduce(function (acc, atual) {
 ```
 
 
+
 Vendo o código acima, percebe-se melhor onde começam e terminam cada um dos parâmetros do reduce(): o primeiro parâmetro, uma função e o segundo, um número.
 
 Uma terceira forma de reescrever seria escrevendo a função callback fora do reduce():
+
 
 
 ```
@@ -3166,6 +3700,7 @@ No dia a dia, a forma que utilizamos no vídeo é a mais usual. Porém, durante 
 
 
 ### III Clonando com spread operator
+
 
 
 ![image](https://github.com/FlavianaFXT/Curso-Javascript-Arrays/assets/113718720/2f43d3cd-c237-4142-b40d-878a324e3d68)
@@ -3302,13 +3837,17 @@ arrayOriginal é 7,7,8,9
 ```
 
 
+
 ### IV Removendo Elementos Repetidos
+
 
 
 ![image](https://github.com/FlavianaFXT/Curso-Javascript-Arrays/assets/113718720/4582aa7f-f016-4f3c-9c2c-e9732d06f477)
 
 
 Um professor acidentalmente adicionou nomes repetidos na lista de chamada:
+
+
 
 ```
 Ana
@@ -3319,6 +3858,7 @@ João
 João
 João
 ```
+
 
 Remova os nomes repetidos, deixando apenas um de cada.
 
@@ -3348,7 +3888,9 @@ console.log(nomesAtualizados);
 Usando o `[...new Set(nomes)]` fazemos duas coisas ao mesmo tempo: passamos os nomes como valor de entrada do Set e os espalhamos para um novo array.
 
 
+
 #### estrutura Set
+
 
 
 Você viu que a estrutura Set é muito semelhante aos arrays, mas possui diferentes métodos e a interessante regra de que seus elementos não podem se repetir. Utilizamos essa regra ao nosso favor para eliminar as duplicatas de um array, convertendo-o para um Set e de volta para um array.
@@ -3357,33 +3899,34 @@ Você pode explorar mais seus conhecimentos sobre o Set na - [documentação](ht
 
 
 
-
 ## 10 OBJETOS
 
+
+
 - [I O que são objetos?](#I-O-que-são-objetos?)
-- [Acessando valores de um objeto](#Acessando-valores-de-um-objeto)
-- [Adicionando propriedades a um objeto](#Adicionando-propriedades-a-um-objeto)
-- [Deletando propriedades de um objeto](#Deletando-propriedades-de-um-objeto)
-- [Escopo](#Escopo)
-- [Adicionando e Alterando](#Adicionando-e-Alterando)
-- [Tipos de variáveis e objetos](#Tipos-de-variáveis-e-objetos)
-- [como deletar uma propriedade?](#como-deletar-uma-propriedade?)
+	- [Acessando valores de um objeto](#Acessando-valores-de-um-objeto)
+	- [Adicionando propriedades a um objeto](#Adicionando-propriedades-a-um-objeto)
+	- [Deletando propriedades de um objeto](#Deletando-propriedades-de-um-objeto)
+	- [Escopo](#Escopo)
+	- [Adicionando e Alterando](#Adicionando-e-Alterando)
+	- [Tipos de variáveis e objetos](#Tipos-de-variáveis-e-objetos)
+	- [como deletar uma propriedade?](#como-deletar-uma-propriedade?)
 - [II Manipulação de Objetos](#II-Manipulação-de-Objetos)
-- [Tipos de Dados e Valores](#Tipos-de-Dados-e-Valores)
-- [Objetos em Objetos](#Objetos-em-Objetos)
-- [Listas de Objetos](#Listas-de-Objetos)
-- [Funções](#Funções)
-- [objeto literal e referência](#objeto-literal-e-referência)
+	- [Tipos de Dados e Valores](#Tipos-de-Dados-e-Valores)
+	- [Objetos em Objetos](#Objetos-em-Objetos)
+	- [Listas de Objetos](#Listas-de-Objetos)
+	- [Funções](#Funções)
+	- [objeto literal e referência](#objeto-literal-e-referência)
 - [III Percorrendo Objetos](#III-Percorrendo-Objetos)
-- [FOR...IN](#FOR...IN)
-- [METODOS DE OBJETO](#METODOS-DE-OBJETO)
-- [SINTAXE DE ESPALHAMENTO](#SINTAXE-DE-ESPALHAMENTO)
-- [spread operator](#spread-operator)
+	- [FOR...IN](#FOR...IN)
+	- [METODOS DE OBJETO](#METODOS-DE-OBJETO)
+	- [SINTAXE DE ESPALHAMENTO](#SINTAXE-DE-ESPALHAMENTO)
+	- [spread operator](#spread-operator)
 - [IV CONHECENDO O JSON](#IV-CONHECENDO-O-JSON)
 - [V EXERCITANDO OS CONHECIMENTOS](#
-- [Encontrando um Objeto](#Encontrando-um-Objeto)
-- [Filtrando Objetos](#Filtrando-Objetos)
-- [Ordenando Objetos](#Ordenando-Objetos)
+	- [Encontrando um Objeto](#Encontrando-um-Objeto)
+	- [Filtrando Objetos](#Filtrando-Objetos)
+	- [Ordenando Objetos](#Ordenando-Objetos)
 
 
 
@@ -3398,7 +3941,9 @@ Um objeto é uma coleção de dados e/ou funcionalidades relacionadas (que geral
 #### Acessando valores de um objeto
 
 
+
 Existem duas formas de acessar um objeto: por meio da *notação de ponto (dot notation)* ou da *notação de colchetes (bracket notation)*:
+
 
 ```Javascript
 //notação de ponto
@@ -3414,10 +3959,14 @@ Existem duas formas de acessar um objeto: por meio da *notação de ponto (dot n
 ```
 
 
+
 #### Adicionando propriedades a um objeto
 
 
+
 Para adicionar uma nova propriedade a um objeto já existente podemos utilizar a seguinte sintaxe:
+
+
 
 ```javascript
 let pessoa = {
@@ -3433,7 +3982,10 @@ pessoa.sobrenome = "Morita"
 #### Deletando propriedades de um objeto
 
 
+
 A palavra-chave "delete" remove propriedades específicas. Tentar ler uma propriedade inexistente terá como valor "undefined".
+
+
 
 ```javascript 
   let pessoa = {
@@ -3446,6 +3998,7 @@ A palavra-chave "delete" remove propriedades específicas. Tentar ler uma propri
 
 
 ### Escopo
+
 
 
 É o contexto atual de execução, em que valores e expressões são "visíveis" ou podem ser referenciadas. Se uma variável ou outra expressão não estiver "no escopo atual", então não está disponível para uso. Os escopos também podem ser em camadas em uma hierarquia, de modo que os escopos filhos tenham acesso aos escopos pais, mas não vice-versa.
@@ -3475,12 +4028,16 @@ Podemos alterar e manipular as propriedades de um objeto mesmo quando o objeto e
 Temos um [artigo](https://www.alura.com.br/artigos/entenda-diferenca-entre-var-let-e-const-no-javascript?_gl=1*1i9md25*_ga*MTAyMjIzNjI2OC4xNzAxODc3NTU5*_ga_1EPWSW3PCS*MTcwNjIwMjc0NC4yNy4xLjE3MDYyMDQ3NjYuMC4wLjA.*_fplc*SVZPSGslMkJQNlMyc2UxT2NCTmllYyUyQjEyVkslMkJLVzdGZUJWSko1cHY4akxYdFhwSjB2c3AlMkZ1RGdxTWxjY0FaZmVWeXJuWXRhZmNvUE9kcHd5WDY2MHpVTTNOblQlMkJlSElTYkJPYlZkaGp1VE9nZSUyRjR1YjQxU1FBNVRXS3dkazdnJTNEJTNE) na plataforma que explica as diferenças entre as variáveis que podemos declarar, mas vale lembrar que as variáveis do tipo const apenas não podem ser reatribuidas, mas podem ter seu conteúdo interno alterado.
 
 
+
 #### como deletar uma propriedade?
+
 
 
 Já vimos como acessar, alterar e adicionar valores em um objeto. Mas ainda faltou falarmos sobre um caso: e quando queremos deletar um conjunto de chave/valor?
 
 Vamos considerar o objeto abaixo:
+
+
 
 ```
 const objPersonagem = {
@@ -3495,7 +4052,10 @@ const objPersonagem = {
 }
 ```
 
+
 Se quisermos, por exemplo, remover a propriedade aliado, podemos utilizar o operador delete:
+
+
 ```
 delete objPersonagem.aliado
 
@@ -3505,6 +4065,8 @@ console.log(objPersonagem.aliado) //undefined
 
 Também é possível utilizar a notação de colchetes:
 
+
+
 ```
 delete objPersonagem.aliado
 delete objPersonagem["status"]
@@ -3513,9 +4075,13 @@ console.log(objPersonagem.aliado) //undefined
 console.log(objPersonagem.status) //undefined
 ```
 
+
+
 *Importante!* Veja que o delete remove do objeto o valor da propriedade, assim como a chave.
 
 Após remover as duas propriedades acima, o objeto agora está desta forma:
+
+
 
 ```
 {
@@ -3539,21 +4105,29 @@ console.log(delPropInexistente) //true
 ```
 
 
+
 ### II Manipulação de Objetos
+
 
 
 #### Tipos de Dados e Valores
 
 
+
 #### Objetos em Objetos
+
 
 
 #### Listas de Objetos
 
+
+
 #### Funções
 
 
+
 #### objeto literal e referência
+
 
 
 Vimos anteriormente como é a estrutura de um objeto, com seus pares de chave e valor:
@@ -3573,6 +4147,8 @@ O exemplo acima, assim como o que estamos criando durante esta aula, é o de um 
 Um objeto literal é um objeto criado com a notação literal, ou seja: uma lista de chave e valores dentro de chaves{ }, que atribuímos a uma variável para que o valor possa ser acessado depois. Exatamente como no exemplo acima.
 
 Objetos literais funcionam bem quando queremos ter um objeto único com seus próprios dados. Isso porque um objeto literal sempre aponta para um mesmo local na memória, mesmo se você criar cópias dele. Vejamos o código a seguir:
+
+
 
 ```
 const objPersonagem = {
@@ -3638,9 +4214,13 @@ Você pode ver mais exemplos desse método na [documentação do MDN](https://de
 Um objeto pode conter um array de objetos, o que nos permite invocar desde funções comuns até arrays como filter().
 
 
+
 ### III Percorrendo Objetos
 
+
+
 #### FOR...IN
+
 
 
 o método for … In que permite a iteração sobre as propriedades de um objeto como em um array. 
@@ -3694,6 +4274,7 @@ Para solucionar o erro que aparece na chave enderecos:
 trazendo apenas o que é objeto.
 
 
+
 #### METODOS DE OBJETO
 
 
@@ -3712,6 +4293,7 @@ Aparecem as chaves:
 ![image](https://github.com/FlavianaFXT/Js-objetos/assets/113718720/bbb23827-83e7-4924-91eb-2004c518ff4a)
 
 
+
 #### outros métodos de objetos
 
 
@@ -3723,6 +4305,7 @@ Sabemos que o ecossistema JavaScript é bem vasto e sofre diversas mudanças em 
 
 
 ####  SINTAXE DE ESPALHAMENTO
+
 
 
 serve para compor ou descompor arrays.
@@ -3737,7 +4320,9 @@ ou, utilizando a sintaxe de espalhamento:
 ![image](https://github.com/FlavianaFXT/Js-objetos/assets/113718720/d1bccf3c-8352-4b74-a18b-6843ad0f1a4d)
 
 
+
 #### spread operator
+
 
 
 Anteriormente, vimos um exemplo de uso do spread operator, também conhecido como sintaxe de espalhamento ou operador de espalhamento. Este operador copia as propriedades de objetos para outros, “espalhando” os conteúdos. Para entender melhor, vamos ver mais alguns exemplos:
@@ -3814,6 +4399,7 @@ const ranger = {
 
 Os três objetos acima têm as mesmas propriedades. Mas o que acontece se tentarmos “espalhar” os dados em um único objeto com o spread operator? Vamos ver:
 
+
 ```
 const personagens = { ...mago, ...guerreiro, ...ranger }
 console.log(personagens)
@@ -3821,6 +4407,7 @@ console.log(personagens)
 
 
 Fazendo isso o resultado não será bem o que esperamos:
+
 
 ```
 { nome: 'Legolas', classe: 'ranger' }
@@ -3835,6 +4422,8 @@ Caso queira, temos outra explicação deste processo aqui no [artigo ES6 - Deses
 
 Você sabia que também é possível utilizar esta sintaxe com arrays? Confira mais exemplos disso neste [Alura+](https://youtu.be/f8a-qwKC5yk).
 
+
+
 ### IV CONHECENDO O JSON
 
 
@@ -3846,16 +4435,21 @@ Você sabia que também é possível utilizar esta sintaxe com arrays? Confira m
 ### V EXERCITANDO OS CONHECIMENTOS
 
 
+
 #### Encontrando um Objeto
+
 
 
 ![image](https://github.com/FlavianaFXT/Js-objetos/assets/113718720/0187b4a3-46e7-4424-91fc-fed27606a353)
 
 
+
 #### Filtrando Objetos
 
 
+
 ![image](https://github.com/FlavianaFXT/Js-objetos/assets/113718720/12f59be9-d618-49c8-a97c-3c9fd2e5b3fd)
+
 
 
 #### Ordenando Objetos
@@ -3872,7 +4466,37 @@ Como ordenar nossa lista de clientes em ordem alfabética:
 ## 11 PENSANDO EM ALGORITMOS
 
 
-## 9.1 Nosso primeiro problema
+- [I Nosso primeiro problema](#I-Nosso-primeiro-problema)
+  
+- [II Representando algoritmos](#II-Representando-algoritmos)
+  
+- [III Ordenação com Selection Sort](#III-Ordenação-com-Selection-Sort)
+  
+- [IV Insertion Sort](#IV-Insertion-Sort)
+  
+- [V Comparando Algoritmos](#V-Comparando-Algoritmos)
+	- [Big O Notation](#Big-O-Notation)
+   
+- [VI DIVIDIR PARA CONQUISTAR](#VI-DIVIDIR-PARA-CONQUISTAR)
+  
+- [VII MERGE SORT](#VII-MERGE-SORT)
+	- [Recursão](#Recursão)
+	- [Além do console.log()](#Além-do-console.log())
+   
+- [VIII QUICK SORT](#VIII-QUICK-SORT)
+  
+- [IX BUSCA BINARIA](#IX-BUSCA-BINARIA)
+	- [Maximum call stack size](#Maximum-call-stack-size)
+   
+- [X Análise dos Algoritmos](#X-Análise-dos-Algoritmos)
+  
+- [XI CONCLUSÃO ALGORITMOS](#XI-CONCLUSÃO-ALGORITMOS)
+
+
+
+## I Nosso primeiro problema
+
+
 
 ![image](https://github.com/FlavianaFXT/Js-algoritmos-de-ordenacao/assets/113718720/c666dbe2-76e0-4193-ae60-d50492b02f9c)
 
@@ -3883,7 +4507,10 @@ Como ordenar nossa lista de clientes em ordem alfabética:
 ![image](https://github.com/FlavianaFXT/Js-algoritmos-de-ordenacao/assets/113718720/2d86ac09-9168-4a31-b4e3-610ee12b8c2f)
 
 
+
  ### Do papel para o codigo
+
+
 
 ![image](https://github.com/FlavianaFXT/Js-algoritmos-de-ordenacao/assets/113718720/32cd41c2-bf06-4734-936a-aa006af64984)
 
@@ -3894,7 +4521,10 @@ Como ordenar nossa lista de clientes em ordem alfabética:
 executa no terminal
 
 
+
  ### Exibindo os Livros
+
+
 
 ![image](https://github.com/FlavianaFXT/Js-algoritmos-de-ordenacao/assets/113718720/58ab0e13-0e1e-4330-89a9-89367835a178)
 
@@ -3908,7 +4538,9 @@ executa no terminal
 ![image](https://github.com/FlavianaFXT/Js-algoritmos-de-ordenacao/assets/113718720/ef30df9f-8f7b-448b-a6c8-e84da31160cf)
 
 
-### 9.2 Representando algoritmos
+
+### II Representando algoritmos
+
 
 
 Você já viu ou já ouviu falar de fluxogramas?
@@ -3942,6 +4574,7 @@ o fim do processamento.
 
 Podemos representar o algoritmo acima com código JavaScript:
 
+
 ```
 const num1 = 2;
 const num2 = 2;
@@ -3958,6 +4591,7 @@ Temos um fluxograma que se inicia com um retângulo com bordas arredondadas com 
 
 O fluxograma acima pode ser traduzido, em código JavaScript, em um for:
 
+
 ```
 for (let i = 0; i <= 10; i++) {
  console.log(i);
@@ -3970,12 +4604,15 @@ Existem outros símbolos que usamos nos fluxogramas para ilustrar outros tipos d
 Você pode praticar com fluxogramas para criar algoritmos tanto para códigos que você já escreveu quanto para “colocar no papel” e ajudar a organizar a estrutura para um algoritmo que esteja desenvolvendo; ou mesmo treinar com outras situações, como fazer um bolo ou pagar uma conta de luz.
 
 
+
 ### Encontrar o livro mais caro
+
 
 
 Durante a aula, criamos um algoritmo para encontrar o menor valor em uma lista (array). Mas a mesma lógica pode ser invertida para funcionar com o maior valor.
 
 Dentro do for, basta invertermos a condição do if, para ao invés de verificar se o produto atual tem valor menor <, agora verifique se tem valor maior >:
+
 
 ```
 let maisCaro = 0;
@@ -3990,10 +4627,13 @@ for (let atual = 0; atual < livros.length; atual++) {
 Futuramente este loop poderá ser extraído para uma função que faz ambas as operações e consegue, com o mesmo código, encontrar tanto o valor menor quanto o maior.
 
 
-### 9.3. Ordenação com Selection Sort
+
+### III Ordenação com Selection Sort
+
 
 
 #### Ordenar para organizar
+
 
 
 ![image](https://github.com/FlavianaFXT/Js-algoritmos-de-ordenacao/assets/113718720/1188de6f-8dbe-40ab-b50f-09e59ad4814c)
@@ -4002,7 +4642,10 @@ Futuramente este loop poderá ser extraído para uma função que faz ambas as o
 ![image](https://github.com/FlavianaFXT/Js-algoritmos-de-ordenacao/assets/113718720/dfdf79c2-d757-41b0-90f0-e3b9852b2ebd)
 
 
+
 #### Selection Sort
+
+
 
 Ordenação por seleção
 
@@ -4011,6 +4654,7 @@ Ordenação por seleção
 
 
 #### O sort() do JavaScript
+
 
 
 Durante este curso estamos criando nossos próprios algoritmos de busca e ordenação. Porém, se formos investigar a documentação do JavaScript, descobrimos que o pacote da linguagem já traz, prontos para uso, métodos/funções que buscam ocorrências e ordenam listas, da mesma forma que estamos fazendo. Por exemplo, para varrer arrays em busca de dados específicos, podemos utilizar includes(), find() ou filter(), entre outros, e para ordenar arrays podemos usar o método sort().
@@ -4032,7 +4676,9 @@ E que casos são estes? O método sort(), executado sem nenhum parâmetro, inter
 A [documentação do MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) sobre o sort() tem vários exemplos sobre os diversos casos de ordenação e como utilizar este método.
 
 
+
 #### Usando loops do JavaScript
+
 
 
 Durante o curso vamos usar o for para escrever os laços de repetição. Esta forma de escrever laços é muito comum em linguagens de programação e pode ser encontrada praticamente da mesma forma tanto no JavaScript quanto em outras linguagens muito utilizadas, como o Java e a família C (C, C++, C#, entre outras). Assim como o for, a maior parte dessas linguagens, além de várias outras, também utiliza os laços while e do… while.
@@ -4043,13 +4689,16 @@ forEach() é um [método de array](https://developer.mozilla.org/pt-BR/docs/Web/
 
 Este método pede como parâmetro uma função que chamamos de função callback. Esta função callback controla o laço para que percorra cada um dos elementos do array, através do parâmetro que estamos chamando de livro (afinal de contas, trata-se de um array de livros):
 
+
 ```
 livros.forEach((livro) => {
   // código aqui
 })
 ```
 
+
 Também vamos precisar do número do índice de cada elemento, para fazer a troca de lugares entre os valores. Para isso vamos precisar do segundo parâmetro da função callback, que é opcional, e que leva justamente o número do índice atual que está sendo percorrido. Ou seja, é o equivalente à nossa variável atual:
+
 
 ```
 livros.forEach((livro, indice) => {
@@ -4057,7 +4706,9 @@ livros.forEach((livro, indice) => {
 })
 ```
 
+
 Agora podemos passar para dentro do bloco a lógica do algoritmo, substituindo atual por indice:
+
 
 ```
 livros.forEach((livro, indice) => {
@@ -4071,7 +4722,9 @@ livros.forEach((livro, indice) => {
 })
 ```
 
+
 Se examinarmos o laço, vemos que o primeiro parâmetro da função callback, livro, não está sendo utilizado; nesse caso, podemos usar a notação do JavaScript para informar que o primeiro parâmetro não será utilizado no código, através do _:
+
 
 ```
 livros.forEach((_, indice) => {
@@ -4091,23 +4744,33 @@ console.log(livros)
 Agora é só testar com node selectionSort.js.
 
 
-### 9.4 Insertion Sort
+
+### IV Insertion Sort
+
 
 
 um novo algoritmo (Insertion Sort) para resolver o mesmo problema do algoritmo anterior (Selection Sort); ou seja, ambos são algoritmos de ordenação.
 
 
+
 #### Outras formas de Ordenar
+
+
 
 Ordenação em ordem alfabética.
 
 
 #### Programando o algoritmo
 
+
+
 ![image](https://github.com/FlavianaFXT/Js-algoritmos-de-ordenacao/assets/113718720/4659444d-bb0e-40bf-9cb8-7ac1831f4883)
 
 
+
 #### Mais testes de Mesa - Desk Checking
+
+
 
 interpretar o código passo a passo, anotando o que tem dentro de cada variável, em cada momento de cada linha de cada passo do loop.
 
@@ -4120,6 +4783,8 @@ Apesar de hoje as [IDEs](https://www.alura.com.br/artigos/o-que-e-uma-ide?_gl=1*
 Uma forma muito comum de fazer o registro de valores de variáveis durante um teste de mesa é utilizando tabelas de rastreio, ou trace tables. Por exemplo, um teste de mesa para um for que imprime números de 0 a 5 no console poderia ser representado pelo seguinte teste de mesa/tabela de rastreio:
 
 Captura de tela do editor de código mostrando um trecho de código e, à esquerda, o número de cada linha. Na linha 1: let num = 0; na linha 2: console.log(num); na linha 3 não há código; na linha 4: for (let i = 1; i <= 5; i++) {; na linha 5: console.log(i); na linha 6: } (fechamento de bloco).
+
+
 
 ```
 linha	num	i	saída
@@ -4139,6 +4804,7 @@ linha	num	i	saída
 ```
 
 
+
 Nos seus exercícios e testes, a tabela pode tranquilamente ser feita com papel e lápis, se preferir.
 
 O importante no teste de mesa (com ou sem uso da tabela) é percorrer cada linha e executar realmente o código, anotando as criações/reatribuições de variáveis, resultados de operações matemáticas (se houver), alterações em arrays e objetos, etc. Dessa forma, resultados não esperados na execução do código já vão aparecer na hora.
@@ -4146,6 +4812,7 @@ O importante no teste de mesa (com ou sem uso da tabela) é percorrer cada linha
 
 
 #### Extraindo funções
+
 
 
 Durante a aula, utilizamos duas vezes a seguinte estrutura de código:
@@ -4164,6 +4831,7 @@ Repetição de código quase sempre é sinal de que o trecho repetido poderia se
 
 Vamos começar criando um novo arquivo, que vamos chamar de troca.js, e dentro dele a função:
 
+
 ```
 function troca(lista, analise) {
   // código aqui
@@ -4172,6 +4840,7 @@ function troca(lista, analise) {
 
 
 A função troca() vai fazer toda a lógica de substituição de valores dentro de insertionSort(), então vamos trazer de lá o código correspondente e ver o que precisamos refatorar:
+
 
 ```
 function troca(lista, analise) {
@@ -4188,6 +4857,7 @@ Veja que a função troca() está fazendo alterações direto na lista que está
 
 Sem esquecer de exportar a função no final do arquivo, para que possamos importá-la em insertionSort.js:
 
+
 ```
 function troca(lista, analise) {
  let itemAnalise = lista[analise];
@@ -4200,11 +4870,14 @@ function troca(lista, analise) {
 module.exports = troca;
 ````
 
+
 Agora, no arquivo insertionSort.js, começamos importando a função troca() no topo do arquivo:
+
 
 ```
 const troca = require('./troca');
 ```
+
 
 E todo o trecho que foi passado para a função troca() pode ser substituído pela chamada da função:
 
@@ -4227,16 +4900,21 @@ Veja que estamos passando como parâmetro da função troca() o array que vamos 
 
 
 
-## 9.5 Comparando Algoritmos
+## V Comparando Algoritmos
+
 
 
 *Complexidade do selection sort*
 
+
 Vamos começar analisando os algoritmos que nós criamos para fazer uma busca pelo menor número, nós chamamos essa função de menorValor. Então, vamos ver como nós analisamos, em termos de processamento, esse algoritmo de busca que acabamos criando.
+
 
 ![image](https://github.com/FlavianaFXT/Js-algoritmos-de-ordenacao/assets/113718720/ba733e32-fb6d-494b-a41d-2657bdd71fb8)
 
+
 ![image](https://github.com/FlavianaFXT/Js-algoritmos-de-ordenacao/assets/113718720/2d4d3ad2-bdab-49b2-b1f2-0e6a1f4f2943)
+
 
 
 *Comparando com Numeros*
@@ -4276,7 +4954,9 @@ Se quiser checar outros modos de visualizar os dados, pode buscar por sorting al
 Você pode praticar a implementação em javaScript de alguns desses outros algoritmos!
 
 
+
 #### Como funciona um processador
+
 
 
 Nesta aula falamos muito brevemente sobre como funciona um processador, e simplificamos um pouco o tema para trabalhar com nossos exemplos.
@@ -4286,7 +4966,9 @@ Nesta aula falamos muito brevemente sobre como funciona um processador, e simpli
 Para entender melhor como o computador processa as informações e o que significam alguns dos números e siglas que acompanham os modelos dos componentes de computadores, você pode conferir o nosso curso de Arquitetura de computadores.
 
 
+
 #### Tabelas de comparação
+
 
 
 Utilizamos o Google Sheets (equivalente ao Excel) para montar as tabelas de comparação de algoritmos.
@@ -4306,19 +4988,26 @@ elementos	n	2n	n^2	2*n^2	1	n^3
 =+A5*2	=+A6	=2*A6	=A6*A6	=2*D6	1	=A6A6A6
 ```
 
+
 A tabela acima está preparada para uma lista de até 16 elementos, mas você pode expandir a partir daí e ver os resultados!
+
 
 
 #### Outros tipos de Algoritmo
 
 
+
 Voltando à planilha e aos gráficos que estávamos gerando, nós comparamos o crescimento de um algoritmo linear com um algoritmo quadrático anteriormente, mas será que existe algum algoritmo que seja mais rápido do que o linear?
+
 
 ![image](https://github.com/FlavianaFXT/Js-algoritmos-de-ordenacao/assets/113718720/641851df-0a2a-43a7-bf91-4c5db24e4f58)
 
+
 ![image](https://github.com/FlavianaFXT/Js-algoritmos-de-ordenacao/assets/113718720/4b93673e-46fd-4ed9-98e1-410ae693c55a)
 
+
 ![image](https://github.com/FlavianaFXT/Js-algoritmos-de-ordenacao/assets/113718720/fec5ddb5-f582-4e3b-a722-a95951d2b449)
+
 
 ![image](https://github.com/FlavianaFXT/Js-algoritmos-de-ordenacao/assets/113718720/8075900c-360d-4f37-9e0e-40b015be36f5) Bugou o grafico
 
@@ -4328,7 +5017,9 @@ Voltando à planilha e aos gráficos que estávamos gerando, nós comparamos o c
 Que existem vários tipos de crescimento e vários algoritmos prontos - selectionSort e insertionSort são só dois deles para ordenação, porque existem algoritmos para todos os tipos de problema; e cada um tem as suas vantagens e desvantagens.
 
 
+
 #### Big O Notation
+
 
 
 Ao começarmos o estudo de algoritmos, é comum nos depararmos com a expressão Big O Notation (ou Notação “O Grande”).
@@ -4372,67 +5063,97 @@ Se quiser fazer mais testes, atualize sua planilha com as fórmulas que utilizam
 Atualize os gráficos e veja os resultados!
 
 
-### 9.6 DIVIDIR PARA CONQUISTAR
+
+### VI DIVIDIR PARA CONQUISTAR
+
 
 
 #### Misturando Listas
+
+
 
 ![image](https://github.com/FlavianaFXT/algoritmos-js-II/assets/113718720/005b8f86-a53f-4cb3-b997-c7f27cefb348)
 
 Esse tipo de simulação que fazemos em código já vimos que nos ajuda bastante a entender como funciona o fluxo, os passos de um algoritmo, por exemplo, de ordenação, antes de tentarmos fazer o código dele.
 
 
+
 #### Testando o Algoritmo
+
+
 
 ![image](https://github.com/FlavianaFXT/algoritmos-js-II/assets/113718720/d31d5fbb-1226-4bbc-bbfc-c9c2e7bfbebb)
 
+
 ![image](https://github.com/FlavianaFXT/algoritmos-js-II/assets/113718720/2c0716dc-9ba5-485b-9faf-2f01a8ae4f82)
+
 
 ![image](https://github.com/FlavianaFXT/algoritmos-js-II/assets/113718720/05df785c-ad6a-4ee2-841a-814b490168be)
 
 
+
 #### Passando para o código
+
+
 
 ![image](https://github.com/FlavianaFXT/algoritmos-js-II/assets/113718720/072a4f05-b66f-42bd-95b4-e8d704c16f73)
 
 
 
-### 9.7 MERGE SORT
+### VII MERGE SORT
+
 
 
 #### Intercalando Valores
 
+
+
 O Merge Sort pega duas partes de um todo, separa, compara e depois funde. a gente pega um problema grande, divide em partes pequenas para resolver melhor o todo.
 
+
 ![image](https://github.com/FlavianaFXT/algoritmos-js-II/assets/113718720/79fa9ae5-6e80-43bd-9096-fcee3923ecfd)
+
 
 ![image](https://github.com/FlavianaFXT/algoritmos-js-II/assets/113718720/3b98a37c-028c-4401-a9dd-443255ed6e4a)
 
 
+
 #### Como o Merge Sort funciona
+
+
 
 ![image](https://github.com/FlavianaFXT/algoritmos-js-II/assets/113718720/da42e16c-b3d5-44d3-a0d5-86da507285c9)
 
+
 ![image](https://github.com/FlavianaFXT/algoritmos-js-II/assets/113718720/9f20de16-446b-4a8a-a0a8-cfe9fba22ec6)
+
 
 ![image](https://github.com/FlavianaFXT/algoritmos-js-II/assets/113718720/3bd189c7-56f2-4f60-b05f-776416bbdbec)
 
+
 ![image](https://github.com/FlavianaFXT/algoritmos-js-II/assets/113718720/eeefabd7-2b04-4b6f-b312-a393ab59e039)
 
+
 Entendendo o que precisamos fazer, vamos passar isso pro codigo.
+
 
 
 #### Implementando o Algoritmo
 
 
+
 ![image](https://github.com/FlavianaFXT/algoritmos-js-II/assets/113718720/6a7544d4-8fa5-4f6b-89c2-763c10418e48)
 
+
 ![image](https://github.com/FlavianaFXT/algoritmos-js-II/assets/113718720/d6436f6b-4b29-4ff7-b2e1-956a49b0a7c3)
+
 
 ![image](https://github.com/FlavianaFXT/algoritmos-js-II/assets/113718720/7cb6ccde-1d0b-4708-a7e6-e2995ead0f60)
 
 
+
 #### Recursão
+
 
 
 Vamos revisar o que aconteceu na nossa função mergeSort, para ficar bem claro como a recursão está funcionando.
@@ -4455,7 +5176,9 @@ Nesse momento em que a condição do if não é mais atendida, o mergeSort para 
 
 A mesma coisa se dá para a parte 2. Isso é executado até que não atenda mais a condição do if. Quando isso acontece para de ser feita a chamada recursiva de mergeSort, e o resultado é guardado dentro da variável parte 2.
 
+
 ![image](https://github.com/FlavianaFXT/algoritmos-js-II/assets/113718720/43fc76ed-88c3-488f-a8d0-be8a1dcb282f)
+
 
 ![image](https://github.com/FlavianaFXT/algoritmos-js-II/assets/113718720/27defa8a-839c-46e1-9690-13b1001090ba)
 
@@ -4494,6 +5217,7 @@ incrementaNumero(1)
 
 Para o qual a saída seria:
 
+
 ```
 1
 2
@@ -4501,6 +5225,7 @@ Para o qual a saída seria:
 4
 5
 ```
+
 
 Como podemos ver, a função incrementa o número passado como parâmetro em uma unidade e, antes de sair, chama a si própria novamente.
 
@@ -4511,6 +5236,7 @@ Para solucionar esse problema existem os base cases ou, em português, casos bas
 Segue exemplo de caso base para função recursiva:
 
 Abaixo é definida uma função para controlar a frequência com que os números são incrementados durante a execução da função recursiva incrementaNumero() que será definida a seguir:
+
 
 ```
 function dorme(milissegundos) {
@@ -4549,6 +5275,7 @@ incrementaNumero(1)
 
 A saída então será:
 
+
 ```
 1
 2
@@ -4568,7 +5295,9 @@ A saída então será:
 Por exemplo, é recursão o efeito de tela infinita que surge em suas chamadas de vídeo ou quando você coloca um espelho em frente ao outro. No entanto, temos a possibilidade e obrigação de inserir uma verificação que interrompa este comportamento, ou então a função entrará em loop infinito.
 
 
+
 #### Além do console.log()
+
 
 
 Acredite ou não, o objeto console do nosso amigo JavaScript tem muito mais métodos do que o log().
@@ -4594,6 +5323,7 @@ ola();
 
 
 A saída no seu terminal será assim:
+
 
 ```
 Trace: Ola Mundo
@@ -4627,22 +5357,26 @@ Que tal pesquisar um pouco mais?
 
 
 
-### 9.8 QUICK SORT
+### VIII QUICK SORT
 
 
 
 #### Posicionando um Pivô
 
 
+
 ![image](https://github.com/FlavianaFXT/algoritmos-js-II/assets/113718720/ab8e7c14-4439-47b9-ad90-8092ddfb84d5)
 
+
 Segue mais ou menos a mesma linha do merge sort.
+
 
 ![image](https://github.com/FlavianaFXT/algoritmos-js-II/assets/113718720/797ca312-3532-4f3b-9337-35c0323d7d92)
 
 
 
 #### Ordenação pelo Pivô
+
 
 
 Nesse momento já sabemos quantos elementos têm valor menor do que um dado elemento escolhido na nossa lista, que chamamos de pivô.
@@ -4745,6 +5479,8 @@ Agora já deve ter corrigido. Vamos tentar rodar mais uma vez. Então node encon
 
 
 Resultado:
+
+
 ![image](https://github.com/FlavianaFXT/algoritmos-js-II/assets/113718720/3593f5c1-06ad-4b11-b8d5-3fd12885994c)
 
 
@@ -4752,16 +5488,21 @@ Resultado:
 #### Quick Sort
 
 
+
 ![image](https://github.com/FlavianaFXT/algoritmos-js-II/assets/113718720/e406d8b1-66d6-4649-a942-f66118b452df)
 
 
 ![image](https://github.com/FlavianaFXT/algoritmos-js-II/assets/113718720/dce63957-627e-48be-873d-53d215773f36)
 
+
 ![image](https://github.com/FlavianaFXT/algoritmos-js-II/assets/113718720/b23e6a28-f5a7-489c-87ce-b63997b48a62)
+
 
 ![image](https://github.com/FlavianaFXT/algoritmos-js-II/assets/113718720/d3ffda9f-1666-46e6-9c8e-cb4fb6d38cec)
 
+
 ![image](https://github.com/FlavianaFXT/algoritmos-js-II/assets/113718720/45fb2c97-58bf-479a-ab39-ac657950e833)
+
 
 ![image](https://github.com/FlavianaFXT/algoritmos-js-II/assets/113718720/1cd32ac2-d5f4-4526-b996-48a7828f8e30)
 
@@ -4828,6 +5569,7 @@ Então sabemos que tem espaço de um elemento e o C# tem que ser o segundo. Posi
 
 
 #### Entendendo o código
+
 
 
 ![image](https://github.com/FlavianaFXT/algoritmos-js-II/assets/113718720/52004800-1896-4fa3-9346-bbf7c8cf677c)
@@ -4916,12 +5658,16 @@ Vamos trocar o pivô de lugar. Lembrando que o pivô se movimenta também. Ele c
  No final desse processo teremos nosso pequeno array de três elementos, 20, 22 e 15, alinhados entre si. E é fazendo essas pequenas partes de alinhamento que esse algoritmo vai funcionar.
 
 
-#### IMplementando o codigo
+
+#### Implementando o codigo
+
 
 
 ![image](https://github.com/FlavianaFXT/algoritmos-js-II/assets/113718720/1910f0ad-97db-4788-85e8-ad800e71404d)
 
+
 ![image](https://github.com/FlavianaFXT/algoritmos-js-II/assets/113718720/396eac35-3f30-43dd-b6d6-de0ce34140ee)
+
 
 Então se o índice da atual esquerda for menor ou igual ao índice da atual direita, nós trocamos de lugar: if (atualEsquerda <= atualDireita). E já temos um algoritmo pronto para trocar de lugar, que está dentro do meu arquivo “trocaMenores”, é a função “trocaLugar”.
 
@@ -4929,11 +5675,15 @@ Então se o índice da atual esquerda for menor ou igual ao índice da atual dir
 
  E importamos dentro de “quickSort.js” a função “trocaLugar” para podermos usá-la. Então no começo do arquivo fazemos const trocaLugar = require(‘./encontraMenores’);. E vamos usar essa função dentro do nosso if. Se for menor nós chamamos a função “trocaLugar”.
 
+
 ![image](https://github.com/FlavianaFXT/algoritmos-js-II/assets/113718720/3e72f087-8b9f-4d91-9b4d-3fea7fa3aa76)
+
 
 ![image](https://github.com/FlavianaFXT/algoritmos-js-II/assets/113718720/96b77cfc-55b6-4624-be48-a81b9f64c72d)
 
+
 testa no terminal, e ele deve retornar um array ordenado.
+
 
 Uma implementação “oficial”?
 
@@ -4948,6 +5698,7 @@ Você pode testar suas próprias ideias ou pesquisar outras implementações.
 
 
 ####  Revisando valoresMenores
+
 
 
 Durante a aula, utilizamos a variável valoresMenores na função divideNoPivo(). Vamos analisar esta variável para entender como ocorre a troca de posições no array.
@@ -4984,6 +5735,7 @@ function divideNoPivo(array) {
 }
 ```
 
+
 Chegamos à condicional `if`, que faz a comparação do preco entre o pivô e o atual. Caso o preço do elemento atual seja menor, chamamos a função trocaLugar para trocar a posição do elemento atual com o elemento na posição valoresMenores - lembrando que o valor inicial dessa variável é `0`, o que corresponde ao índice do primeiro elemento do array.
 
 Em seguida, o valor da variável `valoresMenores` é incrementado.
@@ -5015,6 +5767,7 @@ Por esse motivo valoresMenores é iniciada no índice 0: durante o laço for, ca
 Isso vai fazer com que um elemento de valor menor que o pivô assuma o lugar de um elemento de valor maior.
 
 Ou seja, após a primeira execução da função saímos de:
+
 
 ```
 [
@@ -5079,6 +5832,7 @@ Após o posicionamento do pivô:
 
 E quando o for chega no quarto elemento (índice 3), localiza pela primeira vez um elemento do array com valor menor que o pivô. Então o valor de valoresMenores é `0` e o elemento PHP de valor 15 trocará de lugar com Go de 45.
 
+
 ```
 [
  {
@@ -5114,10 +5868,13 @@ E quando o for chega no quarto elemento (índice 3), localiza pela primeira vez 
 Após a troca, valoresMenores é incrementada em `1` (com a linha valoresMenores++). Dessa forma, da próxima vez que o for localizar um elemento com valor menor que o pivô, ele será trocado pelo elemento que está no índice `valoresMenores` ou seja, `1`.
 
 
-### 9.9 BUSCA BINARIA
+
+### IX BUSCA BINARIA
+
 
 
 ####  Dividir para Buscar
+
 
 
 ![image](https://github.com/FlavianaFXT/algoritmos-js-II/assets/113718720/80ef0ea4-43d6-4832-9acc-09ec2e49dbbe)
@@ -5179,13 +5936,16 @@ Por exemplo, até agora nos algoritmos de busca que vimos, aquele primeiro que p
  Vamos tentar implementar um algoritmo que traduza essa divisão para conquista para fazer uma busca.
 
 
+
 ####  Busca Binária
+
 
 
 ![image](https://github.com/FlavianaFXT/algoritmos-js-II/assets/113718720/3500b1f3-7b1f-4fe6-baed-ce8294b805d2)
 
 
 ![image](https://github.com/FlavianaFXT/algoritmos-js-II/assets/113718720/28e9a38b-1ad9-41a8-b16d-ce026761fb57)
+
 
 Testa no terminal.
 
@@ -5266,6 +6026,7 @@ E o quarto parâmetro será o valor buscado, porque obviamente precisamos passar
 #### Refatorando a Busca
 
 
+
 ![image](https://github.com/FlavianaFXT/algoritmos-js-II/assets/113718720/bf41ffc2-98f5-46f8-b31d-e22808193e32)
 
 
@@ -5317,7 +6078,9 @@ Implementamos o algoritmo da nossa busca, porém, o que acontece quando passamos
  Nós temos a impressão de que esse algoritmo é melhor, mas vamos ver agora em seguida se realmente ele é melhor e porque.
 
 
+
 #### Outros erros da busca binária
+
 
 
 Durante a aula, vimos que, se não colocamos a condição de > ate e tentarmos buscar um número inexistente maior do que qualquer um da lista, o resultado será um erro do tipo RangeError: Maximum call stack size exceeded.
@@ -5358,7 +6121,9 @@ function busca(array, de, ate, valorBuscado) {
 }
 ```
 
+
 E executar novamente:
+
 
 ```
 de, ate 0 10
@@ -5370,16 +6135,19 @@ de, ate 0 -1
 
 No caso de valores menores, o código do algoritmo chama a função busca() passando sempre o valor do parâmetro ate diminuindo um número:
 
+
 ```
  if (valorBuscado < atual.preco) {
    return busca(array, de, meio - 1, valorBuscado);
  }
 ```
 
+
 Quando o valor atinge -1, que não é um valor válido de índice de array, o resultado de atual.preco retornará undefined.
 
 Valor inexistente no meio do array
 Vamos chamar a função passando 36 como valor buscado. Não é menor do que todos nem maior do que todos, porém não existe nenhum objeto com esse valor no array:
+
 
 ```
 console.log(busca(listaLivros, 0, listaLivros.length - 1, 36));
@@ -5396,6 +6164,7 @@ RangeError: Maximum call stack size exceeded
 
 Dessa vez, voltamos a receber o rangeError. Observando o `console.log(‘de, ate’, de, ate), os valores finais retornados são:
 
+
 ```
 de, ate 8 7
 de, ate 8 7
@@ -5405,6 +6174,7 @@ de, ate 8 7
 
 
 Até atingir call stack size exceeded, da mesma forma que ocorreu quando passamos o valor de 60, maior do que o maior elemento do array.
+
 
 
 #### Maximum call stack size
@@ -5430,7 +6200,7 @@ Por isso, é muito importante sempre testar as funções recursivas e definir qu
 
 
 
-### 9.10 Análise dos Algoritmos
+### X Análise dos Algoritmos
 
 
 
@@ -5537,6 +6307,7 @@ Então agora para uma lista de 5 mil ou de 10 mil elementos, nós conseguimos de
  #### Analise das Ordenações
  
 
+
 Já fizemos então a análise do algoritmo de busca linear e busca binária, que foi a que desenvolvemos agora nesse curso.
 
  Vamos então fazer a análise dos algoritmos de ordenação, merge sort e quick sort, que desenvolvemos durante o curso. Começando pelo merge sort, vamos dar uma olhada no código dele.
@@ -5601,8 +6372,8 @@ Porque por trás de toda implementação, mesmo dos métodos que as linguagens j
 
 
 
-
 #### Métodos do JavaScript
+
 
 
 No dia a dia do trabalho, é muito comum usarmos métodos nativos - ou seja, aqueles que já são próprios da linguagem e só precisam ser “chamados” como funções - para que nosso código fique mais legível ou então para simplificar o trabalho. Exemplos bem comuns são os métodos sort() e find(), respectivamente usados para ordenação e busca.
@@ -5635,6 +6406,7 @@ console.log(numbers);
 //[1, 2, 3, 4, 5]
 ```
 
+
 Você pode conferir com detalhes o uso do sort() em JavaScript na documentação do [MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort).
 
 Indo além do uso do método no dia a dia, já imaginou como esses métodos funcionam “por baixo dos panos”? Não é somente uma palavra para complementar seu código, pois assim como criamos funções, os métodos nativos da linguagem também possuem lógica e algoritmos por trás. Vamos conhecer um pouco mais?
@@ -5642,6 +6414,7 @@ Indo além do uso do método no dia a dia, já imaginou como esses métodos func
 No JavaScript, a forma como o método é implementado depende do motor que faz a interpretação. A partir de cada versão aprovada do JavaScript pelo ECMA, as empresas ou fundações responsáveis pelos navegadores/interpretadores (chamadas de vendors no jargão da área) decidem e fazem a implementação das funcionalidades.
 
 No caso do motor V8, utilizado pelo Chrome/NodeJS, o sort() tem em sua implementação os algoritmos quick sort - ordenação rápida e insertion sort - ordenação por inserção, e funcionam da seguinte maneira:
+
 
 ```
  function QuickSort(a, from, to) {
@@ -5656,6 +6429,7 @@ No caso do motor V8, utilizado pelo Chrome/NodeJS, o sort() tem em sua implement
 
 
 Por outro lado, no motor SpiderMonkey, utilizado pelo Firefox, o algoritmo utilizado por trás do método sort() é o merge sort, implementado abaixo em C++:
+
 
 ```
 JSBool
@@ -5725,6 +6499,7 @@ Dessa forma, teremos o melhor caso de algoritmo quando ele apresenta a mesma qua
 
 Exemplo de Big O em algoritmos de ordenação:
 
+
 ```
 Algoritmo	estrutura	Complex. tempo: melhor caso	Complex. tempo: pior caso	Complex. espaço: pior caso
 Quick Sort	Array	O(n log(n))	O(n²)	O(n log(n))
@@ -5735,6 +6510,7 @@ Bubble Sort	Array	O(n)	O(n²)	O(1)
 Insertion Sort	Array	O(n)	O(n²)	O(1)
 Selection Sort	Array	O(n²)	O(n²)	O(1)
 ```
+
 
 Onde:
 
@@ -5747,7 +6523,9 @@ O(n log(n)): representa um algoritmo que reduz pela metade uma lista a cada vez 
 O(n²): algoritmo com o tempo quadrático que por sua vez, significa que assim que o número de elementos na entrada aumenta, as execuções aumentam quadraticamente. Por isso, devemos evitar códigos com essa notação de Big O, pois o número de operações aumenta significativamente a cada entrada - como o selection sort e o insertion sort.
 
 
+
 #### Logaritmo binário
+
 
 
 Em computação sempre é utilizado o logaritmo com base 2 (e, consequentemente, o inverso é a potência de 2). Assim, log n representa de forma abreviada log2 n, ou seja, log de n na base 2.
@@ -5757,16 +6535,22 @@ Esta característica está ligada ao sistema numérico utilizado pelos computado
 Assim, sempre que trabalharmos com valores O(log n), estamos nos referindo a base 2.
 
 
+
 ## Projeto Final do Curso [AQUI](https://github.com/alura-cursos/2360-algoritmos-js-II/tree/aula-4)
 
 
-## 9.11 CONCLUSÃO ALGORITMOS
+
+## XI CONCLUSÃO ALGORITMOS
 
 Aprendemos a fazer a análise assintótica do algoritmo de busca binária e por que este é considerado um algoritmo de complexidade logarítmica, em comparação com a busca linear que é um algoritmo de complexidade linear;
 Fizemos a análise assintótica dos algoritmos de ordenação quick sort e merge sort e analisamos o código para entendermos por que são considerados algoritmos de complexidade linear-logarítmica;
 E o que significa, em termos de performance, a diferença entre algoritmos de crescimento linear, quadrático e logarítmico.
 
-# EXERCICIOS
+
+
+# 12 EXERCICIOS
+
+
 
 ```
 1 - - Explicação do exercício: Adivinhe o número.
@@ -5781,6 +6565,7 @@ Extra: o usuário tem o limite de 5 tentativas para acertar o número
 OBS: usar este código para gerar um número aleatório
 Math.floor(Math.random()*(50 - 0 + 1));
 ```
+
 
 
 ```
@@ -5799,15 +6584,20 @@ comparação de email e senha para verificar se pode fazer login (se email e sen
 repetir ações ENQUANTO email e senha incorretos
 ```
 
+
+
 ```
 3 - Faça uma função que recebe o preço de um produto e o percentual de desconto a ser dado no produto e retorne o valor do produto com desconto.
 ```
+
+
 
 ```
 4 - Criar uma função que receba a idade de uma pessoa e diga quais filmes aquela pessoa pode assistir. Use como base o seguinte objeto:
 
 let filmes = [ { nome: "Deadpool", classificacaoEtaria: 18 }, { nome: "Your Name", classificacaoEtaria: 0 }, { nome: "Kill Bill", classificacaoEtaria: 18 }, { nome: "Shrek", classificacaoEtaria: 0 }, { nome: "Matrix ", classificacaoEtaria: 14 }, { nome: "Você nem imagina", classificacaoEtaria: 12 }, { nome: "Brilho eterno de uma mente sem lembranças", classificacaoEtaria: 14 }, { nome: "Scott Pilgrim contra o mundo", classificacaoEtaria: 12 }, { nome: "Capitão Fantástico", classificacaoEtaria: 14 }, { nome: "El Camino", classificacaoEtaria: 16 }, { nome: "Parasita", classificacaoEtaria: 16 }, { nome: "Star Wars: o retorno do jedi", classificacaoEtaria: 0 }, { nome: "Red: crescer é uma fera", classificacaoEtaria: 0 }, { nome: "Ninja Assassino", classificacaoEtaria: 18 }, ]
 ```
+
 
 
 # LINKS UTEIS:
@@ -5826,7 +6616,11 @@ let filmes = [ { nome: "Deadpool", classificacaoEtaria: 18 }, { nome: "Your Name
 - [Arrow Function](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 - [Callbacks](https://www.freecodecamp.org/news/javascript-callback-functions-what-are-callbacks-in-js-and-how-to-use-them/)
 
-# Plataformas de estudos
+
+
+# PLATAFORMAS DE ESTUDOS
+
+
 
 - [URI Online Judge](https://www.urionlinejudge.com.br/judge/pt/login?redirect=%2Fpt)
 - [FreeCodeCamp](https://www.freecodecamp.org/)
