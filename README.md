@@ -63,6 +63,24 @@ Lógica de programação é o método usado para escrever programas que um compu
 A lógica de programação parte do princípio de que praticamente todas as tarefas humanas são uma sequência ordenada de passos, que acontecem durante um tempo finito e que produzem um resultado esperado.
 <br/>
 
+## 0. Como um programa funciona?
+
+Entrada, processamento e saída de dados;
+
+
+### 0.1. Exemplo do caixa eletrônico de um banco.¹
+
+- Entrada de dados;
+- Escolha da operação desejada;
+- Exibição dos dados ou do status da solicitação;
+
+### 0.2. Fluxos
+
+- Programação sequencial (uma tarefa após a outra);
+- Programação condicional (uma verificação a partir do conceito de verdadeiro e falso que determina o que ocorre a seguir);
+- Programação de Repetição (instruções que definem um padrão de repetição finito);
+
+> A lógica é sobre organizar pensamentos, colocando-os em ordem e decidindo a partir de deduções as melhores soluções para os problemas encontrados, com a lógica somos capazes de compreender o que é pedido, realizar deduções lógicas, enumerar etapas, analisar outras possibilidades, ensinar ao computador a sua solução, analisar detalhes.
 
 
 ### I O que é um algoritmo 
@@ -653,10 +671,11 @@ Essa estrutura de tomada de decisão também é conhecida como condicional, onde
 <br/>
 
 
-### Expressões condicionais simples
+### Expressões condicionais simples/ Estruturas condicionais 
+
 <br/>
 
-
+São instruções da linguagem baseadas no binário lógico `true` ou `false` (1 ou 0) que nos permite desviar o fluxo do algoritmo de acordo com um teste baseado em condições.
 
 ```javascript
 // Variável booleana verdadeira
@@ -1412,6 +1431,7 @@ A condicao é sempre uma expressão que deverá ser avaliada e retornar true ou 
 ### I Estrutura if/else
 <br/>
 
+A condicional `if` é uma estrutura condicional que executa a afirmação, dentro do bloco, se determinada condição for verdadeira. Se for falsa, executa as afirmações dentro de `else`. _(MDN)_ Podemos encadear vários ifs com `else if`
 
 
 ```javascript
@@ -1429,6 +1449,24 @@ if (bateria) {
 ```
 <br/>
 
+
+```js
+const horario = 7; // valor esperado entre 0 e 23
+```
+
+```js
+if (horario < 12) {
+  console.log("dia");
+} else {
+  console.log("noite");
+}
+```
+
+#### 1.1.1. Reduzindo com condicional ternário
+
+```js
+horario < 12 ? console.log("dia") : console.log("noite");
+```
 
 
 ### II Estrutura if/else if/else
