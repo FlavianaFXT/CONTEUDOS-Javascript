@@ -1377,6 +1377,9 @@ Funções anônimas são aquelas que não possuem um nome no ato de sua declara�
 Callback do inglês, chamar de volta, são funções que são passadas como argumento para outras funções e chamadas dentro de outra função para execução. As callbacks podem ser do tipo síncronas ou do tipo assíncronas. Vocês podem se aprofundar nesse tópico mais pra frente, pois já um assunto mais avançado.
 
 
+Uma função callback é uma função passada a outra função como parâmetro, que é então invocada dentro da função externa para completar algum tipo de rotina ou ação. _(MDN)_ A Callback é chamada no retorno da função externa.
+
+
 
 ```javascript
 function perguntarNome () {
@@ -1498,7 +1501,7 @@ if (hora <= 12) {
 ### III Switch case
 <br/>
 
-
+A condicional switch avalia uma expressão, combinando o valor da expressão para um cláusula case, e executa as instruções associadas ao case. (MDN) Passamos o break para sair da condicional quando um case é correspondido e sua instrução executada. Caso nenhum case seja correspondido podemos usar a cláusula default (opcional)
 
 Se a condição for correspondida, o programa executa as instruções asssociadas. Se múltiplos casos corresponderem o valor, o primeiro caso que corresponder é selecionado, mesmo se os casos não forem iguais entre si.
 
@@ -1534,6 +1537,28 @@ switch (dia) {
 }
 ```
 <br/>
+
+```jsx
+let regiao = 'centro-oeste'
+
+switch (regiao) {
+    case 'nordeste':
+        console.log('possui 9 estados');
+        break;
+    case 'norte':
+        console.log('possui 7 estados');
+        break;
+    case 'centro-oeste':
+        console.log('possui 3 estados e DF');
+        break;
+    case 'sudeste':
+        console.log('possui 4 estados');
+        break;
+    case 'sul':
+        console.log('possui 3 estados');
+        break;
+}
+```
 
 
 
@@ -1649,6 +1674,9 @@ Você pode conferir a lista completa de métodos de string na - [documentação 
 Da mesma forma que temos que decidir coisas na nossa vida e em software também temos que repetir ações. Escrever um programa com várias linhas repetidas não é uma boa prática. 
 Laços ou loops são formas de repetir instruções um determinado número de vezes sem que haja a necessidade de repetir essas instruções. Em pseudocódigo nós usamos a palavra ENQUANTO, essa palavra indicava que os passos que estivessem descritos em seguida seriam repetidos até a nossa condição se tornar falsa. Qual condição? Não conseguimos simplesmente mandar o código se repetir sozinho, para esse laço acontecer é necessário existir uma condição para avaliar se o laço vai ser executado ou não, do mesmo jeito que fazemos com o SE/SENÃO. 
 
+- Podemos chamar também de Loop, laço ou método de iteração. Trata-se de comandos que mantém um trecho de código sendo executado até que uma condição de parada seja satisfeita;
+- Sua principal função é possibilitar que possamos repetir um trecho de código sem a necessidade de escrever várias vezes esse trecho, para isso basta ter um ponto de partida e um ponto de chegada para a repetição;
+  
 
 Imagine que você tem 3 boletos para pagar pelo app do seu banco que estão em uma caixa “Boletos para pagar”. Depois de pago o boleto vai para a caixa “Boletos pagos”.
 
@@ -1711,6 +1739,7 @@ Existem algumas formas diferentes de utilizar laços em javascript
 <br/>
 
 
+Tem um funcionamento muito parecido com o do `for`, de executar sua intrução desde que a condição seja verdadeira, é sempre possível substituir o uso do `for` pelo do `while`, sendo o critério obter o código de melhor leitura, o `while` está mais atrelado à condição ser atendida enquanto o `for` é mais usado para iterar com contadores.
 
 Em Javascript este 'enquanto' se torna WHILE e funciona exatamente da mesma forma que o enquanto no pseudocódigo. A sintaxe dele no javascript é a seguinte:
 
@@ -1759,6 +1788,7 @@ Ao escrever um while é importante notar que no seu código é necessário criar
 ### III for (para)
 <br/>
 
+É uma estrutura de repetição com variável de controle, usada quando se sabe exatamente o ponto de partida e de chegada, o bloco será repetido enquanto a condição for verdadeira, ou seja, para quando a condição retorne false.
 
 O comando FOR é um comando completo porque contém o início, a condição e o passo de um laço de repetição. 
   - Início - onde que o laço começa
@@ -1783,6 +1813,25 @@ A sintaxe do for no javascript é:
   }
 ```
 
+
+### IV for/of
+
+É um laço que percorre objetos iterativos, sendo o mais comum a array, chamando uma função para cada valor deste objeto;
+
+```js
+  for (variavel of iteravel) {
+    declaração
+  }
+```
+
+#### Exemplo
+
+```js
+for (let numero of numeros) {
+  const dobro = numero * 2;
+  console.log(dobro);
+}
+```
 
 
 ## 7 ARRAYS
@@ -2030,24 +2079,27 @@ Os principais são:
 
 | METODO | DESCRIÇÃO |
 | --- | --- |
-| `concat()` | Junta dois arrays, colocando o array passado como argumento, logo depois do primeiro. Em português essa operação é conhecida como concatenação. Não altera o array no qual foi chamado, então precisamos salvar esse resultado em um novo array. |
+| `concat()` | Junta dois arrays, colocando o array passado como argumento, logo depois do primeiro. Em português essa operação é conhecida como concatenação. Não altera o array no qual foi chamado, então precisamos salvar esse resultado em um novo array. retorna um novo array contendo todos os arrays ou valores passados como parâmetro. _(MDN)_ |
 |  `filter()`  |  Retorna uma lista contando todos os elementos que passaram em um teste, ou seja, uma função escrita por nós. Não altera o array onde foi chamado, então precisamos salvar esse resultado em um novo array. |
 |  `find()` |  Funciona de forma parecida com o filter, porém retorna apenas o primeiro valor que satisfizer o teste, podendo ser uma string ou um número. |
 | `findIndex()` | Funciona igual o find(), mas retorna o índice em vez do elemento, possibilitando usá-lo em outras partes do código.  |
 | `lastIndexOf()` |  É igual o findIndex() porém começa do último elemento, não no primeiro. |
 |  `forEach()`  | Executa uma função em cada elemento do array de forma individual. Não altera o array original e nem retorna um valor, deixando esse trabalho a cargo da função escolhida.   |
-|  `pop()`  |  Retira o último elemento do array. Altera o array original removendo o elemento.  |
-|  `shift()`  |  Retira o primeiro elemento do array. Altera o array original removendo o elemento e trocando o índice de todos os elementos para um a menos do que eram, o índice 1 passa a ser o 0, o 2 passa a ser o 1, e assim por diante.  |
-|  `push()` |   Adiciona o elemento passado como parâmetro do array, porém na última posição. Altera o array original com o novo valor.  |
-| `unshift()`  |  Funciona igual ao push(), porém adiciona na primeira posição e acaba trocando o índice de todos os elementos. Altera o array original com o novo valor. |
-| `reduce()` |  Utiliza uma função definida pelo usuário em cada um dos elementos, guardando o resultado em uma variável que pode ser acessada dentro da função que foi definida, retornando um único valor no final, reduzindo o array para um único valor. |
+|  `pop()`  |  Retira o último elemento do array. Altera o array original removendo o elemento. remove o último elemento de um array e retorna aquele elemento. _(MDN)_ |
+|  `shift()`  |  Retira o primeiro elemento do array. Altera o array original removendo o elemento e trocando o índice de todos os elementos para um a menos do que eram, o índice 1 passa a ser o 0, o 2 passa a ser o 1, e assim por diante. remove o primeiro elemento de um array e retorna esse elemento. Este método muda o tamanho do array. _(MDN)_ |
+|  `push()` |   Adiciona o elemento passado como parâmetro do array, porém na última posição. Altera o array original com o novo valor. adiciona um ou mais elementos ao final de um array e retorna o novo comprimento desse array. _(MDN)_
+ |
+| `unshift()`  |  Funciona igual ao push(), porém adiciona na primeira posição e acaba trocando o índice de todos os elementos. Altera o array original com o novo valor. adiciona um ou mais elementos no início de um array e retorna o número de elementos (propriedade length) atualizado. _(MDN)_ |
+| `reduce()` |  Utiliza uma função definida pelo usuário em cada um dos elementos, guardando o resultado em uma variável que pode ser acessada dentro da função que foi definida, retornando um único valor no final, reduzindo o array para um único valor. O método reduce() uma callback que será executada para cada elemento da array, resultando num único valor de retorno, esta callback pode receber alguns parâmetros, sendo os mais comuns o `acumulador` e o `valorAtual`|
 | `reduceRight()` |  Funciona igual o reduce() porém começa do final do array e segue até o início. |
 | `reverse()`  |   Inverte a ordem dos elementos do array, então o primeiro vira o último, o segundo o penúltimo e assim por diante. |
-| `slice()`  |  Copia uma parte do array para outro array. |
+| `slice()`  |  Copia uma parte do array para outro array.  retorna uma cópia de parte de um array a partir de um subarray criado entre as posições início e fim (fim não é necessário) de um array original. O Array original não é modificado. _(MDN)_ |
 | `sort()` |  Organiza o array de acordo com a classificação Unicode, onde os números vêm antes das letras, porém não funciona corretamente para números, onde temos que definir uma função que irá auxiliar o comando. |
-| `splice()` |  Consegue remover, um ou mais elementos consecutivos caso o segundo parâmetro tenha um valor maior que 0, e incluir um ou mais elementos a partir de um índice escolhido. |
-| `includes()`  |  confere se o elemento passado por parâmetro está incluso em uma lista; |
-| `indexOf()`  | retorna o índice do elemento passado por parâmetro.  |
+| `splice()` |  Consegue remover, um ou mais elementos consecutivos caso o segundo parâmetro tenha um valor maior que 0, e incluir um ou mais elementos a partir de um índice escolhido. altera o conteúdo de uma lista, adicionando novos elementos enquanto remove elementos antigos. _(MDN)_|
+| `includes()`  |  confere se o elemento passado por parâmetro está incluso em uma lista; determina se um array contém um determinado elemento, retornando true ou false apropriadamente. _(MDN)_|
+| `indexOf()`  | retorna o índice do elemento passado por parâmetro. retorna o primeiro índice em que o elemento pode ser encontrado no array, retorna -1 caso o mesmo não esteja presente. _(MDN)_ |
+| `map()`|    |
+| `join `| junta todos os elementos de um array em uma string e retorna esta string. _(MDN)_ |
 |   |   |
 
 
@@ -3980,6 +4032,19 @@ Você pode explorar mais seus conhecimentos sobre o Set na - [documentação](ht
 Um objeto é uma coleção de dados e/ou funcionalidades relacionadas (que geralmente consistem em diversas variáveis e funções — que são chamadas de propriedades e métodos quando estão dentro de objetos). Vamos trabalhar com um exemplo para entender como eles são.
 
 
+** Criando um objeto **
+
+
+```js
+const aluna = {
+  nome: { primeiro: "Gabriela", segundo: "Barbosa" },
+  idade: 21,
+  cidade: "Palmas",
+  interesses: ["música", "animes"],
+  saudacao: () => console.log("olá meninas"),
+};
+```
+
 
 #### Acessando valores de um objeto
 
@@ -3987,6 +4052,9 @@ Um objeto é uma coleção de dados e/ou funcionalidades relacionadas (que geral
 
 Existem duas formas de acessar um objeto: por meio da *notação de ponto (dot notation)* ou da *notação de colchetes (bracket notation)*:
 
+- Notação de ponto - Digitando o ponto, podemos acessar todos as propriedades e métodos encapsuladas dentro do objeto
+  
+- Notação de cochetes: Parecido com a maneira que acessamos itens de um array, só que ao invés de usarmos índice (número), usamos a chaves (strings) para acessar o valor de um item
 
 ```Javascript
 //notação de ponto
@@ -4001,6 +4069,25 @@ Existem duas formas de acessar um objeto: por meio da *notação de ponto (dot n
 
 ```
 
+
+```js
+console.log(aluna.nome.primeiro);
+aluna.saudacao();
+```
+
+
+```js
+console.log(aluna["nome"]["primeiro"]);
+console.log(aluna["idade"]);
+console.log(aluna["interesses"][0]);
+```
+
+#### Desestruturando um Objeto
+
+
+```js
+const { idade, saudacao } = aluna;
+```
 
 
 #### Adicionando propriedades a um objeto
@@ -4256,6 +4343,40 @@ Você pode ver mais exemplos desse método na [documentação do MDN](https://de
 
 Um objeto pode conter um array de objetos, o que nos permite invocar desde funções comuns até arrays como filter().
 
+
+### Objeto Date e seus métodos
+
+Cria uma instância JavaScript de Date que representa um único momento no tempo. Objetos Date são baseados no valor de tempo que é o número de milisegundos desde 1º de Janeiro de 1970 (UTC). _(MDN)_
+
+```js
+const hoje = new Date();
+
+console.log(hoje); // 2022-10-08T10:56:49.693Z
+
+const dia = hoje.getDate();
+const mes = hoje.getMonth();
+const ano = hoje.getFullYear();
+
+console.log(`${dia}/${mes + 1}/${ano}`); // 08/10/2022 🤔
+```
+
+#### `toLocaleDateString()`
+
+Método que retorna uma string com a representação de parte da data baseando-se no idioma. _(MDN)_ Argumentos _locales_ e _options_
+
+```js
+const dataFormatada = hoje.toLocaleDateString("pt-BR");
+console.log(dataFormatada); // 08/10/2022
+
+const options = {
+  weekday: "long",
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+};
+const dataLonga = hoje.toLocaleDateString("pt-BR", options);
+console.log(dataLonga); // sábado, 08 de outubro de 2022
+```
 
 
 ### III Percorrendo Objetos
@@ -6674,6 +6795,17 @@ let filmes = [ { nome: "Deadpool", classificacaoEtaria: 18 }, { nome: "Your Name
 
 O Document Object Model é uma interface multiplataforma e independente de linguagem que trata um documento XML ou HTML como uma estrutura de árvore em que cada nó é um objeto que representa uma parte do documento. O DOM representa um documento com uma árvore lógica.
 
+<img src='./assets/dom.png' width=700 alt='árvore de estrutura do DOM'>
+
+DOM é uma sigla que significa Document Object Model. Quando a página é carregada o browser cria um objeto que representa os elementos da página a partir do HTML. A forma mais fácil de acessar e manipular o DOM é usando JavaScript.
+
+- document: representa o documento HTML
+- element: são todas as tags que estão no arquivo HTML e se transformam em elementos da árvore DOM
+- text: é o conteúdo de texto que vai entre os elementos (tags).
+- attribute: são os todos atributos para um nó específico. No caso, o attribute href="http:// instagram .com/lilitbandeira" está associado ao elemento, outros exemplos de atributos são o class, o src, o id, entre outros.
+
+O DOM é a representação do objeto do documento HTML e atua como uma interface de programação que permite a manipulação de sua estrutura com o JavaScript ou outras linguagens. Podemos manipular o DOM para realizar alterações na estrutura do HTML, alterar estilos, modificar conteúdos e adicionar diversos eventos.
+
 
 <img src="./assets/dom.jpeg">
 
@@ -6706,6 +6838,80 @@ No DOM, todos os elementos HTML são definidos como objetos.
 A interface de programação são as propriedades e métodos de cada objeto.
 Uma propriedade é um valor que você pode obter ou definir (como alterar o conteúdo de um elemento HTML).
 Um método é uma ação que você pode fazer (como adicionar ou excluir um elemento HTML).
+
+
+
+** Métodos de manipulação DOM **
+
+
+
+O DOM possui muitos métodos, são eles que fazem a ligação entre os nós (elementos) e os eventos.
+
+Seguem alguns dos principais métodos, para a lista completa acesse a [documentação.](https://developer.mozilla.org/en-US/docs/Web/API/Document)
+
+- `getElementById()` -> Retorna o elemento que possui o id passado como argumento;
+- `getElementsByClassName()` -> Retorna uma coleção de todos os elementos que possuem a classe passada como argumento;
+- `getElementsByTagName()` -> Retorna uma coleção de todos elementos que possuem a tag name informada
+- `querySelector()` -> Retorna o primeiro elemento do DOM que possui a .class, #id ou tag passada como argumento;
+- `querySelectorAll()` -> Retorna todos os elementos do DOM que possuem a .class, #id ou tag passada como argumento;
+- `createElement()` -> Cria um elemento na página;
+- `createAttribute()` -> Cria um atributo na página;
+- `appendChild()` -> Insere um elemento filho ao final do elemento mãe;
+- `removeChild()` -> Remove um elemento filho e retorna o elemento removido;
+- `parentNode()` -> Retorna a mãe de um elemento.
+
+
+#### **Propriedades de manipulação DOM**
+
+
+
+- `innerText` -> define ou obtém o conteúdo textual "renderizado" de um nó e seus descendentes;
+- `innerHTML` -> define ou obtém a sintaxe HTML contida no elemento;
+- `value` -> define ou retorna o valor do atributo value de um campo de texto.
+- `classList` -> propriedade somente leitura que retorna uma coleção com as classes do elemento;
+  - `add()` -> adiciona uma classe ao elemento;
+  - `remove()` -> remove uma classe do elemento;
+  - `toggle()` -> adiciona uma classe ao elemento caso a classe não exista, caso exista a remove;
+  - `contains()` -> Retorna um valor booleano, indicando se um elemento tem o nome da classe especificada;
+- `style` -> Acrescenta/modifica um estilo ao elemento;
+
+
+
+#### **Eventos**
+
+
+
+Um eventos é um conjunto de ações que são realizadas em um determinado elemento da página web, seja ele um texto, uma imagem, ou uma div, por exemplo. A Grande maiorria dos eventos nascem na interação da usuária com a aplicação, como:
+
+| Evento      | Descrição                                                    |
+| ----------- | ------------------------------------------------------------ |
+| onBlur      | remove o foco do elemento                                    |
+| onChange    | muda o valor do elemento                                     |
+| onClick     | o elemento é clicado pela usuária                            |
+| onFocus     | o elemento é focado                                          |
+| onKeyPress  | a usuária pressiona uma tecla sobre o elemento               |
+| onKeyUp     | define ação quando a usuária libera a tecla é pressionada    |
+| onLoad      | carrega o elemento por completo                              |
+| onMouseOver | define ação quando a usuária passa o mouse sobre o elemento  |
+| onMouseOut  | define ação quando a usuária retira o mouse sobre o elemento |
+| onSubmit    | define ação ao enviar um formulário                          |
+
+Para manipular evento externo podemos usar `Event listener` que adiciona ou remove um evento sobre qualquer elemento. O Event Listener disponibiliza duas funções principais, são elas:
+
+> Listener é um objeto que recebe uma notificação quando um evento do tipo especificado ocorre.
+
+`addEventListener` - Adiciona um listener que dispara uma função quando ocorrer determinado evento no elemento.
+`removeEventListener` - Remove um listener previamente adicionado em um objeto/elemento e retorna true em caso de sucesso.
+
+```js
+elemento.addEventListener('click', function (evento) {
+  //ação a ser executada no clique do elemento
+  console.log(evento);
+});
+```
+
+> Usamos o método preventDefault() para cancelar a ação padrão que pertence a um determinado evento.
+---
 
 
 ### Métodos de seleção
@@ -7300,6 +7506,129 @@ let filmes = [
 
 ```
 
+## 3 Exercício de fixação do `if... else`
+
+- Vamos criar uma lógica que verifique e retorne a classificação do IDH dos seguintes países de acordo com o a Escala de IDH do Programa das Nações Unidas para o Desenvolvimento – PNUD da ONU
+
+```js
+let noruega = 0.944
+let qatar = 0.850
+let canada = 0.913
+let brasil = 0.755
+let japao = 0.891
+let vietna = 0.666
+let afeganistao = 0.465
+let camaroes = 0.512
+```
+
+<img src='../../../assets/idh.jpg' width=700 alt='índice que mede IDH'>
+
+
+## 4 Exercício de fixação do `for` e `for of`
+
+- Refatore o exercício anterior adicionando uma estrutura de repetição que retorne a classificação do IDH dos mesmos países, caso tenhamos recebido os dados da seguinte forma:
+
+```js
+let data = [
+  {
+    pais: 'noruega',
+    idh: 0.944,
+  },
+  {
+    pais: 'qatar',
+    idh: 0.850,
+  },
+  {
+    pais: 'canadá',
+    idh: 0.913,
+  },
+  {
+    pais: 'brasil',
+    idh: 0.755,
+  },
+  {
+    pais: 'japão',
+    idh: 0.891,
+  },{
+    pais: 'vietnã',
+    idh: 0.666,
+  },
+  {
+    pais: 'afeganistão',
+    idh: 0.465,
+  },
+  {
+    pais: 'camarões',
+    idh: 0.512,
+  },
+];
+
+```
+
+
+
+## 5 Exercício de fixação do `JSON` e do `DOM`
+
+
+```
+const json = [
+  {
+    "imagem": "./images/pose.jpg",
+    "titulo": "Pose",
+    "ano": "2018",
+    "diretor": "Ryan Murphy",
+    "generos": ["Drama"],
+    "elenco": ["Dominique Jackson", "Indya Moore", "Mj Rodriguez", "Angelica Ross", "Hailie Sahar"], 
+    "instagram": "https://www.instagram.com/poseonfx/"
+  },
+  {
+    "imagem": "./images/manhas.jpg",
+    "titulo": "Manhãs de Setembro",
+    "ano": "2021",
+    "diretor": "Luis Pinheiro",
+    "generos": ["Drama"],
+    "elenco": ["Liniker", "Linn da Quebrada"], 
+    "instagram": "https://www.instagram.com/explore/tags/manhasdesetembroserie/"
+  },
+  {
+    "imagem": "./images/euphoria.jpg",
+    "titulo": "Euphoria",
+    "ano": "2019",
+    "diretor": "Sam Levinson",
+    "generos": ["Drama"],
+    "elenco": ["Hunter Schafer", "Ron Leshem", "Daphna Levin"], 
+    "instagram": "https://www.instagram.com/euphoria/"
+  },
+  {
+    "imagem": "./images/veneno.jpeg",
+    "titulo": "Veneno",
+    "ano": "2020",
+    "diretor": "Javier Ambrossi",
+    "generos": ["Drama", "Biografia"],
+    "elenco": ["Daniela Santiago", "Jedet Sánchez", "Isabel Torres", "Lola Rodríguez", "Paca La Piraña"], 
+    "instagram": "https://www.instagram.com/venenolaserie/"
+  },
+  {
+    "imagem": "./images/legendary.jpg",
+    "titulo": "Legendary",
+    "ano": "2020",
+    "diretor": "Rik Reinholdtsen",
+    "generos": ["Reality Show", "Competição"],
+    "elenco": ["Leiomy Maldonado", "Megan Thee Stallion", "Dashaun Wesley"], 
+    "instagram": "https://www.instagram.com/legendarymax/"
+  }
+]
+```
+
+/* 
+O exercício consiste em usar JavaScript para popular os campos corretamente com os dados do arquivo data.json (ou do objeto JSON) um site de informações sobre séries protagonizadas por mulheres trans e travestis, neste caso a página exibe 5 séries, em 5 cards diferentes em uma só página;
+
+Importante:
+
+1. Crie seu próprio layout usando HTML e CSS nos arquivos já criados nesta pasta;
+2. Repare que este Json é uma array, logo é possível usar métodos de array para acessar seu conteúdo;
+3. Entregue este exercício da maneira que conseguir, use o exemplo da sala para guiar nesta construção;
+*/
 
 
 
@@ -7322,6 +7651,7 @@ let filmes = [
 - [DOM - mozilla](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model/Introduction)
 - [Manipulação de DOM - tableless](https://tableless.com.br/entendendo-o-dom-document-object-model/)
 - [Manipulaçao de DOM do zero - RocketSeat](https://www.youtube.com/watch?v=UftSB4DaRU4&list=WL&index=2&t=577s)
+- [Curso Glaucia](https://www.youtube.com/watch?v=SXBNpzjusgY&list=PLb2HQ45KP0WsFop0pItGSUYl6baYjKEye&ab_channel=GlauciaLemos)
 
 
 # PLATAFORMAS DE ESTUDOS
@@ -7331,8 +7661,16 @@ let filmes = [
 - [URI Online Judge](https://www.urionlinejudge.com.br/judge/pt/login?redirect=%2Fpt)
 - [FreeCodeCamp](https://www.freecodecamp.org/)
 - [KhanAcademy](https://www.khanacademy.org/computing/computer-programming)
+- [Curso Glaucia](https://www.youtube.com/watch?v=SXBNpzjusgY&list=PLb2HQ45KP0WsFop0pItGSUYl6baYjKEye&ab_channel=GlauciaLemos)
 
 
+# LIVROS
+
+```bash
+  Livro: Lógica de Programação e Algoritmos com JavaScript
+  Autor: Edécio Fernando Lepsen
+  Editora: novatec
+```
 
 
 
