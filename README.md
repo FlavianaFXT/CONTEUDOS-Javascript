@@ -7678,7 +7678,7 @@ Importante:
   | Rejected   | Quando a execução finalizou com erro, falhou                                                 |
 
 <br>
-<img src='./assets/promise.png' width=700 alt='bloco de texto com código javascript'>
+![image](https://github.com/user-attachments/assets/b4dbdb9f-4fc9-447b-8210-9c5d82a9ccc5)
 <br><br>
 
 - Cria-se uma promise a partir da função construtora Promise passando como argumento uma callback que por sua vez recebe como argumentos os dois resultados possíveis para a promise: resolve ou reject, duas outras funções que executam o possível sucesso ou erro da promessa, respectivamente;
@@ -7687,18 +7687,30 @@ Importante:
 - Tratamos o retorno das promises através de métodos próprios, que chamam as callbacks depois da conclusão da promise;
 - `then()`: Método que ativa uma callback quando a promise for resolvida, o argumento desta callback é sempre o valor retornado na função resolve();
 
-<img src='./assets/then().gif' width=700 alt='bloco de texto com código javascript'>
+
+![image](https://github.com/user-attachments/assets/85951909-40cd-49ec-9755-158bc98de23b)
+
+
   
 > O then() retorna uma nova promise e por isso vários thens podem ser encadeados para casos onde existam duas ou mais operações assíncronas consecutivas, neste caso o valor do primeiro argumento de cada then encadeado será o valor do retorno do anterior; 
 
 - `catch()`: Método que ativa uma callback quando a promise for rejeitada, o argumento desta callback é sempre o valor retornado na reject();
 
-<img src='./assets/catch().gif' width=700 alt='bloco de texto com código javascript'>
+
+
+![image](https://github.com/user-attachments/assets/b532c9b7-66e9-4540-a397-fb8a770d6564)
+
+
+
 
 - `finally()` -  Método que ativa uma callback quando a promisse acabar, independente de ter sido resolvida ou rejeitada, não recebe como argumento o retorno de resolve() ou reject();
 
 ---
+
+
 ## II async/await
+
+
 
 - As palavra-chaves async e await atuam como um 'açúcar sintático' em cima de promises, faciltando a visualização e tornando a leitura do código assíncrono mais próxima do código síncrono;
 - Toda função que recebe o `async` se torna uma função assíncrona, que passa a retornar uma promise ao invés de retornar um valor diretamente, como uma promise o retorno desta função pode ser tratado com um then() normalmente;
@@ -7708,22 +7720,29 @@ Importante:
 - Outro método importante da promise é o `Promisse.all()` que recebe uma array de funções assincronas independentes entre si, evitando o uso de awaits que não sejam necessários;
 - Facilita o tratamento de erros seja com menor encadeamento do .then() ou ainda com o uso de `try/catch`;
 
-<img src='./assets/asyncawait.png' width=700 alt='bloco de texto com código javascript'>
+![image](https://github.com/user-attachments/assets/455cb0f2-9e06-43de-bd0c-53cf29b2db95)
+
 <br>
+
 
 ---
 ### try/catch
+
 
 - É usado para marcar um bloco que será testado (`try`) e especifica uma ação para que uma possível exceção(erro) seja capturada pelo `catch()`;
 - Ao usar o `try` é criado um bloco de código protegido, que caso ocorra algum erro neste bloco, a execução é desviada para o `catch()`, desta forma a aplicação não será quebrada e o erro poderá ser tratado, permitindo que o código siga sua execução;
 - O `catch()` é executado somente quando há alguma exceção no bloco `try`, caso contrário ele será ignorado, o argumento recebido pelo catch é a exceção ocorrida no bloco `try` e costuma ser chamada de `err`/`error`;
 
+
 ---
 ## III Requisição a APIs
 
+
 ### Server/Client
 
-<img src="./assets/server-client.png" width=700>
+
+![image](https://github.com/user-attachments/assets/ef0cc8ce-9a8b-4ef9-9398-f7e79eacef80)
+
 
 - <b style="color: greenyellow;">Client</b> é a interface que as usuárias interagem, isso inclui os navegadores e os apps e demais interfaces utilizadas pela usuária e que acessa a internet em diversas plataformas. O Client é responsável por solicitar serviços e dados que estão nos Servers;
 
@@ -7743,33 +7762,52 @@ Importante:
   3. Gerenciar recursos compartilhados;
   4. Fazer a comunicação com os bancos de dados;
 
+
+
 ---
 ### URL, Domínio, IP e DNS
 
+
+
 - A <b style="color: greenyellow;">URL</b> - Uniforme Recourse Locator (Localizdor de recurso uniforme), representa um recurso específico na web, cada página, imagem ou qualquer arquivo na internet possui um endereço, a URL.
 
-<img src="./assets/url-dominio-ip-dns.png" width=700>
+
+
+![image](https://github.com/user-attachments/assets/8a3ef1f6-0d9c-4a63-a6e9-a49839c40811)
+
+
 
 - Todo site possui um <b style="color: greenyellow;">domínio</b>, que é como o conhecemos e acessamos normalmente;
 - Para o servidor este mesmo site é registrado, identificado e localizado pelo seu <b style="color: greenyellow;">IP</b> - Internet Protocol Address (Endereço de protocolo da Internet); 
 - É por isso que existe o <b style="color: greenyellow;">DNS</b> - Domain Name System (Sistema de Nome de Domínio), que é como um grande dicionário de `domínios <-> IPs` nativo nos browsers e demais Clients;
 
+
+
 ---
 ### Protocolo HTTP
+
+
 
 - O <b style="color: greenyellow;">HTTP</b> - Hypertext Transfer Protocol (Protocolo de transferência de Hipertexto) é um protocolo de comunicação. Através dele o cliente e o servidor conseguem se comunicar, seguindo um conjunto de regras bem definidas. Esse protocolo determina como devem ser solicitadas informações e como elas devem ser entregues.
 
 - Quando acessamos uma <b style="color: greenyellow;">URL</b>, o <b style="color: greenyellow;">Client</b> envia uma solicitação passando todas as informações que precisamos para o <b style="color: greenyellow;">Server</b>, esta comunicação é feita na grande maioria dos casos de aplicações modernas através do <b style="color: greenyellow;">Protocolo HTTP</b>
 
+
+
 ---
 ### Request/Response
 
-<img src="./assets/http.png" width=700>
+
+
+![image](https://github.com/user-attachments/assets/17c09c21-46fa-4cc6-902a-7ed118b1bce6)
+
 
 - O protocolo HTTP é um protocolo usado no modelo Client/Server e é baseado em <b style="color: greenyellow;">requests</b>(requisições) e 
 <b style="color: greenyellow;">responses</b>(respostas);
 
 - Uma <b style="color: greenyellow;">Request</b> deve indicar a ação a ser executada de acordo com as definições do protocolo HTTP, estes são os <b style="color: greenyellow;">Métodos HTTP</b>
+
+
 
 - Principais métodos HTTP:
 
@@ -7781,7 +7819,11 @@ Importante:
 | PATCH    | <b style="color: greenyellow;">U</b>pdate (Modificar) - Atualiza dados modificando apenas o campo desejado |
 | DELETE   | <b style="color: greenyellow;">D</b>elete (Excluir) - Exclui dados do banco                                |
 
+
+
 - Uma <b style="color: greenyellow;">Response</b> é a <i style="color: pink;">reação</i> do <b style="color: greenyellow;">Server</b> enviada após receber uma requisição do <b style="color: greenyellow;">Client</b>, e seu conteúdo possui além do que foi solicitado, um <b style="color: greenyellow;">Status Code</b>.
+
+
 
 | Código    | Tipo de Resposta       |
 | --------- | ---------------------  |
@@ -7791,8 +7833,12 @@ Importante:
 | 400 - 499 | Erro do Client         |
 | 500 - 599 | Erro do Server         |
 
+
+
 ---
 ### APIs
+
+
 
 - Uma <b style="color: greenyellow;">API</b> - Application Programming Interface (Interface de Programação de Aplicativos) é uma interface de comunicação e integração entre aplicações. As <b style="color: greenyellow;">APIs</b> criam formas e ferramentas para que utilizemos uma funcionalidade ou acessemos dados sem precisar recriar coisas que já existem.
 
@@ -7802,19 +7848,24 @@ Importante:
 
 - Dentre as arquiteturas das APIs, temos as <b style="color: greenyellow;">APIs REST</b>: A arquitetura REST - ou Representational State Transfer (Transferência de Estado Representacional), que é amplamente utilizada dentro do desenvolvimento de APIs pois possui um modelo mais simples de requisição que segue determinadas práticas e diretrizes na sua criação, neste curso iremos estudar as <b style="color: greenyellow;">APIs REST</b>.
 
+
 - Exemplos de APIs públicas:
   1. [Dog API](https://dog.ceo/dog-api/)
   2. [ViaCEP API](https://viacep.com.br/)
   3. [ReqRes API](https://reqres.in/)
   4. [Studios Ghibli API](https://ghibliapi.vercel.app)
   5. [Poke API](https://pokeapi.co/)
+
  
  <br>
 
 - Toda API possui uma documentação que nos fornecem tudo que precisamos saber para utilizá-la;
 
+
 ---
 ### JSON
+
+
 
 - <b style="color: greenyellow;">JSON</b> - JavaScript Object Notation (Notação de Objeto JavaScript) é um formato baseado em texto padrão para representar dados estruturados com base na sintaxe do objeto JavaScript; _(MDN)_
 
@@ -7826,7 +7877,11 @@ Importante:
 
 - Um objeto JSON pode ser armazenado em seu próprio arquivo. _(MDN)_ (**ex.: arquivo.json**)
 
+
+
 #### Estrutura JSON
+
+
 
 ```json
 {
@@ -7870,7 +7925,11 @@ Importante:
 
 _(fonte: MDN)_
 
+
+
 #### Acessando JSON
+
+
 
 ```js
 console.log(superHeroes.homeTown);
@@ -7878,7 +7937,11 @@ console.log(superHeroes["active"]);
 console.log(superHeroes["members"][1]["powers"][2]);
 ```
 
+
+
 #### Matrizes como JSON
+
+
 
 ```json
 [
@@ -7901,18 +7964,26 @@ console.log(superHeroes["members"][1]["powers"][2]);
 ]
 ```
 
+
 #### Acessando JSON (matrizes)
+
 
 ```js
 console.log(heroes[0]["powers"][0]);
 ```
 
+
 ####  Importante:
+
 
 > JSON contém apenas propriedades, sem métodos; <br> JSON só aceita aspas duplas; <br> JSON não aceita chaves/propriedades sem aspas como objetos JS, toda string precisa usar aspas;
 
 ---
+
+
 ### XMLHttpRequest()
+
+
 
 - `XMLHttpRequest` é um objeto que fornece funcionalidade ao cliente para transferir dados entre um cliente e um servidor. Ele fornece uma maneira fácil de recuperar dados de um URL sem ter que fazer uma atualização de página inteira, com o `XHR` criamos uma requisição assíncrona;
 
