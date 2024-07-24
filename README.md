@@ -1346,7 +1346,10 @@ somar(2, 4) // 6
 
 ```
 
+- Quais as vantagens da Arrow Function?
 
+  1. Sintaxe curta e de fácil compreenção;
+  2. Ideal para utilizarmos como callbacks por serem naturalmente anônimas;
 
 
 ### III Função anônima
@@ -3799,6 +3802,37 @@ No dia a dia, a forma que utilizamos no vídeo é a mais usual. Porém, durante 
 
 
 
+- Sintaxe de Espalhamento `...` permite que um objeto iterável, como uma expressão de array seja expandido para ser usado onde zero ou mais argumentos (para chamadas de funções) ou elementos (para arrays literais) são esperados, ou que um objeto seja expandido onde zero ou mais pares propriedade:valor (para objetos literais) são esperados. _(MDN)_
+
+- Na prática, a partir do spread operator `...` podemos espalhar elementos de arrays e objetos para criar novas arrays e objetos e como argumentos de funções.
+
+
+### Exemplo 1 - Arrays:
+
+```js
+  let compras = ['calça preta', 'blusa animal print', 'salto fino vermelho 12cm']
+  let novasCompras = ['argolas grandes de prata', ...compras, 'lace cacheada castanho']
+
+  // espalhando array como argumento de função:
+
+  let argumentos = [2, 3, 5]
+  let imprimir = (x, y, z) =>  console.log(x, y, z)
+  imprimir(...argumentos)
+
+```
+
+### Exemplo 2 - Objetos literais:
+
+```js
+
+let alunaPart1 = {nome: 'Jéssica', cidade: 'Recife'}
+let alunaPart2 = {idade: '23', signo: 'Touro'}
+
+let aluna = { ...alunaPart1, ...alunaPart2, corPreferida: 'Turquesa' }
+
+```
+
+
 ![image](https://github.com/FlavianaFXT/Curso-Javascript-Arrays/assets/113718720/2f43d3cd-c237-4142-b40d-878a324e3d68)
 
 
@@ -4542,6 +4576,7 @@ Após usar o spread operator, o console vai mostrar o resultado esperado, que é
 ```
 
 
+
 *Importante!* Vale notar que, caso a sintaxe de espalhamento seja usada em objetos que tenham chaves/propriedades com o mesmo nome, o JavaScript vai sobrescrever o valor destas propriedades à medida que encontra novos valores com o mesmo nome de chave. Por exemplo:
 
 
@@ -4586,6 +4621,59 @@ Apesar de prático, o uso da sintaxe de espalhamento pode gerar bastante process
 Caso queira, temos outra explicação deste processo aqui no [artigo ES6 - Desestruturando objetos](https://www.alura.com.br/artigos/es6-desestruturando-objetos?_gl=1*1uvdg9y*_ga*OTg3OTYxNjIuMTcwMDYwOTY1Nw..*_ga_1EPWSW3PCS*MTcwNjgxMjY1My42LjEuMTcwNjgxNDM3NS4wLjAuMA..*_fplc*VDhhemV2YjdHQ0RMTjV5SmdCRDdhdkl2bWJ6QkptREN2VFolMkZNTEdmT1BrSGxpZUpLMzV6MW9EdFdsVmsya0NrTEFCS29xZWtrSG81bTd2bkxSTWJrZG9BRHYwZk9yQ3pwUEY0N0FIQ3JnYTNWak52dEF5Nk1BeGNuSmRJc2clM0QlM0Q.) presente na nossa plataforma.
 
 Você sabia que também é possível utilizar esta sintaxe com arrays? Confira mais exemplos disso neste [Alura+](https://youtu.be/f8a-qwKC5yk).
+
+
+
+### Rest parameter
+
+
+
+- A sintaxe rest `...` se parece exatamente como a sintaxe de espalhamento, mas esta é usada para <b style="color: greenyellow;">desestruturar</b> arrays e objetos e a sintaxe rest é o oposto disso: coleta multiplos elementos e 'condensa' eles em um único elemento de array.
+
+- A sintaxe de rest parameter (parâmetros rest)  nos permite representar um número indefinido de argumentos como um array. _(MDN)_
+
+### Exemplo 3 - Rest Parameter
+
+```js
+
+function imprimirSoma(a, b, ...argumentos) {
+    console.log(return a + b + argumentos.reduce((previous, current) => previous + current));
+}
+
+imprimirSoma(2, 5, 4, 3);
+imprimirSoma(1, 8, 4, 5, 6);
+
+```
+
+
+### Destruct Assignment
+
+
+
+- O JavaScript possui uma sintaxe que chamamos de atribuição por desestruturação, que nos permite extrair dados de arrays e objetos em variáveis separadas;
+
+- Podemos retirar apenas o que nos interessa dos objetos iteráveis através de uma extressão semellhante à que utilizamos para criar estas estruturas:
+
+
+
+```js
+// atribuindo elementos para uma array
+const arr = [5, 3, 7, 1, 9]
+
+// desestruturando a array para extrair elementos desejados
+const [first, second] = arr
+
+console.log(first) //retorno: 5
+console.log(second) //retorno: 3
+
+// podemos usar o rest parameter para condensar os demais elementos numa nova array
+const [primeiro, segundo, ...terceiro] = arr
+
+console.log(terceiro) //retorno: [7, 1, 9]
+
+// podemos usar o spread operator para espalhar os elementos na função .log()
+console.log(...terceiro) //retorno: 7 1 9
+```
 
 
 
@@ -7667,6 +7755,102 @@ Importante:
 - Instalar [node.js](https://nodejs.org/en/download/)
 - Instalar [Postman](https://www.postman.com/downloads/)
 
+### Node.js
+
+- Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web. 
+
+- Isso significa que a partir do node.js podemos rodar códigos escrits em JS do lado do servidor, no back-end, como nós já estamos fazendo desde aulas anteriores, executando arquivos.js no nosso terminal a partir do `node`.
+
+- Vamos testar o node no nosso terminal?
+
+```bash
+#vamos rodar o comando:
+node
+#isso fará do nosso terminal um ambiente node, onde qualquer código JS pode ser interpretado:
+
+#realize a soma:
+3 + 2
+
+#tente criar a função:
+let subtração = (a, b) => a - b
+
+#chame a função passando valores e veja seu retorno:
+subtração(6, 3)
+
+#tudo acontecerá com o mesmo comportamento do console do seu navegador!
+```
+
+### Dependências
+
+- Com o Node, foi possivel acrescentar ao uso da linguagem as dependências (também chamadas de libs, pacotes ou módulos), que são bibliotecas que podem ser adicionadas ao projeto node.js para agregar recursos necessários ao projeto.
+
+- Uma biblioteca é uma interface que fornece um conjunto de funcionalidades e/ou informações que podem ser utilizadas no seu projeto sem que você precise recriar tudo do zero, normalmento são recursos necessários em muitos projetos e podemos apenas instalá-los e utilizá-los, facilitando o desenvolvimento da nossa aplicação!
+
+__Exemplo:__ Você trabalha no projeto de um e-commerce que solicita alguns dados da usuária em seu cadastro, dentre eles o CPF, CEP, Telefone e outros valores que possuem formatação específica, além de que como um e-commerce, você trabalhará sempre com valores monetários brasileiros (R$). Para poupar o trabalho de ter que criar um código para formatar cada um destes valores para cada momento do seu código (entrada de dados da usuária, processamento dos dados, saída de dados para usuária), você pode instalar, por exemplo, a lib [`formatar-valores`](https://www.npmjs.com/package/formatar-valores) que possui diversas funções para formatação de valores os padrões brasileiros.
+
+É comum no desenvolvimento de software utilizar bibliotecas externas para realizar tarefas auxiliares em projetos. Isso permite que o desenvolvedor se concentre na lógica de negócios e crie o aplicativo com maior rapidez e eficiência.
+
+<br>
+
+### Gerenciador de pacotes
+
+- Para gerenciar as bibliotecas que usamos no nosso projeto, utilizamos um gerenciador de pacotes. O próprio Node.Js ao ser instalado, instala automaticamente o seu gerenciador de pacotes padrão, o [NPM](https://www.npmjs.com/) (_Node Package Manager_).
+
+- É através dos gerenciadores (`npm`, `yarn`) que também gerenciamos frameworks, como o <b style="color: greenyellow;">ReactJS</b>, o <b style="color: greenyellow;">Angular</b> ou o <b style="color: greenyellow;">VueJS</b>
+
+### Como utilizar o npm
+
+- Para criar o arquivo `package.json` que armazena os metadados úteis sobre o projeto e gerencia os módulos do projeto:
+
+```bash
+npm init
+npm init -y
+```
+> podemos usar o -y para criar automaticamente o package.json sem responder todas as perguntas padrão
+
+<br>
+
+- Para instalar uma nova dependencia ao projeto:
+
+```bash
+npm install <nome-do-pacote>
+```
+> Ao instalar um pacote no projeto, os arquivo `package-lock.json` e a pasta `node_modules` são criados:
+
+> O `package-lock.json` é o arquivo que contém informações mais detalhadas dos módulos;
+
+> O `node_modules` é usada para armazenar os módulos necessários para o projeto;
+
+<br>
+
+- Para atualizar uma dependência:
+
+```bash
+npm update <nome-do-pacote>
+```
+
+- Para desinstalar uma dependência:
+
+```bash
+npm uninstall <nome-do-pacote>
+```
+
+- Para instalar dependencias em um projeto que já possui `package.json` e `package-lock.json`:
+
+```bash
+npm install
+```
+ 
+<br>
+
+- O npm possui um comando que se chama `npx` que é um e<b>X</b>ecutor, que ao invés de instalar local ou globalmente um pacote do npm, ele busca no se o pacote já está instalado global ou localmente para executá-lo e, caso contrário, ele baixa e instala o pacote armazenando-os em cache, sem salvá-los de fato.
+
+- O npx é amplamento utilizado, por exemplo, para criar um aplicativo de React
+
+```bash
+npx create-react-app <nome-do-app>
+```
+
 
 ## I Promises
 
@@ -7689,6 +7873,8 @@ Importante:
 - `reject()`: Função que executa caso a promise seja resolvida com erro;
 - Tratamos o retorno das promises através de métodos próprios, que chamam as callbacks depois da conclusão da promise;
 - `then()`: Método que ativa uma callback quando a promise for resolvida, o argumento desta callback é sempre o valor retornado na função resolve();
+- `catch()`: Método que ativa uma callback quando a promise for rejeitada, o argumento desta callback é sempre o valor retornado na reject();
+
 
 
 ![image](https://github.com/user-attachments/assets/85951909-40cd-49ec-9755-158bc98de23b)
@@ -7737,7 +7923,41 @@ Importante:
 - O `catch()` é executado somente quando há alguma exceção no bloco `try`, caso contrário ele será ignorado, o argumento recebido pelo catch é a exceção ocorrida no bloco `try` e costuma ser chamada de `err`/`error`;
 
 
+
+### `fetch()`
+
+- `fetch()` é um método moderno e amplamente utilizado nas aplicações JavaScript atualmente que permite acesso e manipulação de requisições HTTP, este método é fornecido pela <b style="color: greenyellow;">API Fetch</b>. O `fetch()`retorna uma `Promise`.
+
+
+- Estrutura do `fetch()`:
+
+```js
+  fetch(url, init)
+
+  init = {
+    method: 'string',
+    headers: {},
+    body: {},
+  }
+```
+
+
+- `url` é geralmente uma string que se refere ao recurso que desejamos buscar, no caso do método `GET` somente este argumento é necessário;
+- `init` é um argumento opcional, um objeto que contém qualquer configurações customizadas que desejamos adicionar às requisições, sendo os principais: 
+  1. `method` uma string que define o método da requisição;
+  2. `headers` um objeto com informações de cabeçalho;
+  3. `body` um objeto com informações do corpo da requisição;
+
 ---
+
+### CORS
+
+- CORS - Cross-Origin Resource Sharing (Compartilhamento de recursos entre origens) permite que um site acesse recursos de outro site mesmo que estejam em domínios diferentes, isso permite contornar a Same-Origin Policy (Política de Mesma Origem) dos navegadores que define que um site só possa chamar recursos de outros sites que estejam sob mesmo domínio o que limita chamadas de REST APIs (back-end) por aplicações JavaScript (Front-end) por estarem em camadas diferentes.
+
+- Com o CORS um domínio pode se comunicar com outros livremente, para isso a configuração é feita do lado da API
+
+
+
 ## III Requisição a APIs
 
 
@@ -8130,6 +8350,11 @@ getData()
 - Utilize o Postman para testar os endpoints antes de construir o código
 
 
+## 6. Buscando digimons
+
+- Utilize o método fetch ou a biblioteca axios para consumir o endpoint da [Digimon API](https://digimon-api.vercel.app/) que retorna um digimon pelo seu nome, deixando a usuária entrar com o nome de um digimon e ao clicar num botão, as informações do digimon serão carregadas! Dica: mostre uma lista com os nomes dos digimons para a usuária, isso pode ser feito através do endpoint que retorna todos os digimons.
+
+#### MEU RESULTADO: [Buscando Digimons](https://digimons-list.netlify.app/)
 
 
 # LINKS UTEIS:
@@ -8161,6 +8386,9 @@ getData()
 - [async/await](https://youtu.be/Z5D_Jj6JStw)
 - [fetch()](https://www.youtube.com/results?search_query=fetch())
 - [fetch()](https://www.youtube.com/watch?v=fhIDgAfuJZ8&t=21s&ab_channel=Origamid)
+- [npm](https://docs.npmjs.com/cli/v7/commands)
+- [package.json](https://www.digitalocean.com/community/tutorials/how-to-use-node-js-modules-with-npm-and-package-json-pt)
+
 
 
 # PLATAFORMAS DE ESTUDOS
@@ -8171,6 +8399,7 @@ getData()
 - [FreeCodeCamp](https://www.freecodecamp.org/)
 - [KhanAcademy](https://www.khanacademy.org/computing/computer-programming)
 - [Curso Glaucia](https://www.youtube.com/watch?v=SXBNpzjusgY&list=PLb2HQ45KP0WsFop0pItGSUYl6baYjKEye&ab_channel=GlauciaLemos)
+- [Curso Willian Justen](https://www.youtube.com/watch?v=RtfBx90R070&list=PLlAbYrWSYTiPQ1BE8klOtheBC0mtL3hEi&ab_channel=WillianJusten)
 
 
 # LIVROS
