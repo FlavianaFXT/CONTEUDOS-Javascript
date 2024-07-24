@@ -6796,7 +6796,9 @@ let filmes = [ { nome: "Deadpool", classificacaoEtaria: 18 }, { nome: "Your Name
 
 O Document Object Model é uma interface multiplataforma e independente de linguagem que trata um documento XML ou HTML como uma estrutura de árvore em que cada nó é um objeto que representa uma parte do documento. O DOM representa um documento com uma árvore lógica.
 
-<img src='./assets/dom.png' width=700 alt='árvore de estrutura do DOM'>
+
+![image](https://github.com/user-attachments/assets/c4114dc6-9b60-409c-98d4-976db3743fe5)
+
 
 DOM é uma sigla que significa Document Object Model. Quando a página é carregada o browser cria um objeto que representa os elementos da página a partir do HTML. A forma mais fácil de acessar e manipular o DOM é usando JavaScript.
 
@@ -6808,7 +6810,7 @@ DOM é uma sigla que significa Document Object Model. Quando a página é carreg
 O DOM é a representação do objeto do documento HTML e atua como uma interface de programação que permite a manipulação de sua estrutura com o JavaScript ou outras linguagens. Podemos manipular o DOM para realizar alterações na estrutura do HTML, alterar estilos, modificar conteúdos e adicionar diversos eventos.
 
 
-<img src="./assets/dom.jpeg">
+![image](https://github.com/user-attachments/assets/741a7cd4-a0cc-48ef-b323-f7675fe371b3)
 
 
 No desenvolvimento de sites o DOM é uma interface de programação que nos permite criar, alterar ou remover elementos de um documento do site. A manipulação do DOM é quando você usa JavaScript para adicionar, remover e modificar elementos de um site. É muito comum no desenvolvimento web.
@@ -6820,7 +6822,8 @@ Uma página da Web é um documento. Este documento pode ser exibido na janela do
 Como o próprio nome diz, o maior objeto que temos é o document, ou seja, podemos considerar a página que carregamos no nosso navegador. Podemos começar a requisitar elementos HTML, manipulá-los, criar novos e apagá-los utilizando a variável ‘document’.
 
 
-<img src="./assets/dom.gif">
+![image](https://github.com/user-attachments/assets/0b5f038e-dd28-41cd-ae98-68fcb2287719)
+
 
 
 Por exemplo, se digitarmos no console document.head podemos acessar a tag <head> e o que contém dentro dela.
