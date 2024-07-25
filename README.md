@@ -1666,9 +1666,9 @@ Você pode conferir a lista completa de métodos de string na - [documentação 
 
 - [I Estrutura de repetição](#I-Estrutura-de-repetição)
   
-- [II while(enquanto)](#II-while(enquanto))
+- [II while-enquanto](#II-while-enquanto)
   
-- [III for(para)](#III-for(para))
+- [III for-para](#III-for-para)
 
 
 
@@ -1740,7 +1740,7 @@ Existem algumas formas diferentes de utilizar laços em javascript
 
 
 
-### II while (enquanto)
+### II while-enquanto
 <br/>
 
 
@@ -1790,7 +1790,7 @@ Ao escrever um while é importante notar que no seu código é necessário criar
 
 
 
-### III for (para)
+### III for-para
 <br/>
 
 É uma estrutura de repetição com variável de controle, usada quando se sabe exatamente o ponto de partida e de chegada, o bloco será repetido enquanto a condição for verdadeira, ou seja, para quando a condição retorne false.
