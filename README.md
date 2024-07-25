@@ -43,8 +43,8 @@ Conteúdos de Cursos realizados nas Seguintes Comunidades:
   # 1 Lógica de Programação
 <br/>
 
-
-
+- [Como um programa funciona?](#Como-um-programa-funciona?)
+  
 - [I O que é um algoritmo](#I-O-que-é-um-algoritmo)
 
 - [II Linguagem de programação](#II-linguagem-de-programação)
@@ -64,18 +64,18 @@ Lógica de programação é o método usado para escrever programas que um compu
 A lógica de programação parte do princípio de que praticamente todas as tarefas humanas são uma sequência ordenada de passos, que acontecem durante um tempo finito e que produzem um resultado esperado.
 <br/>
 
-## 0. Como um programa funciona?
+## Como um programa funciona?
 
 Entrada, processamento e saída de dados;
 
 
-### 0.1. Exemplo do caixa eletrônico de um banco.¹
+###  Exemplo do caixa eletrônico de um banco.¹
 
 - Entrada de dados;
 - Escolha da operação desejada;
 - Exibição dos dados ou do status da solicitação;
 
-### 0.2. Fluxos
+###  Fluxos
 
 - Programação sequencial (uma tarefa após a outra);
 - Programação condicional (uma verificação a partir do conceito de verdadeiro e falso que determina o que ocorre a seguir);
@@ -96,7 +96,7 @@ Alguns exemplos de algoritmos que podemos citar: manual de instrução de aparel
 
 
 
-### II  Linguagem de programação 
+### II Linguagem de programação 
 <br/>
 
 
