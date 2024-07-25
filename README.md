@@ -1191,9 +1191,9 @@ Se você utilizar qualquer um dos padrões acima para nomear variáveis com Java
 
 
 - [I Invocando ou chamando funções](#I-Invocando-ou-chamando-funções)
-  
+    
 - [II Arrow Function](#II-Arrow-Function)
-  
+    
 - [III Função anônima](#III-Função-anônima)
   
 - [IV Callback](#IV-Callback)
@@ -1404,9 +1404,10 @@ dizerOla(perguntarNome)
 # 5 Estrutura do if
 
 
-- [I Estrutura if/else](#I-Estrutura-if/else)
+
+- [I Estrutura if-else](#I-Estrutura-if-else)
   
-- [II Estrutura if/else if/else](#II-Estrutura-if/else-if/else)
+- [II Estrutura if-else if-else](#II-Estrutura-if-else-if-else)
   
 - [III Switch case](#III-Switch-case)
 	- [Importância do break (switch case)](#Importância-do-break-(switch-case))
@@ -1435,7 +1436,7 @@ A condicao é sempre uma expressão que deverá ser avaliada e retornar true ou 
 
 
 
-### I Estrutura if/else
+### I Estrutura if-else
 <br/>
 
 A condicional `if` é uma estrutura condicional que executa a afirmação, dentro do bloco, se determinada condição for verdadeira. Se for falsa, executa as afirmações dentro de `else`. _(MDN)_ Podemos encadear vários ifs com `else if`
@@ -1476,7 +1477,7 @@ horario < 12 ? console.log("dia") : console.log("noite");
 ```
 
 
-### II Estrutura if/else if/else
+### II Estrutura if-else if-else
 <br/>
 
 
