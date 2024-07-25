@@ -730,7 +730,7 @@ Principalmente quando tentamos multiplicar duas coisas e alguma delas ou as duas
 
 
 
-### 2.3 Tipo String
+### III Tipo String
 <br/>
 
 
