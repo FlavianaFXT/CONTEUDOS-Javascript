@@ -953,7 +953,7 @@ console.log(texto1 === texto2)
 
 - [I Declarando variáveis](#I-Declarando-variáveis)
   
-- [II  Var, Let e Const](#II-Var,-Let-e-Const)
+- [II Var, Let e Const](#II-Var,-Let-e-Const)
   
 - [III Tipos null e undefined](#III-Tipos-null-e-undefined)
   
