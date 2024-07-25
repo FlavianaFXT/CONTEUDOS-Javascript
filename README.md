@@ -1666,9 +1666,9 @@ Você pode conferir a lista completa de métodos de string na - [documentação 
 
 - [I Estrutura de repetição](#I-Estrutura-de-repetição)
   
-- [II while (enquanto)](#II-while-(enquanto))
+- [II while(enquanto)](#II-while(enquanto))
   
-- [III for (para)](#III-for-(para))
+- [III for(para)](#III-for(para))
 
 
 
